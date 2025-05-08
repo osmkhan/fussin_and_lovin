@@ -46,16 +46,25 @@ const buildGraph = (rows) => {
 
 export default function MusicWebApp() {
   const [rows, setRows] = useState([]);
+  const [entries, setEntries] = useState([]);
   const [sortAsc, setSortAsc] = useState(true);
   const [selected, setSelected] = useState(null);
   const [showHero, setShowHero] = useState(true);
 
-  /* ---------- load CSV ---------- */
+  /* ---------- load CSVs ---------- */
   useEffect(() => {
+    // Load songs data
     Papa.parse("/songs_with_links_albums_enriched.csv", {
       download: true,
       header: true,
       complete: ({ data }) => setRows(data.filter((d) => d.song)),
+    });
+
+    // Load entries data
+    Papa.parse("/songs_albums_entries_fixed.csv", {
+      download: true,
+      header: true,
+      complete: ({ data }) => setEntries(data),
     });
   }, []);
 
@@ -168,42 +177,50 @@ export default function MusicWebApp() {
 
       {/* Modal Blog Card */}
       <Dialog open={!!selected} onOpenChange={() => setSelected(null)}>
-        <DialogContent className="bg-[#2a3642] text-[#e7e3d7] w-full max-w-md border border-[#c5a77d]/40">
+        <DialogContent className="bg-[#2a3642] text-[#e7e3d7] w-full max-w-2xl border border-[#c5a77d]/40">
           {selected && (
             <Card className="bg-transparent border-none shadow-none">
-              <CardContent className="p-4 space-y-2">
-                <h2 className="text-2xl font-serif tracking-wide text-[#d9a441]">
-                  {selected.song}
-                </h2>
-                <p>
-                  <span className="font-medium">Artist:</span> {selected.artist}
-                </p>
-                <p>
-                  <span className="font-medium">Album:</span> {selected.album}
-                </p>
-                {selected.Description && (
-                  <p className="text-sm text-[#c5a77d] whitespace-pre-wrap leading-relaxed">
-                    {selected.Description}
+              <CardContent className="p-4 space-y-4">
+                <div className="space-y-2">
+                  <h2 className="text-2xl font-serif tracking-wide text-[#d9a441]">
+                    {selected.song}
+                  </h2>
+                  <p>
+                    <span className="font-medium">Artist:</span> {selected.artist}
                   </p>
+                  <p>
+                    <span className="font-medium">Album:</span> {selected.album}
+                  </p>
+                </div>
+
+                {/* Entry Content */}
+                {entries.find(e => e['Track Name'] === selected.song && e['Main Artist'] === selected.artist) && (
+                  <div className="mt-4 pt-4 border-t border-[#c5a77d]/20">
+                    <div className="prose prose-invert max-w-none">
+                      <div className="text-sm text-[#c5a77d] whitespace-pre-wrap leading-relaxed">
+                        {entries.find(e => e['Track Name'] === selected.song && e['Main Artist'] === selected.artist)?.text_body}
+                      </div>
+                    </div>
+                  </div>
                 )}
-                <Button
-                  asChild
-                  variant="ghost"
-                  className="mt-4 border border-[#d9a441]/40 text-[#d9a441] hover:bg-[#d9a441]/10"
-                >
-                  <a
-                    href={
-                      selected.url ||
-                      `https://www.google.com/search?q=${encodeURIComponent(
-                        selected.song + " " + selected.artist
-                      )}`
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Learn more ↗
-                  </a>
-                </Button>
+
+                <div className="flex gap-4 mt-4">
+                  {entries.find(e => e['Track Name'] === selected.song && e['Main Artist'] === selected.artist)?.['Spotify Link'] && (
+                    <Button
+                      asChild
+                      variant="ghost"
+                      className="border border-[#d9a441]/40 text-[#d9a441] hover:bg-[#d9a441]/10"
+                    >
+                      <a
+                        href={entries.find(e => e['Track Name'] === selected.song && e['Main Artist'] === selected.artist)['Spotify Link']}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Listen on Spotify ↗
+                      </a>
+                    </Button>
+                  )}
+                </div>
               </CardContent>
             </Card>
           )}
