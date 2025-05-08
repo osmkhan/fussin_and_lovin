@@ -2,7 +2,7 @@
   "name": "fussin-and-lovin",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://osmanrkhan.github.io/fussin_and_lovin",
+  "homepage": "https://osmkhan.github.io/fussin_and_lovin",
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-tabs": "^1.0.4",
