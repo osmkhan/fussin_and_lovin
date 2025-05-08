@@ -1,0 +1,240 @@
+Reading Fussin.mbox
+Found 100 message blocks
+
+Processing email with subject: Fussin' and Lovin' #276: 2-9-2025
+Found song: #276 - "Lover's Lullaby" by "Townes Van Zandt"
+
+Processing email with subject: Fussin' and Lovin' #272
+Found song: #272 - "Honey I Been Thinking About You" by "Jackie Greene"
+
+Processing email with subject: Fussin' and Lovin' #294: 2-27-2028
+Found song: #294 - "Sounds Better in the Song" by "Drive-By Truckers"
+
+Processing email with subject: Fussin' and Lovin' #304: 3-9-2025
+Found song: #304 - "Houses" by "Elyse Weinberg"
+
+Processing email with subject: Fussin' and Lovin' #344:
+Found song: #344 - "Cantina Carlotta" by "Terry Allen"
+
+Processing email with subject: Fussin' and Lovin' #303: 3-8-2025
+Found song: #303 - "Love Has No Pride" by "Linda Ronstadt"
+
+Processing email with subject: Fussin' and Lovin' #286: 2-19-2025
+Found song: #286 - "The Weekend" by "Dave Rawlings Machine"
+
+Processing email with subject: Fussin' and Lovin' #318
+Found song: #318 - "Long White Line" by "Strugill Simpson"
+
+Processing email with subject: Fussin' and Lovin' #322: 3-27-2025
+Found song: #322 - "Born on a Train" by "Old 97's"
+
+Processing email with subject: Fussin' and Lovin' #332: 4-6-2025
+Found song: #332 - "Another Lonesome Morning" by "Emmylou Harris"
+
+Processing email with subject: Fussin' and Lovin' #334: 4-8-2025
+Found song: #334 - "Pan Bowl" by "Sturgill SImpson"
+
+Processing email with subject: Fussin' and Lovin' #350: 4-24-2025 (Special Edition)
+Found song: #350 - "Catch and Release" by "Billy Strings"
+
+Processing email with subject: Fussin' and Lovin' #279
+Found song: #279 - "Love Hurts" by "Gram Parsons (and Emmylou Harris)"
+
+Processing email with subject: Fussin' and Lovin' #297: 3-2-2025
+Found song: #297 - "Nada" by "The Refreshments"
+
+Processing email with subject: Fussin' and Lovin' #288: 2-21-2025
+Found song: #288 - "Friends Like Those" by "Robert Ellis"
+
+Processing email with subject: Fussin' and Lovin' #324: 3-29-2025
+Found song: #324 - "Pinball Song" by "Slobberbone"
+
+Processing email with subject: Fussin' and Lovin' #278: 2-11-2024
+Found song: #278 - "Love Will Turn You Around" by "Kenny Rogers"
+
+Processing email with subject: Fussin' and Lovin' #349: 4-23-2025
+Found song: #349 - "Lonely Feeling" by "Robert Earl Keen"
+
+Processing email with subject: Fussin' and Lovin' #315: 3-20-2025 (Special Edition)
+Found song: #315 - "Further On Up The Road" by "Johnny Cash"
+
+Processing email with subject: Fussin' and Lovin' #283: 2-16-2025
+Found song: #283 - "Won't Be Home" by "Old 97's"
+
+Processing email with subject: Fussin' and Lovin' #351: 4-25-2025
+Found song: #351 - "Goddamn Lonely Love" by "Drive-By Truckers"
+
+Processing email with subject: Fussin' and Lovin' #327: 4-1-2025
+Found song: #327 - "Houston" by "Robert Ellis"
+
+Processing email with subject: Fussin' and Lovin' #312: 3-17-2025
+Found song: #312 - "The Galway Girl" by "Steve Earle"
+
+Processing email with subject: Fussin' and Lovin' #271: 2-4-2025
+Found song: #271 - "That's How I Got To Memphis" by "Tom T. Hall"
+
+Processing email with subject: Fussin' and Lovin' #289: 2-22-2025
+Found song: #289 - "Gulf Coast Highway" by "Emmylou Harris (and Willie Nelson)"
+
+Processing email with subject: Fussin' and Lovin' #329
+Found song: #329 - "Chase the Wind" by "Jimmie Dale Gilmore"
+
+Processing email with subject: Fussin' and Lovin' #299: 3-4-2025
+Found song: #299 - "After Mardi Gras" by "Steve Earle"
+
+Processing email with subject: Fussin' and Lovin' #310: 3-15-2025
+Found song: #310 - "How Lucky" by "Kurt Vile/John Prine"
+
+Processing email with subject: Fussin' and Lovin' #274: 2-7-2025
+Found song: #274 - "Raising Hell" by "Lucero"
+
+Processing email with subject: Fussin' and Lovin' #314: 3-19-2025 (Climactic Edition)
+Found song: #314 - "One Paper Kid" by "Emmylou Harris"
+
+Processing email with subject: Fussin' and Lovin' #320: 3-25-2025
+Found song: #320 - "Pretend I Never Happened" by "Willie Nelson"
+
+Processing email with subject: Fussin' and Lovin' #336: 4-10-2025
+Found song: #336 - "I'll be Here in the Morning" by "Townes Van Zandt"
+
+Processing email with subject: Fussin' and Lovin' #280:
+Found song: #280 - "Anyhow, I Love You" by "Guy Clark"
+
+Processing email with subject: Fussin' and Lovin' #281: 2-14-2025
+Found song: #281 - "In Spite of Ourselves" by "John Prine/Iris DeMent"
+
+Processing email with subject: Fussin' and Lovin' #298: 3-3-2025
+Found song: #298 - "Dreadful Selfish Crime" by "Robert Earl Keen"
+
+Processing email with subject: Fussin' and Lovin' #295: 2-28-2025
+Found song: #295 - "Blue Sky" by "Allman Brothers Band"
+
+Processing email with subject: Fussin' and Lovin' #285: 2-18-2025
+Found song: #285 - "Manhattan Bluebird" by "Terry Allen"
+
+Processing email with subject: Fussin' and Lovin' #333: 4-7-2025
+Found song: #333 - "Hello In There" by "John Prine"
+
+Processing email with subject: Fussin' and Lovin' #290: 2-23-2025 (Special Edition)
+Found song: #290 - "????" by "????"
+
+Processing email with subject: Fussin' and Lovin' #296: 3-1-2025
+Found song: #296 - "London Homesick Blues (Home With The Armadillo)" by "Gary P. Nunn"
+
+Processing email with subject: Fussin' and Lovin' #341: 4-15-2025
+Found song: #341 - "Poison Lovers" by "Steve Earle"
+
+Processing email with subject: Fussin' and Lovin' #311: 3-16-2025
+
+Processing email with subject: Fussin' and Lovin' #321:
+Found song: #321 - "Car Wheels on a Gravel Road" by "Lucinda Williams"
+
+Processing email with subject: Fussin' and Lovin' #340: 4-14-2025
+Found song: #340 - "I Never Cared For You" by "Willie Nelson"
+
+Processing email with subject: Fussin' and Lovin' #325: 3-30-2025
+Found song: #325 - "Angels Are Falling" by "Patty Griffin"
+
+Processing email with subject: Fussin' and Lovin' #313: 3-18-2023
+Found song: #313 - "The Mountain" by "Levon Helm"
+
+Processing email with subject: Fussin' and Lovin' #348: 4-22-2025
+Found song: #348 - "Timebomb" by "Old 97's"
+
+Processing email with subject: Fussin' and Lovin' #275: 2-8-2025
+Found song: #275 - "Love Like This" by "Drive-By Truckers"
+
+Processing email with subject: Fussin' and Lovin' #292: 2-25-2025
+Found song: #292 - "Do I Ever Cross Your Mind" by "Chet Atkins/Dolly Parton"
+
+Processing email with subject: Fussin' and Lovin' #282
+Found song: #282 - "L.A. County" by "Lyle Lovett"
+
+Processing email with subject: Fussin' and Lovin' #273: 2-6-2025 (Special Edition)
+Found song: #273 - "Pick Your Nose" by "Cowboy"
+
+Processing email with subject: Fussin' and Lovin' #335: 4-9-2025
+Found song: #335 - "With Tomorrow" by "Gene Clark"
+
+Processing email with subject: Fussin' and Lovin' #316: 3-22-2025
+Found song: #316 - "(We'll Go) Out of Town" by "The Silos"
+
+Processing email with subject: Fussin' and Lovin' #302: 3-7-2025
+Found song: #302 - "New Delhi Freight Train" by "Terry Allen"
+
+Processing email with subject: Fussin' and Lovin' #308: 3-13-2025
+Found song: #308 - "That's How Strong My Love Is" by "Steve Young"
+
+Processing email with subject: Fussin' and Lovin' #317
+Found song: #317 - "Alabama Pines" by "Jason Isbell and the 400 Unit"
+
+Processing email with subject: Fussin' and Lovin' #326: 3-31-2025 (Special Edition)
+Found song: #326 - "TV Dinners" by "MJ Lenderman"
+
+Processing email with subject: Fussin' and Lovin' #305: 3-10-2025
+Found song: #305 - "Lilacs" by "Waxahatchee"
+
+Processing email with subject: Fussin' and Lovin' #330: 4-4-2025
+Found song: #330 - "Nothin'" by "Townes Van Zandt"
+
+Processing email with subject: Fussin' and Lovin' #342: 4-16-2025
+Found song: #342 - "Me and Willie" by "Emmylou Harris"
+
+Processing email with subject: Fussin' and Lovin' #301: 3-6-2025
+Found song: #301 - "Like a Summer Thursday" by "Townes Van Zandt"
+
+Processing email with subject: Fussin' and Lovin' #346: 4-20-2025
+Found song: #346 - "To Live Is To Fly" by "Townes Van Zandt"
+
+Processing email with subject: Fussin' and Lovin' #277: 2-10-2025
+Found song: #277 - "Long Long Time" by "Linda Ronstadt"
+
+Processing email with subject: Fussin' and Lovin' #347: 4-21-2025
+Found song: #347 - "Sharp Cutting Wings (Song to a Poet)" by "Lucinda Williams"
+
+Processing email with subject: Fussin' and Lovin' #345: 4-19-2025
+Found song: #345 - "One Rung" by "Slobberbone"
+
+Processing email with subject: Fussin' and Lovin' #309: 3-14-2025
+Found song: #309 - "Pecan Pie" by "Golden Smog"
+
+Processing email with subject: Fussin' and Lovin' #343
+Found song: #343 - "Can't You See" by "The Marshall Tucker Band"
+
+Processing email with subject: Fussin' and Lovin' #352: 4-26-2025
+Found song: #352 - "When Will I Be Loved" by "Linda Ronstadt"
+
+Processing email with subject: Fussin' and Lovin' #284: 2-17-2025
+Found song: #284 - "Wait Up" by "Uncle Tupelo"
+
+Processing email with subject: Fussin' and Lovin' #306: 3-11-2025
+Found song: #306 - "On Her Own" by "Gene Clark"
+
+Processing email with subject: Fussin' and Lovin' #338: 4-12-2025
+Found song: #338 - "She" by "Gram Parsons"
+
+Processing email with subject: Fussin' and Lovin' #307: 3-12-2025
+Found song: #307 - "Song of Wyoming" by "John Denver"
+
+Processing email with subject: Fussin' and Lovin' #339: 4-13-2025
+Found song: #339 - "Just Be Simple" by "Songs: Ohia"
+
+Processing email with subject: Fussin' and Lovin' #319: 3-24-2025
+Found song: #319 - "Give Back the Key to My Heart" by "Uncle Tupelo"
+
+Processing email with subject: Fussin' and Lovin' #293: 2-26-2025
+Found song: #293 - "Country Girl" by "Brinsley Schwarz"
+
+Processing email with subject: Fussin' and Lovin' #300: 3-5-2025
+Found song: #300 - "Long Time Running" by "The Tragically Hip"
+
+Processing email with subject: Fussin' and Lovin' #328: 4-2-2025
+Found song: #328 - "Outfit" by "Drive-By Truckers"
+
+Processing email with subject: Fwd: Fussin' and Lovin' #291: 2-24-2025 (Actually Special Edition)
+
+Processing email with subject: Fussin' and Lovin' #291: 2-24-2025 (Actually Special Edition)
+Found song: #291 - "*" by "*Ustad Nusrat Fateh Ali Khan*"
+Extracted 77 unique songs
+Total blocks processed: 100
+Wrote songs.csv
