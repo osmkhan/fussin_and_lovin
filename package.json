@@ -2,15 +2,19 @@
   "name": "fussin-and-lovin",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://osmkhan.github.io/fussin_and_lovin",
+  "homepage": ".",
   "dependencies": {
     "@radix-ui/react-dialog": "1.0.5",
     "@radix-ui/react-tabs": "1.0.4",
+    "axios": "^1.9.0",
+    "csv-parse": "^5.6.0",
+    "csv-stringify": "^6.5.2",
     "papaparse": "5.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-force-graph-2d": "1.27.1",
     "react-scripts": "5.0.1",
+    "sharp": "^0.34.1",
     "tailwindcss": "3.4.1"
   },
   "scripts": {
