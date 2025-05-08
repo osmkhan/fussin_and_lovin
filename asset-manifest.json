@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fussin_and_lovin/static/css/main.27cfcb18.css",
+    "main.js": "/fussin_and_lovin/static/js/main.fbf24275.js",
+    "index.html": "/fussin_and_lovin/index.html",
+    "main.27cfcb18.css.map": "/fussin_and_lovin/static/css/main.27cfcb18.css.map",
+    "main.fbf24275.js.map": "/fussin_and_lovin/static/js/main.fbf24275.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27cfcb18.css",
+    "static/js/main.fbf24275.js"
+  ]
+}
