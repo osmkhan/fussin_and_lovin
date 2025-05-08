@@ -15,18 +15,16 @@ import entriesData from './data/entries.json';
 
 /* ---------- helpers ---------- */
 // Helper to normalize album names for cover image paths
-function getCoverPath(album) {
-  if (!album) return "https://placehold.co/128x128";
-  // Normalize: lowercase, replace spaces with underscores, remove special chars
-  const safe = album.toLowerCase().replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_').replace(/^_+|_+$/g, '');
-  return `/covers/${safe}.jpg`;
+function getCoverPath(album, number) {
+  if (!album || !number) return "https://placehold.co/128x128";
+  return `/covers/${number}_${album.replace(/[^a-z0-9]/gi, '_')}.png`;
 }
 
 const buildGraph = (rows) => {
   const nodes = rows.map((r, idx) => ({
     id: idx,
     title: r.song,
-    img: getCoverPath(r.album),
+    img: getCoverPath(r.album, r.number),
     artist: r.artist,
     album: r.album,
     genres: r.genres || [],
@@ -190,15 +188,14 @@ export default function MusicWebApp() {
               Fussin' &amp; Lovin': A Year of Songs
             </h1>
             <p className="max-w-xl mx-auto text-lg leading-relaxed text-[#bfa77a]">
-              365 entries of dusty folk, bar‑room blues and highway ballads—mapped, linked, fussed and
-              loved. Scroll or press any key to ride along.
+              A year-long journey through American country from Matt Radosevich. Collected by Osman Khan and Kevin Donohue. Press any key to continue. 
             </p>
             <div className="mt-10 animate-bounce text-[#bfa77a]">↓</div>
           </div>
         </section>
       )}
 
-      <header className="w-full py-8 flex justify-center items-center">
+      <header className="w-full pt-12 pb-4 flex justify-center items-center">
         <h1 className="text-4xl md:text-5xl font-serif font-extrabold tracking-tight text-[#191414] drop-shadow-sm" style={{ letterSpacing: '-0.01em' }}>
           The Fussin' and Lovin' Web Archive
         </h1>
@@ -213,7 +210,7 @@ export default function MusicWebApp() {
 
           {/* List Tab */}
           <TabsContent value="list">
-            <div className="mb-4 flex gap-2 items-center">
+            <div className="mb-4 flex gap-2 items-center pl-6">
               <label htmlFor="month-jump" className="text-sm font-bold text-[#bfa77a]" style={{fontFamily: 'Inter, Helvetica, Arial, sans-serif'}}>Jump to:</label>
               <select
                 id="month-jump"
@@ -268,8 +265,8 @@ export default function MusicWebApp() {
                         className="hover:bg-[#d9a441]/15 transition-colors cursor-pointer"
                         onClick={() => setSelected(row)}
                       >
-                        <td className="py-2 pr-4 font-medium text-[#d9a441]">{row.song}</td>
-                        <td className="py-2 pr-4 text-gray-400 w-64">{dateStr}</td>
+                        <td className="py-2 pr-4 font-medium text-[#191414]">{row.song}</td>
+                        <td className="py-2 pr-4 text-[#191414] w-64">{dateStr}</td>
                         <td className="py-2 pr-4">{row.artist}</td>
                         <td className="py-2 italic">{row.album}</td>
                       </tr>
@@ -420,7 +417,7 @@ export default function MusicWebApp() {
                   {/* Album cover image at top */}
                   <div className="flex justify-center mb-4">
                     <img
-                      src={getCoverPath(selected.album)}
+                      src={getCoverPath(selected.album, selected.number)}
                       alt={selected.album}
                       style={{ width: 96, height: 96, objectFit: 'cover', borderRadius: 12, boxShadow: '0 2px 12px #bfa77a44' }}
                       onError={e => { e.target.style.display = 'none'; }}
@@ -432,6 +429,11 @@ export default function MusicWebApp() {
           </DialogContent>
         </div>
       )}
+
+      {/* DEBUG: Show first album cover image for verification */}
+      <div className="w-full flex justify-center py-6">
+        <img src="/covers/Lucero.jpg" alt="Test Cover" style={{ width: 120, height: 120, objectFit: 'cover', borderRadius: 12, boxShadow: '0 2px 12px #bfa77a44' }} />
+      </div>
 
       <footer className="w-full py-6 mt-12 text-center text-[#bfa77a] bg-[#ede5d0] text-sm font-semibold border-t border-[#d6c7a1]">
         © Osman R. Khan 2025. All rights reserved.
