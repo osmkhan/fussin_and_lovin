@@ -174,17 +174,13 @@ export default function MusicWebApp() {
         dateB.setDate(baseDate.getDate() + (b.number - 1));
         comparison = dateA - dateB;
       } else if (sortField === 'wordCount') {
-        const entryA = entries.find(e => e.song === a.song && e.artist === a.artist);
-        const entryB = entries.find(e => e.song === b.song && e.artist === b.artist);
-        const countA = entryA ? countWords(entryA.textBody) : 0;
-        const countB = entryB ? countWords(entryB.textBody) : 0;
-        comparison = countA - countB;
+        comparison = a.wordCount - b.wordCount;
       } else {
         comparison = a[sortField].localeCompare(b[sortField]);
       }
       return sortAsc ? comparison : -comparison;
     });
-  }, [rows, sortField, sortAsc, entries]);
+  }, [rows, sortField, sortAsc]);
 
   // Add countWords function
   function countWords(text) {
@@ -223,6 +219,8 @@ export default function MusicWebApp() {
       if (!songsData || !Array.isArray(songsData)) {
         throw new Error('Invalid songs data format');
       }
+      
+      // Use word counts directly from songs_cleaned.json
       setRows(songsData);
       setEntries(entriesData);
       console.log('Data loaded successfully');
@@ -476,7 +474,7 @@ export default function MusicWebApp() {
                           style={{fontFamily: 'Inter, Helvetica, Arial, sans-serif'}}
                           onClick={() => handleSort('wordCount')}
                         >
-                          Word Count {getSortIndicator('wordCount')}
+                          Thought Count {getSortIndicator('wordCount')}
                         </th>
                       </tr>
                     </thead>
@@ -551,7 +549,7 @@ export default function MusicWebApp() {
                       />
                     </div>
                   </div>
-                  <div className="w-96 flex-shrink-0">
+                  <div className="w-[500px] flex-shrink-0">
                     <Card className="bg-[#1f2b38] border-[#c5a77d] h-full">
                       <CardContent className="p-8 text-[#e7e3d7]">
                         <h3 className="text-2xl font-bold text-[#d9a441] mb-6">About The Cork Board</h3>
@@ -562,14 +560,12 @@ export default function MusicWebApp() {
                           <ul className="list-disc pl-6 space-y-3">
                             <li>Strong red lines connect songs whose artists were mentioned in other songs' entries</li>
                             <li>Medium lines show artists who worked on each other's albums</li>
-                            <li>Thinner lines indicate mentioned on the artist pafe</li>
+                            <li>Thinner lines indicate mentioned on the artist page</li>
                           </ul>
                           <p className="text-[#bfa77a] italic text-sm">
-                            Note: Some albums and connections are  missing, particularly for more obscure releases. I got other shit to do.
+                            Note: Some albums and connections are missing, particularly for obscure releases. I got other shit to do.
                           </p>
-                          <p className="mt-6 text-[#d9a441] font-medium">
-                            Click any album cover to read the full entry.
-                          </p>
+
                         </div>
                       </CardContent>
                     </Card>
@@ -580,7 +576,7 @@ export default function MusicWebApp() {
               {/* Notchin' Tab (was Summary) */}
               <TabsContent value="Notchin'" className="p-8 bg-[#f0e6d2] rounded-xl border border-[#bfa77a]/40">
                 <div className="space-y-6">
-                  <h2 className="text-2xl font-bold text-[#191414]">Musings</h2>
+                  <h2 className="text-2xl font-bold text-[#191414]">The Crew</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Card className="bg-[#1f2b38] border-[#c5a77d]">
                       <CardContent className="p-6 text-center">
@@ -596,7 +592,7 @@ export default function MusicWebApp() {
                     </Card>
                   </div>
 
-                  <h2 className="text-2xl font-bold text-[#191414] mt-8">Word Count Analysis</h2>
+                  <h2 className="text-2xl font-bold text-[#191414] mt-8">Thought Count Analysis</h2>
                   <div className="grid grid-cols-1 gap-4">
                     <Card className="bg-[#1f2b38] border-[#c5a77d]">
                       <CardContent className="p-6">
@@ -604,78 +600,108 @@ export default function MusicWebApp() {
                         <div className="space-y-4 text-[#e7e3d7]">
                           <div>
                             <div className="font-bold mb-1">Longest Entry:</div>
-                            <div>2,576 words</div>
+                            <div>2,576 thoughts</div>
                             <div className="text-sm italic">Yeh Jo Halka Halka Suroor Hai by Nusrat Fateh Ali Khan</div>
                           </div>
                           <div>
                             <div className="font-bold mb-1">Shortest Entry:</div>
-                            <div>2 words</div>
+                            <div>2 thoughts</div>
                             <div className="text-sm italic">Silver Wings by The Knitters</div>
+                          </div>
+                          <div>
+                            <div className="font-bold mb-1">Average Entry:</div>
+                            <div>320 thoughts</div>
+                            <div className="text-sm italic">per song</div>
                           </div>
                         </div>
                       </CardContent>
                     </Card>
                     <Card className="bg-[#1f2b38] border-[#c5a77d]">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-[#d9a441] mb-4">Weekly Word Count Trends</h3>
-                        <div className="h-48 relative">
+                        <h3 className="text-xl font-bold text-[#d9a441] mb-4">Average Thought Count Per Week</h3>
+                        <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[28rem]">
                           {(() => {
-                            // Calculate weekly averages
-                            const weeklyAverages = Array(52).fill(0).map((_, weekIndex) => {
-                              const weekStart = weekIndex * 7;
-                              const weekEnd = weekStart + 7;
-                              const weekSongs = rows.filter(r => r.number > weekStart && r.number <= weekEnd);
-                              if (weekSongs.length === 0) return 0;
-                              const avg = weekSongs.reduce((sum, song) => sum + (song.wordCount || 0), 0) / weekSongs.length;
-                              return avg;
+                            // Use May 9, 2024 as the start date, each entry is a day
+                            const totalWeeks = 52;
+                            const weeklyAverages = Array(totalWeeks).fill(null).map((_, weekIndex) => {
+                              const startNum = weekIndex * 7 + 1;
+                              const endNum = (weekIndex + 1) * 7;
+                              const weekSongs = rows.filter(r => r.number >= startNum && r.number <= endNum);
+                              if (weekSongs.length === 0) return null;
+                              return weekSongs.reduce((sum, song) => sum + (song.wordCount || 0), 0) / weekSongs.length;
                             });
 
-                            // Apply smoothing (simple moving average)
-                            const smoothingWindow = 3;
-                            const smoothedAverages = weeklyAverages.map((_, i) => {
-                              const start = Math.max(0, i - smoothingWindow);
-                              const end = Math.min(weeklyAverages.length, i + smoothingWindow + 1);
-                              const values = weeklyAverages.slice(start, end);
-                              return values.reduce((a, b) => a + b, 0) / values.length;
-                            });
+                            // Chart settings
+                            const yMin = 0;
+                            const yMax = 750;
+                            const paddingX = 2; // percent
+                            const paddingY = 4; // percent
 
-                            // Find min/max for scaling
-                            const maxCount = Math.max(...smoothedAverages);
-                            const minCount = Math.min(...smoothedAverages);
+                            const valid = weeklyAverages.filter(v => v !== null);
+                            const maxCount = yMax;
+                            const minCount = yMin;
+                            const range = yMax - yMin;
 
-                            // Generate SVG path
-                            const points = smoothedAverages.map((count, i) => {
-                              const x = (i / (smoothedAverages.length - 1)) * 100;
-                              const y = 100 - ((count - minCount) / (maxCount - minCount)) * 100;
+                            // Generate SVG path (skip nulls for gaps)
+                            const points = weeklyAverages.map((count, i) => {
+                              if (count === null) return null;
+                              // Add horizontal and vertical padding
+                              const x = paddingX + (i / (weeklyAverages.length - 1)) * (100 - 2 * paddingX);
+                              // y=0 is bottom, y=100 is top, so invert
+                              const y = 100 - paddingY - ((count - yMin) / range) * (100 - 2 * paddingY);
                               return `${x},${y}`;
-                            }).join(' ');
+                            });
+                            const [first, ...rest] = points.filter(Boolean);
+                            const path = ['M', first, ...rest.flatMap(p => ['L', p])].join(' ');
 
                             return (
                               <>
-                                <svg className="w-full h-full" preserveAspectRatio="none">
+                                <svg
+                                  className="w-full h-full"
+                                  viewBox="0 0 100 100"
+                                  preserveAspectRatio="none"
+                                >
                                   {/* Grid lines */}
-                                  {[0, 1, 2, 3].map(i => (
-                                    <line 
-                                      key={i}
-                                      x1="0" 
-                                      y1={i * 33.33 + '%'} 
-                                      x2="100%" 
-                                      y2={i * 33.33 + '%'} 
-                                      stroke="#bfa77a" 
-                                      strokeWidth="0.5" 
-                                      strokeOpacity="0.2"
-                                    />
-                                  ))}
+                                  {[0, 1, 2, 3].map(i => {
+                                    const y = paddingY + i * ((100 - 2 * paddingY) / 3);
+                                    return (
+                                      <line
+                                        key={i}
+                                        x1={paddingX}
+                                        y1={y + '%'}
+                                        x2={100 - paddingX}
+                                        y2={y + '%'}
+                                        stroke="#bfa77a"
+                                        strokeWidth="0.5"
+                                        strokeOpacity="0.2"
+                                      />
+                                    );
+                                  })}
                                   {/* Trend line */}
-                                  <polyline
-                                    points={points}
+                                  <path
+                                    d={path}
                                     fill="none"
                                     stroke="#d9a441"
-                                    strokeWidth="2"
+                                    strokeWidth="1"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
                                   />
+                                  {/* X-axis title */}
+                                  <text
+                                    x="50"
+                                    y={100 - 0.5 * paddingY}
+                                    textAnchor="middle"
+                                    fontSize="5"
+                                    fill="#e7e3d7"
+                                  >
+                                    Week
+                                  </text>
                                 </svg>
+                                {/* Y-axis labels */}
+                                <div className="absolute left-0 top-0 bottom-0 flex flex-col justify-between text-[#e7e3d7] text-xs" style={{paddingTop: '8px', paddingBottom: '8px'}}>
+                                  <span>750</span>
+                                  <span>0</span>
+                                </div>
                                 {/* X-axis labels */}
                                 <div className="absolute bottom-0 left-0 right-0 flex justify-between text-[#e7e3d7] text-xs">
                                   <span>May '24</span>
