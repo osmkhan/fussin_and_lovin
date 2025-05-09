@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fussin_and_lovin/static/css/main.47a52350.css",
-    "main.js": "/fussin_and_lovin/static/js/main.9406f2dd.js",
+    "main.js": "/fussin_and_lovin/static/js/main.5476cc37.js",
     "index.html": "/fussin_and_lovin/index.html",
     "main.47a52350.css.map": "/fussin_and_lovin/static/css/main.47a52350.css.map",
-    "main.9406f2dd.js.map": "/fussin_and_lovin/static/js/main.9406f2dd.js.map"
+    "main.5476cc37.js.map": "/fussin_and_lovin/static/js/main.5476cc37.js.map"
   },
   "entrypoints": [
     "static/css/main.47a52350.css",
-    "static/js/main.9406f2dd.js"
+    "static/js/main.5476cc37.js"
   ]
 }
