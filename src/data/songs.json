@@ -29,7 +29,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 0
   },
   {
     "number": 2,
@@ -43,7 +44,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 292
   },
   {
     "number": 3,
@@ -81,7 +83,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 232
   },
   {
     "number": 4,
@@ -127,7 +130,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 266
   },
   {
     "number": 5,
@@ -161,7 +165,8 @@
         "Amy Pike"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 346
   },
   {
     "number": 6,
@@ -203,7 +208,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 309
   },
   {
     "number": 7,
@@ -227,7 +233,8 @@
         "Lucinda Williams"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 333
   },
   {
     "number": 8,
@@ -264,7 +271,8 @@
         "Kevin Kelley"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 367
   },
   {
     "number": 9,
@@ -280,7 +288,8 @@
         "Fred Eaglesmith"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 223
   },
   {
     "number": 10,
@@ -296,7 +305,8 @@
         "Linda Ronstadt"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 543
   },
   {
     "number": 11,
@@ -312,7 +322,8 @@
     },
     "genres": [
       "Folk"
-    ]
+    ],
+    "wordCount": 478
   },
   {
     "number": 12,
@@ -328,7 +339,8 @@
         "Mark Jones"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 450
   },
   {
     "number": 13,
@@ -344,7 +356,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 242
   },
   {
     "number": 14,
@@ -377,7 +390,8 @@
       "Alternative Country",
       "Country rock",
       "Nobr"
-    ]
+    ],
+    "wordCount": 537
   },
   {
     "number": 15,
@@ -404,7 +418,8 @@
     },
     "genres": [
       "Country rock"
-    ]
+    ],
+    "wordCount": 414
   },
   {
     "number": 16,
@@ -423,7 +438,8 @@
     "genres": [
       "Alternative Rock",
       "Pop Music"
-    ]
+    ],
+    "wordCount": 103
   },
   {
     "number": 17,
@@ -439,7 +455,8 @@
     },
     "genres": [
       "American Folk Music"
-    ]
+    ],
+    "wordCount": 53
   },
   {
     "number": 18,
@@ -476,7 +493,8 @@
     "genres": [
       "Country rock",
       "Blues Rock"
-    ]
+    ],
+    "wordCount": 558
   },
   {
     "number": 19,
@@ -509,7 +527,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 38
   },
   {
     "number": 20,
@@ -527,7 +546,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 176
   },
   {
     "number": 21,
@@ -561,7 +581,8 @@
       "Alternative Country",
       "Folk rock",
       "Indie Rock"
-    ]
+    ],
+    "wordCount": 636
   },
   {
     "number": 22,
@@ -600,7 +621,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 383
   },
   {
     "number": 23,
@@ -616,7 +638,8 @@
     },
     "genres": [
       "Alt-countryrock Music"
-    ]
+    ],
+    "wordCount": 340
   },
   {
     "number": 24,
@@ -632,7 +655,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 218
   },
   {
     "number": 25,
@@ -654,7 +678,8 @@
       ],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 549
   },
   {
     "number": 26,
@@ -670,7 +695,8 @@
         "The Outlaws"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 451
   },
   {
     "number": 27,
@@ -686,7 +712,8 @@
         "Sturgill Simpson"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 569
   },
   {
     "number": 28,
@@ -734,7 +761,8 @@
     "genres": [
       "Outlaw Country",
       "Progressive Country"
-    ]
+    ],
+    "wordCount": 452
   },
   {
     "number": 29,
@@ -750,7 +778,8 @@
         "Luke Bell"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 584
   },
   {
     "number": 30,
@@ -814,7 +843,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 393
   },
   {
     "number": 31,
@@ -841,7 +871,8 @@
         "Matt Patton"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 616
   },
   {
     "number": 32,
@@ -855,7 +886,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 197
   },
   {
     "number": 33,
@@ -869,7 +901,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 843
   },
   {
     "number": 34,
@@ -900,7 +933,8 @@
         "Dwight Yoakam"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 319
   },
   {
     "number": 35,
@@ -930,7 +964,8 @@
     "genres": [
       "Alternative Country",
       "Country rock"
-    ]
+    ],
+    "wordCount": 403
   },
   {
     "number": 36,
@@ -959,7 +994,8 @@
         "Tompall Glaser"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 347
   },
   {
     "number": 37,
@@ -973,7 +1009,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 501
   },
   {
     "number": 38,
@@ -989,7 +1026,8 @@
     },
     "genres": [
       "Alternative Rock"
-    ]
+    ],
+    "wordCount": 63
   },
   {
     "number": 39,
@@ -1025,7 +1063,8 @@
       "Country rock",
       "Folk rock",
       "Roots Rockcite Web"
-    ]
+    ],
+    "wordCount": 10
   },
   {
     "number": 40,
@@ -1050,7 +1089,8 @@
         "Steve Earle"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 6
   },
   {
     "number": 41,
@@ -1079,7 +1119,8 @@
         "Bill Frisell"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 5
   },
   {
     "number": 42,
@@ -1107,7 +1148,8 @@
     },
     "genres": [
       "Rock And Roll Tejano Music"
-    ]
+    ],
+    "wordCount": 37
   },
   {
     "number": 43,
@@ -1134,7 +1176,8 @@
       ],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 374
   },
   {
     "number": 44,
@@ -1171,7 +1214,8 @@
         "Jon Corneal"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 440
   },
   {
     "number": 45,
@@ -1191,7 +1235,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 458
   },
   {
     "number": 46,
@@ -1207,7 +1252,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 130
   },
   {
     "number": 47,
@@ -1232,7 +1278,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 379
   },
   {
     "number": 48,
@@ -1260,7 +1307,8 @@
         "Brad Cook"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 350
   },
   {
     "number": 49,
@@ -1282,7 +1330,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 969
   },
   {
     "number": 50,
@@ -1307,7 +1356,8 @@
         "Gillian Welch"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 979
   },
   {
     "number": 51,
@@ -1361,7 +1411,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 310
   },
   {
     "number": 52,
@@ -1389,7 +1440,8 @@
     },
     "genres": [
       "Jazz"
-    ]
+    ],
+    "wordCount": 238
   },
   {
     "number": 53,
@@ -1421,7 +1473,8 @@
     },
     "genres": [
       "Cowpunk"
-    ]
+    ],
+    "wordCount": 390
   },
   {
     "number": 54,
@@ -1462,7 +1515,8 @@
       "Roots rock",
       "Country rock",
       "Americana"
-    ]
+    ],
+    "wordCount": 492
   },
   {
     "number": 55,
@@ -1478,7 +1532,8 @@
         "Jimmy Buffett"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 602
   },
   {
     "number": 56,
@@ -1509,7 +1564,8 @@
         "Suki Lahav"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 638
   },
   {
     "number": 57,
@@ -1525,7 +1581,8 @@
         "Delbert Mcclinton"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 214
   },
   {
     "number": 58,
@@ -1542,7 +1599,8 @@
         "The Disarmers"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 473
   },
   {
     "number": 59,
@@ -1578,7 +1636,8 @@
         "Jody Payne"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 392
   },
   {
     "number": 60,
@@ -1596,7 +1655,8 @@
     },
     "genres": [
       "Country rock"
-    ]
+    ],
+    "wordCount": 181
   },
   {
     "number": 61,
@@ -1670,7 +1730,8 @@
         "David Lindley"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 419
   },
   {
     "number": 62,
@@ -1686,7 +1747,8 @@
         "The Gourds"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 399
   },
   {
     "number": 63,
@@ -1702,7 +1764,8 @@
     },
     "genres": [
       "Indie Rockamericana (music)"
-    ]
+    ],
+    "wordCount": 367
   },
   {
     "number": 64,
@@ -1755,7 +1818,8 @@
         "Chuck Leavell"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 618
   },
   {
     "number": 65,
@@ -1799,7 +1863,8 @@
         "Miles Miller"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 576
   },
   {
     "number": 66,
@@ -1813,7 +1878,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 308
   },
   {
     "number": 67,
@@ -1838,7 +1904,8 @@
         "Red Rhodes"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 147
   },
   {
     "number": 68,
@@ -1882,7 +1949,8 @@
     },
     "genres": [
       "Folk"
-    ]
+    ],
+    "wordCount": 996
   },
   {
     "number": 69,
@@ -1917,7 +1985,8 @@
         "Bob Egan"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 332
   },
   {
     "number": 70,
@@ -1955,7 +2024,8 @@
     },
     "genres": [
       "Country rock"
-    ]
+    ],
+    "wordCount": 4
   },
   {
     "number": 71,
@@ -2018,7 +2088,8 @@
         "Chris Hillman"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 559
   },
   {
     "number": 72,
@@ -2037,7 +2108,8 @@
     "genres": [
       "Folk-rock",
       "Country rock"
-    ]
+    ],
+    "wordCount": 443
   },
   {
     "number": 73,
@@ -2053,7 +2125,8 @@
         "Adam Hood"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 342
   },
   {
     "number": 74,
@@ -2087,7 +2160,8 @@
         "Spencer Dryden"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 250
   },
   {
     "number": 75,
@@ -2103,7 +2177,8 @@
         "Dan Penn"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 475
   },
   {
     "number": 76,
@@ -2129,7 +2204,8 @@
         "Shonna Tucker"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 405
   },
   {
     "number": 77,
@@ -2145,7 +2221,8 @@
     },
     "genres": [
       "Folk Rockindie Rockindie Folkfolk Music"
-    ]
+    ],
+    "wordCount": 1354
   },
   {
     "number": 78,
@@ -2200,7 +2277,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 840
   },
   {
     "number": 79,
@@ -2227,7 +2305,8 @@
         "Chad Gamble"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 297
   },
   {
     "number": 80,
@@ -2257,7 +2336,8 @@
     },
     "genres": [
       "Rock"
-    ]
+    ],
+    "wordCount": 396
   },
   {
     "number": 81,
@@ -2273,7 +2353,8 @@
         "Jonathan Edwards"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 536
   },
   {
     "number": 82,
@@ -2291,7 +2372,8 @@
     },
     "genres": [
       "Americana"
-    ]
+    ],
+    "wordCount": 479
   },
   {
     "number": 83,
@@ -2305,7 +2387,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 376
   },
   {
     "number": 84,
@@ -2325,7 +2408,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 173
   },
   {
     "number": 85,
@@ -2361,7 +2445,8 @@
         "Jack Clement"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 588
   },
   {
     "number": 86,
@@ -2377,7 +2462,8 @@
         "Charlie Parr"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 596
   },
   {
     "number": 87,
@@ -2406,7 +2492,8 @@
         "John Fogerty"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 319
   },
   {
     "number": 88,
@@ -2420,7 +2507,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 416
   },
   {
     "number": 89,
@@ -2450,7 +2538,8 @@
         "Son Volt"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 336
   },
   {
     "number": 90,
@@ -2495,7 +2584,8 @@
         "Guy Clark"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 441
   },
   {
     "number": 91,
@@ -2534,7 +2624,8 @@
     },
     "genres": [
       "Americana"
-    ]
+    ],
+    "wordCount": 178
   },
   {
     "number": 92,
@@ -2559,7 +2650,8 @@
         "Steve Earle"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 335
   },
   {
     "number": 93,
@@ -2586,7 +2678,8 @@
         "Amanda Shires"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 213
   },
   {
     "number": 94,
@@ -2600,7 +2693,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 122
   },
   {
     "number": 95,
@@ -2616,7 +2710,8 @@
         "Jimmy Carter"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 171
   },
   {
     "number": 96,
@@ -2646,7 +2741,8 @@
         "Ralph Molina"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 557
   },
   {
     "number": 97,
@@ -2678,7 +2774,8 @@
     },
     "genres": [
       "Folk"
-    ]
+    ],
+    "wordCount": 665
   },
   {
     "number": 98,
@@ -2692,7 +2789,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 383
   },
   {
     "number": 99,
@@ -2732,7 +2830,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 256
   },
   {
     "number": 100,
@@ -2748,7 +2847,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 1048
   },
   {
     "number": 101,
@@ -2785,7 +2885,8 @@
     },
     "genres": [
       "Southern Rock Country Rock"
-    ]
+    ],
+    "wordCount": 188
   },
   {
     "number": 102,
@@ -2801,7 +2902,8 @@
         "James Mcmurtry"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 347
   },
   {
     "number": 103,
@@ -2838,7 +2940,8 @@
         "The Jordanaires"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 338
   },
   {
     "number": 104,
@@ -2852,7 +2955,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 514
   },
   {
     "number": 105,
@@ -2866,7 +2970,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 70
   },
   {
     "number": 106,
@@ -2882,7 +2987,8 @@
       ],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 782
   },
   {
     "number": 107,
@@ -2918,7 +3024,8 @@
         "Terry Allen"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 399
   },
   {
     "number": 108,
@@ -2954,7 +3061,8 @@
         "Scout Niblett"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 302
   },
   {
     "number": 109,
@@ -2968,7 +3076,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 189
   },
   {
     "number": 110,
@@ -2999,7 +3108,8 @@
         "Jeff Bird"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 252
   },
   {
     "number": 111,
@@ -3015,7 +3125,8 @@
         "Bobby Bare"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 596
   },
   {
     "number": 112,
@@ -3042,7 +3153,8 @@
         "Philip Peeples"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 401
   },
   {
     "number": 113,
@@ -3060,7 +3172,8 @@
     },
     "genres": [
       "Americana"
-    ]
+    ],
+    "wordCount": 173
   },
   {
     "number": 114,
@@ -3076,7 +3189,8 @@
         "Darrell Scott"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 575
   },
   {
     "number": 115,
@@ -3117,7 +3231,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 549
   },
   {
     "number": 116,
@@ -3150,7 +3265,8 @@
     },
     "genres": [
       "Outlaw Country"
-    ]
+    ],
+    "wordCount": 293
   },
   {
     "number": 117,
@@ -3188,7 +3304,8 @@
         "Joe Ely"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 208
   },
   {
     "number": 118,
@@ -3219,7 +3336,8 @@
     },
     "genres": [
       "Country rock"
-    ]
+    ],
+    "wordCount": 188
   },
   {
     "number": 119,
@@ -3240,7 +3358,8 @@
         "James Hooker"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 196
   },
   {
     "number": 120,
@@ -3274,7 +3393,8 @@
         "Byron Berline"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 662
   },
   {
     "number": 121,
@@ -3314,7 +3434,8 @@
     },
     "genres": [
       "Southern rock"
-    ]
+    ],
+    "wordCount": 547
   },
   {
     "number": 122,
@@ -3344,7 +3465,8 @@
         "Brad Cook"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 191
   },
   {
     "number": 123,
@@ -3362,7 +3484,8 @@
     },
     "genres": [
       "Heartland Rock"
-    ]
+    ],
+    "wordCount": 187
   },
   {
     "number": 124,
@@ -3378,7 +3501,8 @@
         "Taj Mahal"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 238
   },
   {
     "number": 125,
@@ -3394,7 +3518,8 @@
         "The Jayhawks"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 165
   },
   {
     "number": 126,
@@ -3416,7 +3541,8 @@
       "Roots rock",
       "Southern rock",
       "Blues"
-    ]
+    ],
+    "wordCount": 315
   },
   {
     "number": 127,
@@ -3458,7 +3584,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 166
   },
   {
     "number": 128,
@@ -3494,7 +3621,8 @@
     "genres": [
       "Alternative Country",
       "Country"
-    ]
+    ],
+    "wordCount": 339
   },
   {
     "number": 129,
@@ -3508,7 +3636,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 142
   },
   {
     "number": 130,
@@ -3538,7 +3667,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 183
   },
   {
     "number": 131,
@@ -3570,7 +3700,8 @@
     },
     "genres": [
       "Bluegrass"
-    ]
+    ],
+    "wordCount": 315
   },
   {
     "number": 132,
@@ -3584,7 +3715,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 150
   },
   {
     "number": 133,
@@ -3600,7 +3732,8 @@
       ],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 550
   },
   {
     "number": 134,
@@ -3614,7 +3747,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 53
   },
   {
     "number": 135,
@@ -3660,7 +3794,8 @@
         "Steve Earle"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 969
   },
   {
     "number": 136,
@@ -3690,7 +3825,8 @@
         "Barry Sell"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 245
   },
   {
     "number": 137,
@@ -3706,7 +3842,8 @@
         "Blaze Foley"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 113
   },
   {
     "number": 138,
@@ -3722,7 +3859,8 @@
         "Linda Ronstadt"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 59
   },
   {
     "number": 139,
@@ -3738,7 +3876,8 @@
         "The Gourds"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 175
   },
   {
     "number": 140,
@@ -3752,7 +3891,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 207
   },
   {
     "number": 141,
@@ -3779,7 +3919,8 @@
         "Chad Gamble"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 310
   },
   {
     "number": 142,
@@ -3807,7 +3948,8 @@
         "Miles Miller"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 615
   },
   {
     "number": 143,
@@ -3823,7 +3965,8 @@
         "Luke Bell"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 389
   },
   {
     "number": 144,
@@ -3863,7 +4006,8 @@
     },
     "genres": [
       "Outlaw Country"
-    ]
+    ],
+    "wordCount": 357
   },
   {
     "number": 145,
@@ -3890,7 +4034,8 @@
         "Amos Garrett"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 233
   },
   {
     "number": 146,
@@ -3906,7 +4051,8 @@
         "Linda Ronstadt"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 73
   },
   {
     "number": 147,
@@ -3922,7 +4068,8 @@
         "Mark Jones"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 387
   },
   {
     "number": 148,
@@ -3960,7 +4107,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 185
   },
   {
     "number": 149,
@@ -3976,7 +4124,8 @@
         "Gillian Welch"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 487
   },
   {
     "number": 150,
@@ -3992,7 +4141,8 @@
     },
     "genres": [
       "Rock"
-    ]
+    ],
+    "wordCount": 34
   },
   {
     "number": 151,
@@ -4008,7 +4158,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 70
   },
   {
     "number": 152,
@@ -4022,7 +4173,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 308
   },
   {
     "number": 153,
@@ -4036,7 +4188,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 232
   },
   {
     "number": 154,
@@ -4062,7 +4215,8 @@
       "Rock",
       "Roots rock",
       "Americana"
-    ]
+    ],
+    "wordCount": 123
   },
   {
     "number": 155,
@@ -4076,7 +4230,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 263
   },
   {
     "number": 156,
@@ -4090,7 +4245,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 8
   },
   {
     "number": 157,
@@ -4106,7 +4262,8 @@
     },
     "genres": [
       "Progressive Country"
-    ]
+    ],
+    "wordCount": 847
   },
   {
     "number": 158,
@@ -4134,7 +4291,8 @@
         "Spooner Oldham"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 255
   },
   {
     "number": 159,
@@ -4148,7 +4306,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 208
   },
   {
     "number": 160,
@@ -4182,7 +4341,8 @@
     },
     "genres": [
       "Country Folk"
-    ]
+    ],
+    "wordCount": 1073
   },
   {
     "number": 161,
@@ -4227,7 +4387,8 @@
         "Don Henley"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 557
   },
   {
     "number": 162,
@@ -4241,7 +4402,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 161
   },
   {
     "number": 163,
@@ -4277,7 +4439,8 @@
         "Byron Berline"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 451
   },
   {
     "number": 164,
@@ -4312,7 +4475,8 @@
         "Bob Egan"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 52
   },
   {
     "number": 165,
@@ -4340,7 +4504,8 @@
         "Ry Cooder"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 79
   },
   {
     "number": 166,
@@ -4369,7 +4534,8 @@
     },
     "genres": [
       "Bluegrass Music"
-    ]
+    ],
+    "wordCount": 96
   },
   {
     "number": 167,
@@ -4387,7 +4553,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 48
   },
   {
     "number": 168,
@@ -4419,7 +4586,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 148
   },
   {
     "number": 169,
@@ -4433,7 +4601,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 166
   },
   {
     "number": 170,
@@ -4464,7 +4633,8 @@
     "genres": [
       "Country rock",
       "Folk rock"
-    ]
+    ],
+    "wordCount": 422
   },
   {
     "number": 171,
@@ -4491,7 +4661,8 @@
         "Philip Peeples"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 282
   },
   {
     "number": 172,
@@ -4507,7 +4678,8 @@
         "Kate Wolf"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 418
   },
   {
     "number": 173,
@@ -4538,7 +4710,8 @@
     },
     "genres": [
       "Country Rockcite News"
-    ]
+    ],
+    "wordCount": 210
   },
   {
     "number": 174,
@@ -4591,7 +4764,8 @@
         "Don Williams"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 174
   },
   {
     "number": 175,
@@ -4621,7 +4795,8 @@
     },
     "genres": [
       "Alternative Country Americana Music"
-    ]
+    ],
+    "wordCount": 236
   },
   {
     "number": 176,
@@ -4666,7 +4841,8 @@
         "Guy Clark"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 9
   },
   {
     "number": 177,
@@ -4704,7 +4880,8 @@
         "Joe Ely"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 275
   },
   {
     "number": 178,
@@ -4738,7 +4915,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 330
   },
   {
     "number": 179,
@@ -4770,7 +4948,8 @@
       "Roots rock",
       "Blues",
       "American Folk Music"
-    ]
+    ],
+    "wordCount": 133
   },
   {
     "number": 180,
@@ -4807,7 +4986,8 @@
     },
     "genres": [
       "Rock"
-    ]
+    ],
+    "wordCount": 251
   },
   {
     "number": 181,
@@ -4851,7 +5031,8 @@
         "Miles Miller"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 78
   },
   {
     "number": 182,
@@ -4865,7 +5046,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 231
   },
   {
     "number": 183,
@@ -4883,7 +5065,8 @@
         "Golden Smog"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 82
   },
   {
     "number": 184,
@@ -4908,7 +5091,8 @@
         "Brian Robertson"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 294
   },
   {
     "number": 185,
@@ -4926,7 +5110,8 @@
         "James Iha"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 213
   },
   {
     "number": 186,
@@ -4942,7 +5127,8 @@
         "Blue Mountain"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 153
   },
   {
     "number": 187,
@@ -4956,7 +5142,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 214
   },
   {
     "number": 188,
@@ -4972,7 +5159,8 @@
         "John Prine"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 494
   },
   {
     "number": 189,
@@ -5002,7 +5190,8 @@
         "Brad Cook"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 296
   },
   {
     "number": 190,
@@ -5047,7 +5236,8 @@
         "Jim Gordon"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 333
   },
   {
     "number": 191,
@@ -5063,7 +5253,8 @@
         "Joe Ely"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 10
   },
   {
     "number": 192,
@@ -5077,7 +5268,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 314
   },
   {
     "number": 193,
@@ -5093,7 +5285,8 @@
       ],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 525
   },
   {
     "number": 194,
@@ -5115,7 +5308,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 337
   },
   {
     "number": 195,
@@ -5137,7 +5331,8 @@
     "genres": [
       "Rock",
       "Alternative country"
-    ]
+    ],
+    "wordCount": 331
   },
   {
     "number": 196,
@@ -5153,7 +5348,8 @@
         "The Band"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 95
   },
   {
     "number": 197,
@@ -5188,7 +5384,8 @@
     },
     "genres": [
       "Folk Rock Pop Music"
-    ]
+    ],
+    "wordCount": 834
   },
   {
     "number": 198,
@@ -5214,7 +5411,8 @@
         "Matt Patton"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 219
   },
   {
     "number": 199,
@@ -5230,7 +5428,8 @@
         "The Gourds"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 388
   },
   {
     "number": 200,
@@ -5269,7 +5468,8 @@
     },
     "genres": [
       "Southern Rock Country Rock"
-    ]
+    ],
+    "wordCount": 195
   },
   {
     "number": 201,
@@ -5322,7 +5522,8 @@
         "Chuck Leavell"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 760
   },
   {
     "number": 202,
@@ -5353,7 +5554,8 @@
     },
     "genres": [
       "Americana"
-    ]
+    ],
+    "wordCount": 289
   },
   {
     "number": 203,
@@ -5391,7 +5593,8 @@
     },
     "genres": [
       "American Folk Music"
-    ]
+    ],
+    "wordCount": 91
   },
   {
     "number": 204,
@@ -5407,7 +5610,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 452
   },
   {
     "number": 205,
@@ -5421,7 +5625,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 711
   },
   {
     "number": 206,
@@ -5437,7 +5642,8 @@
         "James Taylor"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 129
   },
   {
     "number": 207,
@@ -5477,7 +5683,8 @@
     },
     "genres": [
       "Country rock"
-    ]
+    ],
+    "wordCount": 488
   },
   {
     "number": 208,
@@ -5493,7 +5700,8 @@
         "Dwight Yoakam"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 27
   },
   {
     "number": 209,
@@ -5545,7 +5753,8 @@
         "Dennis James"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 118
   },
   {
     "number": 210,
@@ -5589,7 +5798,8 @@
         "Miles Miller"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 573
   },
   {
     "number": 211,
@@ -5603,7 +5813,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 420
   },
   {
     "number": 212,
@@ -5619,7 +5830,8 @@
         "The Gourds"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 71
   },
   {
     "number": 213,
@@ -5633,7 +5845,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 624
   },
   {
     "number": 214,
@@ -5649,7 +5862,8 @@
         "Charlie Parr"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 166
   },
   {
     "number": 215,
@@ -5677,7 +5891,8 @@
         "Son Volt"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 457
   },
   {
     "number": 216,
@@ -5703,7 +5918,8 @@
       ],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 154
   },
   {
     "number": 217,
@@ -5719,7 +5935,8 @@
         "Steve Earle"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 306
   },
   {
     "number": 218,
@@ -5733,7 +5950,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 869
   },
   {
     "number": 219,
@@ -5770,7 +5988,8 @@
         "Bill Ladd"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 415
   },
   {
     "number": 220,
@@ -5784,7 +6003,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 178
   },
   {
     "number": 221,
@@ -5814,7 +6034,8 @@
         "Brad Cook"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 614
   },
   {
     "number": 222,
@@ -5840,7 +6061,8 @@
         "Steve Berlin"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 32
   },
   {
     "number": 223,
@@ -5854,7 +6076,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 189
   },
   {
     "number": 224,
@@ -5870,7 +6093,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 316
   },
   {
     "number": 225,
@@ -5886,7 +6110,8 @@
         "Frank Adams"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 142
   },
   {
     "number": 226,
@@ -5908,7 +6133,8 @@
     },
     "genres": [
       "Folk"
-    ]
+    ],
+    "wordCount": 339
   },
   {
     "number": 227,
@@ -5924,7 +6150,8 @@
         "Gillian Welch"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 698
   },
   {
     "number": 228,
@@ -5962,7 +6189,8 @@
         "Clay Leverett"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 124
   },
   {
     "number": 229,
@@ -5996,7 +6224,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 685
   },
   {
     "number": 230,
@@ -6040,7 +6269,8 @@
         "Steve Goodman"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 546
   },
   {
     "number": 231,
@@ -6077,7 +6307,8 @@
         "Kevin Kelley"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 37
   },
   {
     "number": 232,
@@ -6118,7 +6349,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 454
   },
   {
     "number": 233,
@@ -6142,7 +6374,8 @@
         "Philip Peeples"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 272
   },
   {
     "number": 234,
@@ -6170,7 +6403,8 @@
         "Billy Zoom"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 181
   },
   {
     "number": 235,
@@ -6210,7 +6444,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 424
   },
   {
     "number": 236,
@@ -6239,7 +6474,8 @@
         "Chad Gamble"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 342
   },
   {
     "number": 237,
@@ -6253,7 +6489,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 303
   },
   {
     "number": 238,
@@ -6267,7 +6504,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 38
   },
   {
     "number": 239,
@@ -6289,7 +6527,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 209
   },
   {
     "number": 240,
@@ -6303,7 +6542,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 644
   },
   {
     "number": 241,
@@ -6327,7 +6567,8 @@
         "Lucinda Williams"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 190
   },
   {
     "number": 242,
@@ -6343,7 +6584,8 @@
         "Hayes Carll"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 99
   },
   {
     "number": 243,
@@ -6396,7 +6638,8 @@
         "Don Williams"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 330
   },
   {
     "number": 244,
@@ -6434,7 +6677,8 @@
         "Joe Ely"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 191
   },
   {
     "number": 245,
@@ -6463,7 +6707,8 @@
         "Steve Earle"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 231
   },
   {
     "number": 246,
@@ -6493,7 +6738,8 @@
         "Barry Sell"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 215
   },
   {
     "number": 247,
@@ -6509,7 +6755,8 @@
         "Kate Wolf"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 29
   },
   {
     "number": 248,
@@ -6554,7 +6801,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 925
   },
   {
     "number": 249,
@@ -6570,7 +6818,8 @@
       ],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 320
   },
   {
     "number": 250,
@@ -6601,7 +6850,8 @@
     },
     "genres": [
       "Country Folk"
-    ]
+    ],
+    "wordCount": 220
   },
   {
     "number": 251,
@@ -6617,7 +6867,8 @@
         "Cowboy Junkies"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 92
   },
   {
     "number": 252,
@@ -6645,7 +6896,8 @@
         "Mike Brenner"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 114
   },
   {
     "number": 253,
@@ -6659,7 +6911,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 175
   },
   {
     "number": 254,
@@ -6686,7 +6939,8 @@
       ],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 144
   },
   {
     "number": 255,
@@ -6702,7 +6956,8 @@
         "Fred Eaglesmith"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 25
   },
   {
     "number": 256,
@@ -6719,7 +6974,8 @@
     "genres": [
       "Alternative Country",
       "Chamber Pop"
-    ]
+    ],
+    "wordCount": 126
   },
   {
     "number": 257,
@@ -6748,7 +7004,8 @@
         "Jonathan Richman"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 135
   },
   {
     "number": 258,
@@ -6764,7 +7021,8 @@
         "Barbara Keith"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 447
   },
   {
     "number": 259,
@@ -6799,7 +7057,8 @@
     },
     "genres": [
       "Pop Music"
-    ]
+    ],
+    "wordCount": 283
   },
   {
     "number": 260,
@@ -6843,7 +7102,8 @@
         "Steve Goodman"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 375
   },
   {
     "number": 261,
@@ -6861,7 +7121,8 @@
         "Golden Smog"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 276
   },
   {
     "number": 262,
@@ -6890,7 +7151,8 @@
     },
     "genres": [
       "Roots rock"
-    ]
+    ],
+    "wordCount": 239
   },
   {
     "number": 263,
@@ -6938,7 +7200,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 173
   },
   {
     "number": 264,
@@ -6970,7 +7233,8 @@
         "Jason Isbell"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 254
   },
   {
     "number": 265,
@@ -7006,7 +7270,8 @@
         "Jack Clement"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 94
   },
   {
     "number": 266,
@@ -7022,7 +7287,8 @@
     },
     "genres": [
       "Rock"
-    ]
+    ],
+    "wordCount": 54
   },
   {
     "number": 267,
@@ -7038,7 +7304,8 @@
         "Sammy Walker"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 24
   },
   {
     "number": 268,
@@ -7054,7 +7321,8 @@
         "Luke Bell"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 839
   },
   {
     "number": 269,
@@ -7070,7 +7338,8 @@
         "The Gourds"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 171
   },
   {
     "number": 270,
@@ -7109,7 +7378,8 @@
         "Spooner Oldham"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 201
   },
   {
     "number": 271,
@@ -7123,7 +7393,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 83
   },
   {
     "number": 272,
@@ -7141,7 +7412,8 @@
     },
     "genres": [
       "Americana"
-    ]
+    ],
+    "wordCount": 32
   },
   {
     "number": 273,
@@ -7155,7 +7427,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 224
   },
   {
     "number": 274,
@@ -7169,7 +7442,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 322
   },
   {
     "number": 275,
@@ -7203,7 +7477,8 @@
     },
     "genres": [
       "Southern rock"
-    ]
+    ],
+    "wordCount": 335
   },
   {
     "number": 276,
@@ -7226,7 +7501,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 312
   },
   {
     "number": 277,
@@ -7249,7 +7525,8 @@
         "Linda Ronstadt"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 304
   },
   {
     "number": 278,
@@ -7325,7 +7602,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 124
   },
   {
     "number": 279,
@@ -7356,7 +7634,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 12
   },
   {
     "number": 280,
@@ -7408,7 +7687,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 800
   },
   {
     "number": 281,
@@ -7426,7 +7706,8 @@
     },
     "genres": [
       "Folk"
-    ]
+    ],
+    "wordCount": 182
   },
   {
     "number": 282,
@@ -7470,7 +7751,8 @@
         "Vince Gill"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 101
   },
   {
     "number": 283,
@@ -7502,7 +7784,8 @@
     "genres": [
       "Country rock",
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 264
   },
   {
     "number": 284,
@@ -7520,7 +7803,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 646
   },
   {
     "number": 285,
@@ -7536,7 +7820,8 @@
         "Terry Allen"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 30
   },
   {
     "number": 286,
@@ -7552,7 +7837,8 @@
     },
     "genres": [
       "Folk"
-    ]
+    ],
+    "wordCount": 103
   },
   {
     "number": 287,
@@ -7580,7 +7866,8 @@
         "Billy Zoom"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 2
   },
   {
     "number": 288,
@@ -7596,7 +7883,8 @@
         "Robert Ellis"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 234
   },
   {
     "number": 289,
@@ -7656,7 +7944,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 188
   },
   {
     "number": 290,
@@ -7670,7 +7959,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 54
   },
   {
     "number": 291,
@@ -7684,7 +7974,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 2650
   },
   {
     "number": 292,
@@ -7701,7 +7992,8 @@
         "Dolly Parton"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 195
   },
   {
     "number": 293,
@@ -7717,7 +8009,8 @@
         "Brinsley Schwarz"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 58
   },
   {
     "number": 294,
@@ -7755,7 +8048,8 @@
         "Clay Leverett"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 313
   },
   {
     "number": 295,
@@ -7795,7 +8089,8 @@
         "Thom Doucette"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 54
   },
   {
     "number": 296,
@@ -7809,7 +8104,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 4
   },
   {
     "number": 297,
@@ -7825,7 +8121,8 @@
         "The Refreshments"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 4
   },
   {
     "number": 298,
@@ -7839,7 +8136,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 232
   },
   {
     "number": 299,
@@ -7855,7 +8153,8 @@
         "Steve Earle"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 22
   },
   {
     "number": 300,
@@ -7888,7 +8187,8 @@
         "Johnny Fay"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 320
   },
   {
     "number": 301,
@@ -7924,7 +8224,8 @@
         "Jack Clement"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 11
   },
   {
     "number": 302,
@@ -7960,7 +8261,8 @@
         "Terry Allen"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 179
   },
   {
     "number": 303,
@@ -8033,7 +8335,8 @@
         "Wendy Waldman"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 243
   },
   {
     "number": 304,
@@ -8049,7 +8352,8 @@
         "Elyse Weinberg"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 79
   },
   {
     "number": 305,
@@ -8079,7 +8383,8 @@
         "Brad Cook"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 406
   },
   {
     "number": 306,
@@ -8095,7 +8400,8 @@
         "Gene Clark"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 244
   },
   {
     "number": 307,
@@ -8124,7 +8430,8 @@
         "John Denver"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 16
   },
   {
     "number": 308,
@@ -8154,7 +8461,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 77
   },
   {
     "number": 309,
@@ -8172,7 +8480,8 @@
         "Golden Smog"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 91
   },
   {
     "number": 310,
@@ -8189,7 +8498,8 @@
         "John Prine"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 361
   },
   {
     "number": 311,
@@ -8205,7 +8515,8 @@
         "Doug Sahm"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 47
   },
   {
     "number": 312,
@@ -8251,7 +8562,8 @@
         "Steve Earle"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 48
   },
   {
     "number": 313,
@@ -8287,7 +8599,8 @@
         "Byron Isaacs"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 21
   },
   {
     "number": 314,
@@ -8303,7 +8616,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 2313
   },
   {
     "number": 315,
@@ -8347,7 +8661,8 @@
         "Marty Stuart"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 346
   },
   {
     "number": 316,
@@ -8372,7 +8687,8 @@
     },
     "genres": [
       "Hard Rock"
-    ]
+    ],
+    "wordCount": 28
   },
   {
     "number": 317,
@@ -8399,7 +8715,8 @@
         "Chad Gamble"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 40
   },
   {
     "number": 318,
@@ -8413,7 +8730,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 53
   },
   {
     "number": 319,
@@ -8451,7 +8769,8 @@
         "Joe Ely"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 75
   },
   {
     "number": 320,
@@ -8486,7 +8805,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 21
   },
   {
     "number": 321,
@@ -8523,7 +8843,8 @@
         "Greg Leisz"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 100
   },
   {
     "number": 322,
@@ -8551,7 +8872,8 @@
     },
     "genres": [
       "Alternative Country"
-    ]
+    ],
+    "wordCount": 129
   },
   {
     "number": 323,
@@ -8581,7 +8903,8 @@
         "Dan Macadam"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 12
   },
   {
     "number": 324,
@@ -8595,7 +8918,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 94
   },
   {
     "number": 325,
@@ -8611,7 +8935,8 @@
         "Patty Griffin"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 88
   },
   {
     "number": 326,
@@ -8625,7 +8950,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 301
   },
   {
     "number": 327,
@@ -8641,7 +8967,8 @@
         "Robert Ellis"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 109
   },
   {
     "number": 328,
@@ -8679,7 +9006,8 @@
         "Clay Leverett"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 566
   },
   {
     "number": 329,
@@ -8712,7 +9040,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 118
   },
   {
     "number": 330,
@@ -8726,7 +9055,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 12
   },
   {
     "number": 331,
@@ -8763,7 +9093,8 @@
         "Bill Ladd"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 92
   },
   {
     "number": 332,
@@ -8816,7 +9147,8 @@
         "Don Williams"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 23
   },
   {
     "number": 333,
@@ -8848,7 +9180,8 @@
         "Steve Goodman"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 45
   },
   {
     "number": 334,
@@ -8876,7 +9209,8 @@
         "Miles Miller"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 19
   },
   {
     "number": 335,
@@ -8905,7 +9239,8 @@
     },
     "genres": [
       "Folk Rockcite Book"
-    ]
+    ],
+    "wordCount": 149
   },
   {
     "number": 336,
@@ -8921,7 +9256,8 @@
       ],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 199
   },
   {
     "number": 337,
@@ -8939,7 +9275,8 @@
     },
     "genres": [
       "Folk"
-    ]
+    ],
+    "wordCount": 11
   },
   {
     "number": 338,
@@ -8977,7 +9314,8 @@
         "Byron Berline"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 95
   },
   {
     "number": 339,
@@ -9007,7 +9345,8 @@
         "Scout Niblett"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 765
   },
   {
     "number": 340,
@@ -9040,7 +9379,8 @@
         "Mickey Raphael"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 121
   },
   {
     "number": 341,
@@ -9080,7 +9420,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 52
   },
   {
     "number": 342,
@@ -9096,7 +9437,8 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 405
   },
   {
     "number": 343,
@@ -9125,7 +9467,8 @@
         "Paul Hornsby"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 14
   },
   {
     "number": 344,
@@ -9145,7 +9488,8 @@
         "Terry Allen"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 46
   },
   {
     "number": 345,
@@ -9161,7 +9505,8 @@
     },
     "genres": [
       "Alt-countryrock Music"
-    ]
+    ],
+    "wordCount": 302
   },
   {
     "number": 346,
@@ -9186,7 +9531,8 @@
     },
     "genres": [
       "Country"
-    ]
+    ],
+    "wordCount": 500
   },
   {
     "number": 347,
@@ -9210,7 +9556,8 @@
         "Lucinda Williams"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 697
   },
   {
     "number": 348,
@@ -9240,7 +9587,8 @@
     "genres": [
       "Alternative Country",
       "Country rock"
-    ]
+    ],
+    "wordCount": 17
   },
   {
     "number": 349,
@@ -9266,7 +9614,8 @@
     },
     "genres": [
       "Folk"
-    ]
+    ],
+    "wordCount": 173
   },
   {
     "number": 350,
@@ -9282,7 +9631,8 @@
         "Billy Strings"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 574
   },
   {
     "number": 351,
@@ -9316,7 +9666,8 @@
     },
     "genres": [
       "Rock"
-    ]
+    ],
+    "wordCount": 168
   },
   {
     "number": 352,
@@ -9390,7 +9741,8 @@
         "David Lindley"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 130
   },
   {
     "number": 353,
@@ -9443,7 +9795,8 @@
         "Donny Hathaway"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 10
   },
   {
     "number": 354,
@@ -9457,7 +9810,8 @@
       "album": [],
       "other": []
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 389
   },
   {
     "number": 355,
@@ -9482,7 +9836,8 @@
         "Gillian Welch"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 805
   },
   {
     "number": 356,
@@ -9525,7 +9880,8 @@
         "Andrew Gold"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 1911
   },
   {
     "number": 357,
@@ -9550,7 +9906,8 @@
         "Gillian Welch"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 1237
   },
   {
     "number": 358,
@@ -9578,7 +9935,8 @@
         "Mick Ronson"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 479
   },
   {
     "number": 359,
@@ -9612,7 +9970,8 @@
         "Amy Pike"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 658
   },
   {
     "number": 360,
@@ -9655,7 +10014,8 @@
         "Justin Vernon"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 165
   },
   {
     "number": 361,
@@ -9691,7 +10051,8 @@
         "Terry Allen"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 418
   },
   {
     "number": 362,
@@ -9720,7 +10081,8 @@
         "Rich Gilbert"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 576
   },
   {
     "number": 363,
@@ -9736,6 +10098,7 @@
         "Emmylou Harris"
       ]
     },
-    "genres": []
+    "genres": [],
+    "wordCount": 580
   }
 ]
