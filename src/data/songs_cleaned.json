@@ -30,7 +30,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 192,
+    "wordCount": 157,
     "is_tragic": 0
   },
   {
@@ -46,7 +46,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 292,
+    "wordCount": 277,
     "is_tragic": 0
   },
   {
@@ -86,7 +86,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 232,
+    "wordCount": 86,
     "is_tragic": 1
   },
   {
@@ -134,7 +134,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 266,
+    "wordCount": 227,
     "is_tragic": 0
   },
   {
@@ -170,7 +170,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 346,
+    "wordCount": 267,
     "is_tragic": 0
   },
   {
@@ -214,7 +214,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 309,
+    "wordCount": 277,
     "is_tragic": 1
   },
   {
@@ -240,7 +240,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 333,
+    "wordCount": 304,
     "is_tragic": 0
   },
   {
@@ -279,7 +279,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 367,
+    "wordCount": 331,
     "is_tragic": 1
   },
   {
@@ -297,7 +297,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 223,
+    "wordCount": 202,
     "is_tragic": 0
   },
   {
@@ -315,7 +315,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 543,
+    "wordCount": 457,
     "is_tragic": 0
   },
   {
@@ -333,7 +333,7 @@
     "genres": [
       "Folk"
     ],
-    "wordCount": 478,
+    "wordCount": 446,
     "is_tragic": 0
   },
   {
@@ -351,7 +351,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 450,
+    "wordCount": 402,
     "is_tragic": 0
   },
   {
@@ -369,7 +369,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 242,
+    "wordCount": 230,
     "is_tragic": 0
   },
   {
@@ -404,7 +404,7 @@
       "Country rock",
       "Nobr"
     ],
-    "wordCount": 537,
+    "wordCount": 510,
     "is_tragic": 0
   },
   {
@@ -433,7 +433,7 @@
     "genres": [
       "Country rock"
     ],
-    "wordCount": 414,
+    "wordCount": 626,
     "is_tragic": 0
   },
   {
@@ -454,7 +454,7 @@
       "Alternative Rock",
       "Pop Music"
     ],
-    "wordCount": 103,
+    "wordCount": 100,
     "is_tragic": 0
   },
   {
@@ -472,7 +472,7 @@
     "genres": [
       "American Folk Music"
     ],
-    "wordCount": 53,
+    "wordCount": 52,
     "is_tragic": 1
   },
   {
@@ -511,7 +511,7 @@
       "Country rock",
       "Blues Rock"
     ],
-    "wordCount": 558,
+    "wordCount": 486,
     "is_tragic": 0
   },
   {
@@ -546,7 +546,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 38,
+    "wordCount": 39,
     "is_tragic": 0
   },
   {
@@ -566,7 +566,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 176,
+    "wordCount": 161,
     "is_tragic": 0
   },
   {
@@ -602,7 +602,7 @@
       "Folk rock",
       "Indie Rock"
     ],
-    "wordCount": 636,
+    "wordCount": 526,
     "is_tragic": 1
   },
   {
@@ -643,7 +643,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 383,
+    "wordCount": 350,
     "is_tragic": 0
   },
   {
@@ -661,7 +661,7 @@
     "genres": [
       "Alt-countryrock Music"
     ],
-    "wordCount": 340,
+    "wordCount": 324,
     "is_tragic": 0
   },
   {
@@ -679,7 +679,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 218,
+    "wordCount": 200,
     "is_tragic": 0
   },
   {
@@ -703,7 +703,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 549,
+    "wordCount": 494,
     "is_tragic": 0
   },
   {
@@ -721,7 +721,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 451,
+    "wordCount": 405,
     "is_tragic": 1
   },
   {
@@ -739,7 +739,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 569,
+    "wordCount": 494,
     "is_tragic": 0
   },
   {
@@ -789,7 +789,7 @@
       "Outlaw Country",
       "Progressive Country"
     ],
-    "wordCount": 452,
+    "wordCount": 398,
     "is_tragic": 0
   },
   {
@@ -807,7 +807,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 584,
+    "wordCount": 514,
     "is_tragic": 1
   },
   {
@@ -873,7 +873,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 393,
+    "wordCount": 362,
     "is_tragic": 0
   },
   {
@@ -902,7 +902,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 616,
+    "wordCount": 578,
     "is_tragic": 0
   },
   {
@@ -918,7 +918,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 197,
+    "wordCount": 180,
     "is_tragic": 0
   },
   {
@@ -934,7 +934,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 843,
+    "wordCount": 792,
     "is_tragic": 0
   },
   {
@@ -967,7 +967,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 319,
+    "wordCount": 295,
     "is_tragic": 0
   },
   {
@@ -999,7 +999,7 @@
       "Alternative Country",
       "Country rock"
     ],
-    "wordCount": 403,
+    "wordCount": 375,
     "is_tragic": 0
   },
   {
@@ -1030,7 +1030,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 347,
+    "wordCount": 313,
     "is_tragic": 1
   },
   {
@@ -1046,7 +1046,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 501,
+    "wordCount": 431,
     "is_tragic": 0
   },
   {
@@ -1064,7 +1064,7 @@
     "genres": [
       "Alternative Rock"
     ],
-    "wordCount": 63,
+    "wordCount": 59,
     "is_tragic": 0
   },
   {
@@ -1102,7 +1102,7 @@
       "Folk rock",
       "Roots Rockcite Web"
     ],
-    "wordCount": 10,
+    "wordCount": 11,
     "is_tragic": 1
   },
   {
@@ -1129,7 +1129,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 6,
+    "wordCount": 7,
     "is_tragic": 1
   },
   {
@@ -1160,7 +1160,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 5,
+    "wordCount": 6,
     "is_tragic": 0
   },
   {
@@ -1219,7 +1219,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 374,
+    "wordCount": 349,
     "is_tragic": 0
   },
   {
@@ -1258,7 +1258,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 440,
+    "wordCount": 408,
     "is_tragic": 1
   },
   {
@@ -1280,7 +1280,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 458,
+    "wordCount": 418,
     "is_tragic": 0
   },
   {
@@ -1298,7 +1298,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 130,
+    "wordCount": 122,
     "is_tragic": 0
   },
   {
@@ -1325,7 +1325,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 379,
+    "wordCount": 361,
     "is_tragic": 1
   },
   {
@@ -1355,7 +1355,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 350,
+    "wordCount": 304,
     "is_tragic": 0
   },
   {
@@ -1379,7 +1379,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 969,
+    "wordCount": 901,
     "is_tragic": 1
   },
   {
@@ -1406,7 +1406,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 979,
+    "wordCount": 816,
     "is_tragic": 0
   },
   {
@@ -1462,7 +1462,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 310,
+    "wordCount": 296,
     "is_tragic": 0
   },
   {
@@ -1492,7 +1492,7 @@
     "genres": [
       "Jazz"
     ],
-    "wordCount": 238,
+    "wordCount": 203,
     "is_tragic": 0
   },
   {
@@ -1526,7 +1526,7 @@
     "genres": [
       "Cowpunk"
     ],
-    "wordCount": 390,
+    "wordCount": 360,
     "is_tragic": 0
   },
   {
@@ -1569,7 +1569,7 @@
       "Country rock",
       "Americana"
     ],
-    "wordCount": 492,
+    "wordCount": 451,
     "is_tragic": 0
   },
   {
@@ -1587,7 +1587,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 602,
+    "wordCount": 553,
     "is_tragic": 0
   },
   {
@@ -1620,7 +1620,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 638,
+    "wordCount": 601,
     "is_tragic": 0
   },
   {
@@ -1638,7 +1638,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 214,
+    "wordCount": 202,
     "is_tragic": 0
   },
   {
@@ -1657,7 +1657,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 473,
+    "wordCount": 431,
     "is_tragic": 0
   },
   {
@@ -1695,7 +1695,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 392,
+    "wordCount": 370,
     "is_tragic": 0
   },
   {
@@ -1715,7 +1715,7 @@
     "genres": [
       "Country rock"
     ],
-    "wordCount": 181,
+    "wordCount": 173,
     "is_tragic": 0
   },
   {
@@ -1791,7 +1791,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 419,
+    "wordCount": 392,
     "is_tragic": 0
   },
   {
@@ -1809,7 +1809,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 399,
+    "wordCount": 371,
     "is_tragic": 0
   },
   {
@@ -1827,7 +1827,7 @@
     "genres": [
       "Indie Rockamericana (music)"
     ],
-    "wordCount": 367,
+    "wordCount": 341,
     "is_tragic": 0
   },
   {
@@ -1882,7 +1882,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 618,
+    "wordCount": 562,
     "is_tragic": 1
   },
   {
@@ -1928,7 +1928,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 576,
+    "wordCount": 536,
     "is_tragic": 0
   },
   {
@@ -1944,7 +1944,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 308,
+    "wordCount": 286,
     "is_tragic": 0
   },
   {
@@ -1971,7 +1971,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 147,
+    "wordCount": 131,
     "is_tragic": 0
   },
   {
@@ -2017,7 +2017,7 @@
     "genres": [
       "Folk"
     ],
-    "wordCount": 996,
+    "wordCount": 927,
     "is_tragic": 0
   },
   {
@@ -2054,7 +2054,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 332,
+    "wordCount": 298,
     "is_tragic": 0
   },
   {
@@ -2094,7 +2094,7 @@
     "genres": [
       "Country rock"
     ],
-    "wordCount": 4,
+    "wordCount": 5,
     "is_tragic": 0
   },
   {
@@ -2159,7 +2159,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 559,
+    "wordCount": 523,
     "is_tragic": 1
   },
   {
@@ -2180,7 +2180,7 @@
       "Folk-rock",
       "Country rock"
     ],
-    "wordCount": 443,
+    "wordCount": 399,
     "is_tragic": 0
   },
   {
@@ -2198,7 +2198,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 342,
+    "wordCount": 298,
     "is_tragic": 0
   },
   {
@@ -2234,7 +2234,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 250,
+    "wordCount": 236,
     "is_tragic": 1
   },
   {
@@ -2252,7 +2252,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 475,
+    "wordCount": 439,
     "is_tragic": 0
   },
   {
@@ -2280,7 +2280,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 405,
+    "wordCount": 357,
     "is_tragic": 0
   },
   {
@@ -2298,7 +2298,7 @@
     "genres": [
       "Folk Rockindie Rockindie Folkfolk Music"
     ],
-    "wordCount": 1354,
+    "wordCount": 1195,
     "is_tragic": 0
   },
   {
@@ -2355,7 +2355,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 840,
+    "wordCount": 809,
     "is_tragic": 0
   },
   {
@@ -2384,7 +2384,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 297,
+    "wordCount": 210,
     "is_tragic": 1
   },
   {
@@ -2416,7 +2416,7 @@
     "genres": [
       "Rock"
     ],
-    "wordCount": 396,
+    "wordCount": 365,
     "is_tragic": 1
   },
   {
@@ -2434,7 +2434,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 536,
+    "wordCount": 490,
     "is_tragic": 0
   },
   {
@@ -2454,7 +2454,7 @@
     "genres": [
       "Americana"
     ],
-    "wordCount": 479,
+    "wordCount": 441,
     "is_tragic": 0
   },
   {
@@ -2470,7 +2470,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 376,
+    "wordCount": 322,
     "is_tragic": 0
   },
   {
@@ -2492,7 +2492,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 173,
+    "wordCount": 167,
     "is_tragic": 0
   },
   {
@@ -2530,7 +2530,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 588,
+    "wordCount": 519,
     "is_tragic": 1
   },
   {
@@ -2548,7 +2548,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 596,
+    "wordCount": 539,
     "is_tragic": 0
   },
   {
@@ -2579,7 +2579,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 319,
+    "wordCount": 298,
     "is_tragic": 1
   },
   {
@@ -2595,7 +2595,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 416,
+    "wordCount": 387,
     "is_tragic": 0
   },
   {
@@ -2627,7 +2627,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 336,
+    "wordCount": 320,
     "is_tragic": 0
   },
   {
@@ -2674,7 +2674,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 441,
+    "wordCount": 405,
     "is_tragic": 0
   },
   {
@@ -2715,7 +2715,7 @@
     "genres": [
       "Americana"
     ],
-    "wordCount": 178,
+    "wordCount": 163,
     "is_tragic": 0
   },
   {
@@ -2742,7 +2742,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 335,
+    "wordCount": 310,
     "is_tragic": 1
   },
   {
@@ -2771,7 +2771,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 213,
+    "wordCount": 197,
     "is_tragic": 1
   },
   {
@@ -2787,7 +2787,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 122,
+    "wordCount": 112,
     "is_tragic": 0
   },
   {
@@ -2805,7 +2805,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 171,
+    "wordCount": 154,
     "is_tragic": 0
   },
   {
@@ -2837,7 +2837,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 557,
+    "wordCount": 516,
     "is_tragic": 0
   },
   {
@@ -2871,7 +2871,7 @@
     "genres": [
       "Folk"
     ],
-    "wordCount": 665,
+    "wordCount": 605,
     "is_tragic": 0
   },
   {
@@ -2887,7 +2887,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 383,
+    "wordCount": 348,
     "is_tragic": 0
   },
   {
@@ -2929,7 +2929,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 256,
+    "wordCount": 236,
     "is_tragic": 0
   },
   {
@@ -2947,7 +2947,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 1048,
+    "wordCount": 977,
     "is_tragic": 0
   },
   {
@@ -2986,7 +2986,7 @@
     "genres": [
       "Southern Rock Country Rock"
     ],
-    "wordCount": 188,
+    "wordCount": 179,
     "is_tragic": 1
   },
   {
@@ -3004,7 +3004,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 347,
+    "wordCount": 345,
     "is_tragic": 0
   },
   {
@@ -3043,7 +3043,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 338,
+    "wordCount": 298,
     "is_tragic": 0
   },
   {
@@ -3059,7 +3059,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 514,
+    "wordCount": 485,
     "is_tragic": 0
   },
   {
@@ -3075,7 +3075,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 70,
+    "wordCount": 67,
     "is_tragic": 0
   },
   {
@@ -3093,7 +3093,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 782,
+    "wordCount": 756,
     "is_tragic": 1
   },
   {
@@ -3131,7 +3131,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 399,
+    "wordCount": 352,
     "is_tragic": 0
   },
   {
@@ -3169,7 +3169,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 302,
+    "wordCount": 290,
     "is_tragic": 1
   },
   {
@@ -3185,7 +3185,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 189,
+    "wordCount": 181,
     "is_tragic": 0
   },
   {
@@ -3218,7 +3218,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 252,
+    "wordCount": 236,
     "is_tragic": 0
   },
   {
@@ -3236,7 +3236,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 596,
+    "wordCount": 566,
     "is_tragic": 0
   },
   {
@@ -3265,7 +3265,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 401,
+    "wordCount": 347,
     "is_tragic": 0
   },
   {
@@ -3285,7 +3285,7 @@
     "genres": [
       "Americana"
     ],
-    "wordCount": 173,
+    "wordCount": 154,
     "is_tragic": 0
   },
   {
@@ -3303,7 +3303,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 575,
+    "wordCount": 518,
     "is_tragic": 0
   },
   {
@@ -3346,7 +3346,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 549,
+    "wordCount": 509,
     "is_tragic": 0
   },
   {
@@ -3381,7 +3381,7 @@
     "genres": [
       "Outlaw Country"
     ],
-    "wordCount": 293,
+    "wordCount": 268,
     "is_tragic": 0
   },
   {
@@ -3421,7 +3421,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 208,
+    "wordCount": 187,
     "is_tragic": 0
   },
   {
@@ -3454,7 +3454,7 @@
     "genres": [
       "Country rock"
     ],
-    "wordCount": 188,
+    "wordCount": 158,
     "is_tragic": 1
   },
   {
@@ -3477,7 +3477,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 196,
+    "wordCount": 176,
     "is_tragic": 0
   },
   {
@@ -3513,7 +3513,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 662,
+    "wordCount": 579,
     "is_tragic": 1
   },
   {
@@ -3555,7 +3555,7 @@
     "genres": [
       "Southern rock"
     ],
-    "wordCount": 547,
+    "wordCount": 509,
     "is_tragic": 0
   },
   {
@@ -3587,7 +3587,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 191,
+    "wordCount": 172,
     "is_tragic": 0
   },
   {
@@ -3607,7 +3607,7 @@
     "genres": [
       "Heartland Rock"
     ],
-    "wordCount": 187,
+    "wordCount": 140,
     "is_tragic": 0
   },
   {
@@ -3625,7 +3625,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 0,
+    "wordCount": 228,
     "is_tragic": 0
   },
   {
@@ -3643,7 +3643,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 165,
+    "wordCount": 145,
     "is_tragic": 0
   },
   {
@@ -3667,7 +3667,7 @@
       "Southern rock",
       "Blues"
     ],
-    "wordCount": 315,
+    "wordCount": 284,
     "is_tragic": 0
   },
   {
@@ -3711,7 +3711,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 166,
+    "wordCount": 150,
     "is_tragic": 0
   },
   {
@@ -3749,7 +3749,7 @@
       "Alternative Country",
       "Country"
     ],
-    "wordCount": 339,
+    "wordCount": 319,
     "is_tragic": 0
   },
   {
@@ -3765,7 +3765,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 142,
+    "wordCount": 123,
     "is_tragic": 0
   },
   {
@@ -3797,7 +3797,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 183,
+    "wordCount": 154,
     "is_tragic": 0
   },
   {
@@ -3831,7 +3831,7 @@
     "genres": [
       "Bluegrass"
     ],
-    "wordCount": 315,
+    "wordCount": 295,
     "is_tragic": 0
   },
   {
@@ -3847,7 +3847,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 150,
+    "wordCount": 121,
     "is_tragic": 0
   },
   {
@@ -3865,7 +3865,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 550,
+    "wordCount": 499,
     "is_tragic": 1
   },
   {
@@ -3881,7 +3881,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 53,
+    "wordCount": 49,
     "is_tragic": 0
   },
   {
@@ -3929,7 +3929,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 969,
+    "wordCount": 874,
     "is_tragic": 1
   },
   {
@@ -3961,7 +3961,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 245,
+    "wordCount": 216,
     "is_tragic": 0
   },
   {
@@ -3979,7 +3979,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 113,
+    "wordCount": 111,
     "is_tragic": 1
   },
   {
@@ -3997,7 +3997,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 59,
+    "wordCount": 55,
     "is_tragic": 0
   },
   {
@@ -4015,7 +4015,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 175,
+    "wordCount": 160,
     "is_tragic": 0
   },
   {
@@ -4031,7 +4031,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 207,
+    "wordCount": 156,
     "is_tragic": 0
   },
   {
@@ -4060,7 +4060,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 310,
+    "wordCount": 280,
     "is_tragic": 1
   },
   {
@@ -4090,7 +4090,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 615,
+    "wordCount": 541,
     "is_tragic": 0
   },
   {
@@ -4108,7 +4108,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 389,
+    "wordCount": 314,
     "is_tragic": 1
   },
   {
@@ -4150,7 +4150,7 @@
     "genres": [
       "Outlaw Country"
     ],
-    "wordCount": 357,
+    "wordCount": 320,
     "is_tragic": 0
   },
   {
@@ -4179,7 +4179,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 233,
+    "wordCount": 214,
     "is_tragic": 0
   },
   {
@@ -4197,7 +4197,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 73,
+    "wordCount": 66,
     "is_tragic": 0
   },
   {
@@ -4215,7 +4215,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 387,
+    "wordCount": 359,
     "is_tragic": 0
   },
   {
@@ -4255,7 +4255,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 185,
+    "wordCount": 176,
     "is_tragic": 0
   },
   {
@@ -4273,7 +4273,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 487,
+    "wordCount": 442,
     "is_tragic": 0
   },
   {
@@ -4291,7 +4291,7 @@
     "genres": [
       "Rock"
     ],
-    "wordCount": 0,
+    "wordCount": 34,
     "is_tragic": 0
   },
   {
@@ -4309,7 +4309,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 0,
+    "wordCount": 64,
     "is_tragic": 0
   },
   {
@@ -4325,7 +4325,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 0,
+    "wordCount": 290,
     "is_tragic": 0
   },
   {
@@ -4341,7 +4341,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 0,
+    "wordCount": 212,
     "is_tragic": 0
   },
   {
@@ -4369,7 +4369,7 @@
       "Roots rock",
       "Americana"
     ],
-    "wordCount": 0,
+    "wordCount": 120,
     "is_tragic": 0
   },
   {
@@ -4385,7 +4385,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 0,
+    "wordCount": 239,
     "is_tragic": 0
   },
   {
@@ -4401,7 +4401,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 0,
+    "wordCount": 9,
     "is_tragic": 1
   },
   {
@@ -4419,7 +4419,7 @@
     "genres": [
       "Progressive Country"
     ],
-    "wordCount": 847,
+    "wordCount": 791,
     "is_tragic": 1
   },
   {
@@ -4449,7 +4449,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 255,
+    "wordCount": 237,
     "is_tragic": 0
   },
   {
@@ -4465,7 +4465,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 0,
+    "wordCount": 184,
     "is_tragic": 0
   },
   {
@@ -4501,7 +4501,7 @@
     "genres": [
       "Country Folk"
     ],
-    "wordCount": 1073,
+    "wordCount": 990,
     "is_tragic": 0
   },
   {
@@ -4548,7 +4548,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 557,
+    "wordCount": 501,
     "is_tragic": 0
   },
   {
@@ -4564,7 +4564,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 161,
+    "wordCount": 126,
     "is_tragic": 0
   },
   {
@@ -4602,7 +4602,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 451,
+    "wordCount": 418,
     "is_tragic": 1
   },
   {
@@ -4639,7 +4639,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 52,
+    "wordCount": 50,
     "is_tragic": 0
   },
   {
@@ -4669,7 +4669,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 79,
+    "wordCount": 77,
     "is_tragic": 1
   },
   {
@@ -4700,7 +4700,7 @@
     "genres": [
       "Bluegrass Music"
     ],
-    "wordCount": 96,
+    "wordCount": 89,
     "is_tragic": 0
   },
   {
@@ -4720,7 +4720,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 48,
+    "wordCount": 47,
     "is_tragic": 1
   },
   {
@@ -4754,7 +4754,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 148,
+    "wordCount": 124,
     "is_tragic": 0
   },
   {
@@ -4770,7 +4770,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 166,
+    "wordCount": 154,
     "is_tragic": 0
   },
   {
@@ -4803,7 +4803,7 @@
       "Country rock",
       "Folk rock"
     ],
-    "wordCount": 422,
+    "wordCount": 361,
     "is_tragic": 0
   },
   {
@@ -4832,7 +4832,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 282,
+    "wordCount": 271,
     "is_tragic": 0
   },
   {
@@ -4850,7 +4850,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 418,
+    "wordCount": 386,
     "is_tragic": 1
   },
   {
@@ -4883,7 +4883,7 @@
     "genres": [
       "Country Rockcite News"
     ],
-    "wordCount": 210,
+    "wordCount": 172,
     "is_tragic": 1
   },
   {
@@ -4938,7 +4938,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 174,
+    "wordCount": 155,
     "is_tragic": 0
   },
   {
@@ -4970,7 +4970,7 @@
     "genres": [
       "Alternative Country Americana Music"
     ],
-    "wordCount": 236,
+    "wordCount": 203,
     "is_tragic": 0
   },
   {
@@ -5017,7 +5017,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 9,
+    "wordCount": 10,
     "is_tragic": 0
   },
   {
@@ -5057,7 +5057,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 275,
+    "wordCount": 249,
     "is_tragic": 0
   },
   {
@@ -5093,7 +5093,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 330,
+    "wordCount": 302,
     "is_tragic": 0
   },
   {
@@ -5127,7 +5127,7 @@
       "Blues",
       "American Folk Music"
     ],
-    "wordCount": 133,
+    "wordCount": 121,
     "is_tragic": 0
   },
   {
@@ -5166,7 +5166,7 @@
     "genres": [
       "Rock"
     ],
-    "wordCount": 251,
+    "wordCount": 240,
     "is_tragic": 0
   },
   {
@@ -5212,7 +5212,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 78,
+    "wordCount": 64,
     "is_tragic": 0
   },
   {
@@ -5228,7 +5228,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 231,
+    "wordCount": 210,
     "is_tragic": 1
   },
   {
@@ -5248,7 +5248,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 82,
+    "wordCount": 68,
     "is_tragic": 0
   },
   {
@@ -5275,7 +5275,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 294,
+    "wordCount": 333,
     "is_tragic": 1
   },
   {
@@ -5295,7 +5295,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 213,
+    "wordCount": 198,
     "is_tragic": 0
   },
   {
@@ -5313,7 +5313,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 153,
+    "wordCount": 129,
     "is_tragic": 0
   },
   {
@@ -5329,7 +5329,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 214,
+    "wordCount": 207,
     "is_tragic": 0
   },
   {
@@ -5347,7 +5347,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 494,
+    "wordCount": 449,
     "is_tragic": 0
   },
   {
@@ -5379,7 +5379,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 296,
+    "wordCount": 263,
     "is_tragic": 0
   },
   {
@@ -5426,7 +5426,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 333,
+    "wordCount": 293,
     "is_tragic": 1
   },
   {
@@ -5444,7 +5444,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 10,
+    "wordCount": 9,
     "is_tragic": 0
   },
   {
@@ -5460,7 +5460,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 314,
+    "wordCount": 282,
     "is_tragic": 1
   },
   {
@@ -5478,7 +5478,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 525,
+    "wordCount": 472,
     "is_tragic": 1
   },
   {
@@ -5502,7 +5502,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 337,
+    "wordCount": 279,
     "is_tragic": 1
   },
   {
@@ -5526,7 +5526,7 @@
       "Rock",
       "Alternative country"
     ],
-    "wordCount": 331,
+    "wordCount": 285,
     "is_tragic": 0
   },
   {
@@ -5544,7 +5544,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 95,
+    "wordCount": 89,
     "is_tragic": 1
   },
   {
@@ -5581,7 +5581,7 @@
     "genres": [
       "Folk Rock Pop Music"
     ],
-    "wordCount": 834,
+    "wordCount": 772,
     "is_tragic": 0
   },
   {
@@ -5609,7 +5609,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 219,
+    "wordCount": 203,
     "is_tragic": 0
   },
   {
@@ -5627,7 +5627,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 388,
+    "wordCount": 343,
     "is_tragic": 0
   },
   {
@@ -5668,7 +5668,7 @@
     "genres": [
       "Southern Rock Country Rock"
     ],
-    "wordCount": 195,
+    "wordCount": 165,
     "is_tragic": 1
   },
   {
@@ -5723,7 +5723,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 760,
+    "wordCount": 646,
     "is_tragic": 1
   },
   {
@@ -5756,7 +5756,7 @@
     "genres": [
       "Americana"
     ],
-    "wordCount": 289,
+    "wordCount": 259,
     "is_tragic": 1
   },
   {
@@ -5796,7 +5796,7 @@
     "genres": [
       "American Folk Music"
     ],
-    "wordCount": 91,
+    "wordCount": 74,
     "is_tragic": 0
   },
   {
@@ -5814,7 +5814,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 452,
+    "wordCount": 405,
     "is_tragic": 0
   },
   {
@@ -5830,7 +5830,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 711,
+    "wordCount": 640,
     "is_tragic": 1
   },
   {
@@ -5848,7 +5848,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 129,
+    "wordCount": 108,
     "is_tragic": 1
   },
   {
@@ -5890,7 +5890,7 @@
     "genres": [
       "Country rock"
     ],
-    "wordCount": 488,
+    "wordCount": 409,
     "is_tragic": 1
   },
   {
@@ -5908,7 +5908,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 27,
+    "wordCount": 24,
     "is_tragic": 0
   },
   {
@@ -5962,7 +5962,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 118,
+    "wordCount": 105,
     "is_tragic": 0
   },
   {
@@ -6008,7 +6008,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 573,
+    "wordCount": 506,
     "is_tragic": 0
   },
   {
@@ -6024,7 +6024,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 420,
+    "wordCount": 392,
     "is_tragic": 0
   },
   {
@@ -6042,7 +6042,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 71,
+    "wordCount": 65,
     "is_tragic": 0
   },
   {
@@ -6058,7 +6058,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 624,
+    "wordCount": 555,
     "is_tragic": 0
   },
   {
@@ -6076,7 +6076,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 166,
+    "wordCount": 149,
     "is_tragic": 0
   },
   {
@@ -6106,7 +6106,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 457,
+    "wordCount": 404,
     "is_tragic": 0
   },
   {
@@ -6134,7 +6134,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 154,
+    "wordCount": 134,
     "is_tragic": 1
   },
   {
@@ -6152,7 +6152,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 306,
+    "wordCount": 279,
     "is_tragic": 1
   },
   {
@@ -6168,7 +6168,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 869,
+    "wordCount": 753,
     "is_tragic": 1
   },
   {
@@ -6207,7 +6207,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 415,
+    "wordCount": 373,
     "is_tragic": 0
   },
   {
@@ -6223,7 +6223,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 178,
+    "wordCount": 156,
     "is_tragic": 1
   },
   {
@@ -6255,7 +6255,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 614,
+    "wordCount": 549,
     "is_tragic": 0
   },
   {
@@ -6283,7 +6283,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 32,
+    "wordCount": 29,
     "is_tragic": 0
   },
   {
@@ -6299,7 +6299,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 189,
+    "wordCount": 177,
     "is_tragic": 0
   },
   {
@@ -6317,7 +6317,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 316,
+    "wordCount": 291,
     "is_tragic": 0
   },
   {
@@ -6335,7 +6335,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 142,
+    "wordCount": 121,
     "is_tragic": 0
   },
   {
@@ -6359,7 +6359,7 @@
     "genres": [
       "Folk"
     ],
-    "wordCount": 339,
+    "wordCount": 323,
     "is_tragic": 0
   },
   {
@@ -6377,7 +6377,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 698,
+    "wordCount": 627,
     "is_tragic": 0
   },
   {
@@ -6417,7 +6417,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 124,
+    "wordCount": 120,
     "is_tragic": 0
   },
   {
@@ -6453,7 +6453,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 685,
+    "wordCount": 617,
     "is_tragic": 1
   },
   {
@@ -6499,7 +6499,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 546,
+    "wordCount": 494,
     "is_tragic": 0
   },
   {
@@ -6538,7 +6538,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 37,
+    "wordCount": 35,
     "is_tragic": 1
   },
   {
@@ -6581,7 +6581,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 454,
+    "wordCount": 405,
     "is_tragic": 0
   },
   {
@@ -6607,7 +6607,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 272,
+    "wordCount": 251,
     "is_tragic": 0
   },
   {
@@ -6637,7 +6637,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 181,
+    "wordCount": 154,
     "is_tragic": 0
   },
   {
@@ -6679,7 +6679,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 424,
+    "wordCount": 380,
     "is_tragic": 0
   },
   {
@@ -6710,7 +6710,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 342,
+    "wordCount": 309,
     "is_tragic": 1
   },
   {
@@ -6726,7 +6726,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 303,
+    "wordCount": 279,
     "is_tragic": 0
   },
   {
@@ -6742,7 +6742,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 38,
+    "wordCount": 33,
     "is_tragic": 0
   },
   {
@@ -6766,7 +6766,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 209,
+    "wordCount": 183,
     "is_tragic": 0
   },
   {
@@ -6782,7 +6782,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 644,
+    "wordCount": 578,
     "is_tragic": 0
   },
   {
@@ -6808,7 +6808,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 190,
+    "wordCount": 168,
     "is_tragic": 0
   },
   {
@@ -6826,7 +6826,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 99,
+    "wordCount": 97,
     "is_tragic": 0
   },
   {
@@ -6881,7 +6881,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 330,
+    "wordCount": 290,
     "is_tragic": 0
   },
   {
@@ -6921,7 +6921,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 191,
+    "wordCount": 179,
     "is_tragic": 0
   },
   {
@@ -6952,7 +6952,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 231,
+    "wordCount": 223,
     "is_tragic": 1
   },
   {
@@ -6984,7 +6984,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 215,
+    "wordCount": 199,
     "is_tragic": 0
   },
   {
@@ -7002,7 +7002,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 29,
+    "wordCount": 27,
     "is_tragic": 1
   },
   {
@@ -7049,7 +7049,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 925,
+    "wordCount": 856,
     "is_tragic": 0
   },
   {
@@ -7067,7 +7067,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 320,
+    "wordCount": 300,
     "is_tragic": 1
   },
   {
@@ -7100,7 +7100,7 @@
     "genres": [
       "Country Folk"
     ],
-    "wordCount": 220,
+    "wordCount": 194,
     "is_tragic": 0
   },
   {
@@ -7118,7 +7118,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 92,
+    "wordCount": 89,
     "is_tragic": 0
   },
   {
@@ -7148,7 +7148,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 114,
+    "wordCount": 111,
     "is_tragic": 1
   },
   {
@@ -7164,7 +7164,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 175,
+    "wordCount": 164,
     "is_tragic": 0
   },
   {
@@ -7193,7 +7193,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 144,
+    "wordCount": 129,
     "is_tragic": 0
   },
   {
@@ -7211,7 +7211,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 25,
+    "wordCount": 24,
     "is_tragic": 0
   },
   {
@@ -7230,7 +7230,7 @@
       "Alternative Country",
       "Chamber Pop"
     ],
-    "wordCount": 126,
+    "wordCount": 118,
     "is_tragic": 0
   },
   {
@@ -7261,7 +7261,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 135,
+    "wordCount": 122,
     "is_tragic": 0
   },
   {
@@ -7279,7 +7279,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 447,
+    "wordCount": 388,
     "is_tragic": 0
   },
   {
@@ -7316,7 +7316,7 @@
     "genres": [
       "Pop Music"
     ],
-    "wordCount": 283,
+    "wordCount": 253,
     "is_tragic": 0
   },
   {
@@ -7362,7 +7362,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 375,
+    "wordCount": 326,
     "is_tragic": 0
   },
   {
@@ -7382,7 +7382,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 276,
+    "wordCount": 236,
     "is_tragic": 0
   },
   {
@@ -7413,7 +7413,7 @@
     "genres": [
       "Roots rock"
     ],
-    "wordCount": 239,
+    "wordCount": 210,
     "is_tragic": 0
   },
   {
@@ -7463,7 +7463,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 173,
+    "wordCount": 158,
     "is_tragic": 0
   },
   {
@@ -7497,7 +7497,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 254,
+    "wordCount": 238,
     "is_tragic": 1
   },
   {
@@ -7535,7 +7535,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 94,
+    "wordCount": 441,
     "is_tragic": 1
   },
   {
@@ -7553,7 +7553,7 @@
     "genres": [
       "Rock"
     ],
-    "wordCount": 54,
+    "wordCount": 49,
     "is_tragic": 0
   },
   {
@@ -7589,7 +7589,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 839,
+    "wordCount": 792,
     "is_tragic": 1
   },
   {
@@ -7607,7 +7607,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 171,
+    "wordCount": 155,
     "is_tragic": 0
   },
   {
@@ -7648,7 +7648,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 201,
+    "wordCount": 183,
     "is_tragic": 0
   },
   {
@@ -7664,7 +7664,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 83,
+    "wordCount": 80,
     "is_tragic": 1
   },
   {
@@ -7684,7 +7684,7 @@
     "genres": [
       "Americana"
     ],
-    "wordCount": 32,
+    "wordCount": 21,
     "is_tragic": 0
   },
   {
@@ -7700,7 +7700,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 224,
+    "wordCount": 198,
     "is_tragic": 0
   },
   {
@@ -7716,7 +7716,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 322,
+    "wordCount": 284,
     "is_tragic": 0
   },
   {
@@ -7752,7 +7752,7 @@
     "genres": [
       "Southern rock"
     ],
-    "wordCount": 335,
+    "wordCount": 320,
     "is_tragic": 0
   },
   {
@@ -7777,7 +7777,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 312,
+    "wordCount": 275,
     "is_tragic": 1
   },
   {
@@ -7802,7 +7802,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 304,
+    "wordCount": 279,
     "is_tragic": 0
   },
   {
@@ -7880,7 +7880,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 124,
+    "wordCount": 106,
     "is_tragic": 0
   },
   {
@@ -7967,7 +7967,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 800,
+    "wordCount": 731,
     "is_tragic": 0
   },
   {
@@ -7987,7 +7987,7 @@
     "genres": [
       "Folk"
     ],
-    "wordCount": 182,
+    "wordCount": 167,
     "is_tragic": 0
   },
   {
@@ -8033,7 +8033,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 101,
+    "wordCount": 89,
     "is_tragic": 0
   },
   {
@@ -8067,7 +8067,7 @@
       "Country rock",
       "Alternative Country"
     ],
-    "wordCount": 264,
+    "wordCount": 207,
     "is_tragic": 0
   },
   {
@@ -8087,7 +8087,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 646,
+    "wordCount": 561,
     "is_tragic": 0
   },
   {
@@ -8123,7 +8123,7 @@
     "genres": [
       "Folk"
     ],
-    "wordCount": 103,
+    "wordCount": 97,
     "is_tragic": 0
   },
   {
@@ -8153,7 +8153,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 2,
+    "wordCount": 3,
     "is_tragic": 0
   },
   {
@@ -8171,7 +8171,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 234,
+    "wordCount": 219,
     "is_tragic": 0
   },
   {
@@ -8233,7 +8233,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 188,
+    "wordCount": 181,
     "is_tragic": 0
   },
   {
@@ -8249,7 +8249,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 54,
+    "wordCount": 50,
     "is_tragic": 0
   },
   {
@@ -8265,7 +8265,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 2650,
+    "wordCount": 2467,
     "is_tragic": 0
   },
   {
@@ -8284,7 +8284,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 195,
+    "wordCount": 174,
     "is_tragic": 0
   },
   {
@@ -8302,7 +8302,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 58,
+    "wordCount": 56,
     "is_tragic": 0
   },
   {
@@ -8342,7 +8342,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 313,
+    "wordCount": 294,
     "is_tragic": 0
   },
   {
@@ -8384,7 +8384,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 54,
+    "wordCount": 39,
     "is_tragic": 1
   },
   {
@@ -8400,7 +8400,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 4,
+    "wordCount": 5,
     "is_tragic": 0
   },
   {
@@ -8418,7 +8418,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 4,
+    "wordCount": 5,
     "is_tragic": 0
   },
   {
@@ -8434,7 +8434,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 232,
+    "wordCount": 200,
     "is_tragic": 0
   },
   {
@@ -8452,7 +8452,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 22,
+    "wordCount": 23,
     "is_tragic": 1
   },
   {
@@ -8487,7 +8487,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 320,
+    "wordCount": 289,
     "is_tragic": 1
   },
   {
@@ -8525,7 +8525,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 11,
+    "wordCount": 12,
     "is_tragic": 1
   },
   {
@@ -8563,7 +8563,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 179,
+    "wordCount": 150,
     "is_tragic": 0
   },
   {
@@ -8638,7 +8638,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 243,
+    "wordCount": 216,
     "is_tragic": 0
   },
   {
@@ -8656,7 +8656,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 79,
+    "wordCount": 68,
     "is_tragic": 0
   },
   {
@@ -8688,7 +8688,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 406,
+    "wordCount": 381,
     "is_tragic": 0
   },
   {
@@ -8706,7 +8706,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 244,
+    "wordCount": 225,
     "is_tragic": 1
   },
   {
@@ -8769,7 +8769,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 77,
+    "wordCount": 61,
     "is_tragic": 0
   },
   {
@@ -8789,7 +8789,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 91,
+    "wordCount": 86,
     "is_tragic": 0
   },
   {
@@ -8808,7 +8808,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 361,
+    "wordCount": 330,
     "is_tragic": 0
   },
   {
@@ -8874,7 +8874,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 48,
+    "wordCount": 17,
     "is_tragic": 1
   },
   {
@@ -8912,7 +8912,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 21,
+    "wordCount": 17,
     "is_tragic": 0
   },
   {
@@ -8930,7 +8930,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 2313,
+    "wordCount": 2115,
     "is_tragic": 0
   },
   {
@@ -8976,7 +8976,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 346,
+    "wordCount": 344,
     "is_tragic": 1
   },
   {
@@ -9003,7 +9003,7 @@
     "genres": [
       "Hard Rock"
     ],
-    "wordCount": 28,
+    "wordCount": 29,
     "is_tragic": 0
   },
   {
@@ -9048,7 +9048,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 53,
+    "wordCount": 48,
     "is_tragic": 0
   },
   {
@@ -9088,7 +9088,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 75,
+    "wordCount": 61,
     "is_tragic": 0
   },
   {
@@ -9125,7 +9125,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 21,
+    "wordCount": 20,
     "is_tragic": 0
   },
   {
@@ -9164,7 +9164,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 100,
+    "wordCount": 500,
     "is_tragic": 0
   },
   {
@@ -9194,7 +9194,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 129,
+    "wordCount": 118,
     "is_tragic": 0
   },
   {
@@ -9226,7 +9226,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 12,
+    "wordCount": 13,
     "is_tragic": 1
   },
   {
@@ -9242,7 +9242,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 94,
+    "wordCount": 60,
     "is_tragic": 0
   },
   {
@@ -9260,7 +9260,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 88,
+    "wordCount": 82,
     "is_tragic": 0
   },
   {
@@ -9276,7 +9276,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 301,
+    "wordCount": 280,
     "is_tragic": 0
   },
   {
@@ -9294,7 +9294,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 109,
+    "wordCount": 102,
     "is_tragic": 0
   },
   {
@@ -9334,7 +9334,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 566,
+    "wordCount": 512,
     "is_tragic": 0
   },
   {
@@ -9369,7 +9369,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 118,
+    "wordCount": 112,
     "is_tragic": 0
   },
   {
@@ -9385,7 +9385,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 12,
+    "wordCount": 13,
     "is_tragic": 1
   },
   {
@@ -9424,7 +9424,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 92,
+    "wordCount": 87,
     "is_tragic": 0
   },
   {
@@ -9479,7 +9479,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 23,
+    "wordCount": 22,
     "is_tragic": 0
   },
   {
@@ -9513,7 +9513,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 45,
+    "wordCount": 43,
     "is_tragic": 0
   },
   {
@@ -9574,7 +9574,7 @@
     "genres": [
       "Folk Rockcite Book"
     ],
-    "wordCount": 149,
+    "wordCount": 138,
     "is_tragic": 1
   },
   {
@@ -9592,7 +9592,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 199,
+    "wordCount": 4,
     "is_tragic": 1
   },
   {
@@ -9612,7 +9612,7 @@
     "genres": [
       "Folk"
     ],
-    "wordCount": 11,
+    "wordCount": 12,
     "is_tragic": 0
   },
   {
@@ -9652,7 +9652,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 95,
+    "wordCount": 86,
     "is_tragic": 1
   },
   {
@@ -9684,7 +9684,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 765,
+    "wordCount": 709,
     "is_tragic": 1
   },
   {
@@ -9719,7 +9719,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 121,
+    "wordCount": 114,
     "is_tragic": 0
   },
   {
@@ -9761,7 +9761,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 52,
+    "wordCount": 50,
     "is_tragic": 1
   },
   {
@@ -9779,7 +9779,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 405,
+    "wordCount": 367,
     "is_tragic": 0
   },
   {
@@ -9810,7 +9810,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 14,
+    "wordCount": 15,
     "is_tragic": 1
   },
   {
@@ -9832,7 +9832,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 46,
+    "wordCount": 45,
     "is_tragic": 0
   },
   {
@@ -9850,7 +9850,7 @@
     "genres": [
       "Alt-countryrock Music"
     ],
-    "wordCount": 302,
+    "wordCount": 261,
     "is_tragic": 0
   },
   {
@@ -9877,7 +9877,7 @@
     "genres": [
       "Country"
     ],
-    "wordCount": 500,
+    "wordCount": 467,
     "is_tragic": 1
   },
   {
@@ -9903,7 +9903,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 697,
+    "wordCount": 616,
     "is_tragic": 0
   },
   {
@@ -9963,7 +9963,7 @@
     "genres": [
       "Folk"
     ],
-    "wordCount": 173,
+    "wordCount": 162,
     "is_tragic": 0
   },
   {
@@ -9981,7 +9981,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 574,
+    "wordCount": 554,
     "is_tragic": 0
   },
   {
@@ -10017,7 +10017,7 @@
     "genres": [
       "Rock"
     ],
-    "wordCount": 168,
+    "wordCount": 161,
     "is_tragic": 0
   },
   {
@@ -10093,7 +10093,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 130,
+    "wordCount": 113,
     "is_tragic": 0
   },
   {
@@ -10148,7 +10148,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 10,
+    "wordCount": 11,
     "is_tragic": 0
   },
   {
@@ -10164,7 +10164,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 389,
+    "wordCount": 357,
     "is_tragic": 1
   },
   {
@@ -10191,7 +10191,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 805,
+    "wordCount": 738,
     "is_tragic": 0
   },
   {
@@ -10236,7 +10236,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 1911,
+    "wordCount": 1812,
     "is_tragic": 0
   },
   {
@@ -10263,7 +10263,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 1237,
+    "wordCount": 1106,
     "is_tragic": 0
   },
   {
@@ -10293,7 +10293,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 479,
+    "wordCount": 314,
     "is_tragic": 0
   },
   {
@@ -10329,7 +10329,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 658,
+    "wordCount": 619,
     "is_tragic": 0
   },
   {
@@ -10374,7 +10374,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 165,
+    "wordCount": 158,
     "is_tragic": 0
   },
   {
@@ -10412,7 +10412,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 418,
+    "wordCount": 387,
     "is_tragic": 0
   },
   {
@@ -10443,7 +10443,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 576,
+    "wordCount": 516,
     "is_tragic": 0
   },
   {
@@ -10461,7 +10461,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 580,
+    "wordCount": 545,
     "is_tragic": 0
   },
   {

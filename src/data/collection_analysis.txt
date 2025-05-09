@@ -1,0 +1,35 @@
+
+Collection Analysis Report
+=======================
+
+Word Count Analysis
+-----------------
+Total Entries: 364
+Total Words: 116581
+Average Words per Entry: 320.28
+Median Words per Entry: 255.00
+Standard Deviation: 296.24
+
+Longest Entry: 2650 words
+- Yeh Jo Halka Halka Suroor Hai by Nusrat Fateh Ali Khan
+
+Shortest Entry: 2 words
+- Silver Wings by The Knitters
+
+Word Count Distribution:
+- 0-100 words: 21.2%
+- 101-200 words: 19.0%
+- 201-300 words: 14.0%
+- 301-400 words: 17.3%
+- 401-500 words: 9.9%
+- 500+ words: 18.7%
+
+Tragic Death Analysis
+-------------------
+Total Artists: 364
+Tragic Deaths: 87
+Percentage: 23.9%
+
+Artist Mentions
+-------------
+Loretta: 7 mentions

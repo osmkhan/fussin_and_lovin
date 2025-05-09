@@ -173,12 +173,45 @@ export default function MusicWebApp() {
         dateA.setDate(baseDate.getDate() + (a.number - 1));
         dateB.setDate(baseDate.getDate() + (b.number - 1));
         comparison = dateA - dateB;
+      } else if (sortField === 'wordCount') {
+        const entryA = entries.find(e => e.song === a.song && e.artist === a.artist);
+        const entryB = entries.find(e => e.song === b.song && e.artist === b.artist);
+        const countA = entryA ? countWords(entryA.textBody) : 0;
+        const countB = entryB ? countWords(entryB.textBody) : 0;
+        comparison = countA - countB;
       } else {
         comparison = a[sortField].localeCompare(b[sortField]);
       }
       return sortAsc ? comparison : -comparison;
     });
-  }, [rows, sortField, sortAsc]);
+  }, [rows, sortField, sortAsc, entries]);
+
+  // Add countWords function
+  function countWords(text) {
+    if (!text) return 0;
+    // First, extract just the main content between the metadata and any replies
+    let mainContent = text;
+    
+    // Remove everything before "Thoughts:"
+    mainContent = mainContent.split('Thoughts:')[1] || mainContent;
+    
+    // Remove everything after "Reply from" if it exists
+    if (mainContent.includes('Reply from')) {
+      mainContent = mainContent.split('Reply from')[0];
+    }
+    
+    // Clean up the text
+    const cleanedText = mainContent
+      .replace(/–.*?\n/gm, '') // Remove signatures anywhere in text
+      .replace(/\(.*?\)/gm, '') // Remove parenthetical notes anywhere in text
+      .replace(/_+\n/gm, '') // Remove separator lines anywhere in text
+      .replace(/[^\w\s]/g, ' ') // Remove special characters
+      .replace(/\s+/g, ' ') // Normalize whitespace
+      .trim();
+
+    // Count non-empty words
+    return cleanedText.split(' ').filter(word => word.length > 0).length;
+  }
 
   /* ---------- load data ---------- */
   useEffect(() => {
@@ -334,7 +367,7 @@ export default function MusicWebApp() {
             <section
               className={`fixed inset-0 z-50 flex items-center justify-center pointer-events-auto transition-all duration-[2500ms] ease-in-out
               ${!showHero ? 'opacity-0 -translate-y-32 pointer-events-none' : 'opacity-100 translate-y-0'}`}
-              style={{ background: 'linear-gradient(to bottom, #5a8fdc 0%, #8b6b3a 100%)' }}
+              style={{ background: 'linear-gradient(to bottom, #5a8fdc 0%, #a88b5a 100%)' }}
             >
               <div className="text-center px-6" role="banner">
                 <h1 className="text-4xl md:text-5xl font-serif tracking-wide text-white mb-6 drop-shadow-sm select-none">
@@ -527,12 +560,12 @@ export default function MusicWebApp() {
                             Each album cover represents a song in the collection. The connections between them show relationships:
                           </p>
                           <ul className="list-disc pl-6 space-y-3">
-                            <li>Strong red lines connect songs by the same artist</li>
-                            <li>Medium lines show album-related artists</li>
-                            <li>Thinner lines indicate genre connections</li>
+                            <li>Strong red lines connect songs whose artists were mentioned in other songs' entries</li>
+                            <li>Medium lines show artists who worked on each other's albums</li>
+                            <li>Thinner lines indicate mentioned on the artist pafe</li>
                           </ul>
                           <p className="text-[#bfa77a] italic text-sm">
-                            Note: Some album covers are currently missing, particularly for more obscure releases. These gaps will be filled as time permits.
+                            Note: Some albums and connections are  missing, particularly for more obscure releases. I got other shit to do.
                           </p>
                           <p className="mt-6 text-[#d9a441] font-medium">
                             Click any album cover to read the full entry.
@@ -548,7 +581,7 @@ export default function MusicWebApp() {
               <TabsContent value="Notchin'" className="p-8 bg-[#f0e6d2] rounded-xl border border-[#bfa77a]/40">
                 <div className="space-y-6">
                   <h2 className="text-2xl font-bold text-[#191414]">Musings</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Card className="bg-[#1f2b38] border-[#c5a77d]">
                       <CardContent className="p-6 text-center">
                         <div className="text-3xl font-bold text-[#d9a441]">144</div>
@@ -561,85 +594,102 @@ export default function MusicWebApp() {
                         <div className="text-[#e7e3d7]">Tragic Death Percentage</div>
                       </CardContent>
                     </Card>
-                    <Card className="bg-[#1f2b38] border-[#c5a77d]">
-                      <CardContent className="p-6 text-center">
-                        <div className="text-3xl font-bold text-[#d9a441]">319.2</div>
-                        <div className="text-[#e7e3d7]">Avg. Thoughts Per Song</div>
-                      </CardContent>
-                    </Card>
                   </div>
 
                   <h2 className="text-2xl font-bold text-[#191414] mt-8">Word Count Analysis</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <Card className="bg-[#1f2b38] border-[#c5a77d]">
-                      <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-[#d9a441] mb-4">Key Statistics</h3>
-                        <div className="space-y-2 text-[#e7e3d7]">
-                          <div className="flex justify-between">
-                            <span>Average words per entry:</span>
-                            <span className="font-bold">320</span>
-                          </div>
-                          <div className="flex justify-between">
-                            <span>Median words per entry:</span>
-                            <span className="font-bold">256</span>
-                          </div>
-                          <div className="flex justify-between">
-                            <span>Standard deviation:</span>
-                            <span className="font-bold">296</span>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
+                  <div className="grid grid-cols-1 gap-4">
                     <Card className="bg-[#1f2b38] border-[#c5a77d]">
                       <CardContent className="p-6">
                         <h3 className="text-xl font-bold text-[#d9a441] mb-4">Extremes</h3>
                         <div className="space-y-4 text-[#e7e3d7]">
                           <div>
                             <div className="font-bold mb-1">Longest Entry:</div>
-                            <div>2,650 words</div>
-                            <div className="text-sm italic">Yeh Jo Halka Halka Suroor Hai</div>
+                            <div>2,576 words</div>
+                            <div className="text-sm italic">Yeh Jo Halka Halka Suroor Hai by Nusrat Fateh Ali Khan</div>
                           </div>
                           <div>
                             <div className="font-bold mb-1">Shortest Entry:</div>
                             <div>2 words</div>
-                            <div className="text-sm italic">Silver Wings</div>
+                            <div className="text-sm italic">Silver Wings by The Knitters</div>
                           </div>
                         </div>
                       </CardContent>
                     </Card>
-                  </div>
+                    <Card className="bg-[#1f2b38] border-[#c5a77d]">
+                      <CardContent className="p-6">
+                        <h3 className="text-xl font-bold text-[#d9a441] mb-4">Weekly Word Count Trends</h3>
+                        <div className="h-48 relative">
+                          {(() => {
+                            // Calculate weekly averages
+                            const weeklyAverages = Array(52).fill(0).map((_, weekIndex) => {
+                              const weekStart = weekIndex * 7;
+                              const weekEnd = weekStart + 7;
+                              const weekSongs = rows.filter(r => r.number > weekStart && r.number <= weekEnd);
+                              if (weekSongs.length === 0) return 0;
+                              const avg = weekSongs.reduce((sum, song) => sum + (song.wordCount || 0), 0) / weekSongs.length;
+                              return avg;
+                            });
 
-                  <Card className="bg-[#1f2b38] border-[#c5a77d] mt-4">
-                    <CardContent className="p-6">
-                      <h3 className="text-xl font-bold text-[#d9a441] mb-4">Word Count Distribution</h3>
-                      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-[#e7e3d7]">
-                        <div className="text-center">
-                          <div className="text-2xl font-bold">21.2%</div>
-                          <div>0-100 words</div>
+                            // Apply smoothing (simple moving average)
+                            const smoothingWindow = 3;
+                            const smoothedAverages = weeklyAverages.map((_, i) => {
+                              const start = Math.max(0, i - smoothingWindow);
+                              const end = Math.min(weeklyAverages.length, i + smoothingWindow + 1);
+                              const values = weeklyAverages.slice(start, end);
+                              return values.reduce((a, b) => a + b, 0) / values.length;
+                            });
+
+                            // Find min/max for scaling
+                            const maxCount = Math.max(...smoothedAverages);
+                            const minCount = Math.min(...smoothedAverages);
+
+                            // Generate SVG path
+                            const points = smoothedAverages.map((count, i) => {
+                              const x = (i / (smoothedAverages.length - 1)) * 100;
+                              const y = 100 - ((count - minCount) / (maxCount - minCount)) * 100;
+                              return `${x},${y}`;
+                            }).join(' ');
+
+                            return (
+                              <>
+                                <svg className="w-full h-full" preserveAspectRatio="none">
+                                  {/* Grid lines */}
+                                  {[0, 1, 2, 3].map(i => (
+                                    <line 
+                                      key={i}
+                                      x1="0" 
+                                      y1={i * 33.33 + '%'} 
+                                      x2="100%" 
+                                      y2={i * 33.33 + '%'} 
+                                      stroke="#bfa77a" 
+                                      strokeWidth="0.5" 
+                                      strokeOpacity="0.2"
+                                    />
+                                  ))}
+                                  {/* Trend line */}
+                                  <polyline
+                                    points={points}
+                                    fill="none"
+                                    stroke="#d9a441"
+                                    strokeWidth="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                  />
+                                </svg>
+                                {/* X-axis labels */}
+                                <div className="absolute bottom-0 left-0 right-0 flex justify-between text-[#e7e3d7] text-xs">
+                                  <span>May '24</span>
+                                  <span>Sep '24</span>
+                                  <span>Jan '25</span>
+                                  <span>May '25</span>
+                                </div>
+                              </>
+                            );
+                          })()}
                         </div>
-                        <div className="text-center">
-                          <div className="text-2xl font-bold">19.0%</div>
-                          <div>101-200 words</div>
-                        </div>
-                        <div className="text-center">
-                          <div className="text-2xl font-bold">14.0%</div>
-                          <div>201-300 words</div>
-                        </div>
-                        <div className="text-center">
-                          <div className="text-2xl font-bold">17.3%</div>
-                          <div>301-400 words</div>
-                        </div>
-                        <div className="text-center">
-                          <div className="text-2xl font-bold">9.9%</div>
-                          <div>401-500 words</div>
-                        </div>
-                        <div className="text-center">
-                          <div className="text-2xl font-bold">18.7%</div>
-                          <div>500+ words</div>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
+                      </CardContent>
+                    </Card>
+                  </div>
                 </div>
               </TabsContent>
             </Tabs>
