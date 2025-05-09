@@ -1,0 +1,365 @@
+number,song,artist,word_count
+1,"Return of the Grievous Angel","Gram Parsons & Emmylou Harris",192
+2,"Little Silver Heart","Lucero",292
+3,"Why She's Acting This Way","Townes Van Zandt",232
+4,"You're Supposed to be Feeling Good","Emmylou Harris",266
+5,"Zip City","Drive-By Truckers",346
+6,"Telephone Road","Steve Earle",309
+7,"Rolling Along","Lucinda Williams",333
+8,"Nothing Was Delivered","The Byrds",367
+9,"Cigarette Machine","Fred Eaglesmith",223
+10,"Rock Me on the Water","Linda Ronstadt",543
+11,"Down That Dusty Trail","Robert Earl Keen",478
+12,"Player","Mark Jones",450
+13,"Carolinah","Ox",242
+14,"Flatness","Uncle Tupelo",537
+15,"Some of Shelly's Blues","Michael Nesmith",414
+16,"Suckerpunch","The Refreshments",103
+17,"Loretta","Townes Van Zandt",53
+18,"Anniversary Song","Cowboy Junkies",558
+19,"Story of You","Jimmie Dale Gilmore",38
+20,"Gimme a Ride to Heaven Boy","Terry Allen",176
+21,"Leave the City","Magnolia Electric Co.",636
+22,"Dancing With the Women at the Bar","Whiskeytown",383
+23,"Placemat Blues","Slobberbone",340
+24,"Sleeping on Hold","Freakwater",218
+25,"Under Control","MJ Lenderman",549
+26,"Song for You","The Outlaws",451
+27,"Big Time","Angel Olson and Sturgill Simpson",569
+28,"She Ain't Goin' Nowhere","Guy Clark",452
+29,"The Bullfighter","Luke Bell",584
+30,"Ashes by Now","Emmylou Harris",393
+31,"The Living Bubba (Live, 2014)","Drive-By Truckers",616
+32,"Good Time Charlie's Got the Blues","Danny O'Keefe",197
+33,"Stolen Car","Ox",843
+34,"South of Cincinnati","Dwight Yoakam",319
+35,"Big Brown Eyes","Old 97's",403
+36,"Omaha","Waylon Jennings",347
+37,"Amarillo Highway (for Dave Hickey)","Terry Allen (and the Panhandle Mystery Band)",501
+38,"Slice of Life","Dead Hot Workshop",63
+39,"Colorado","Stephen Stills",10
+40,"Feel Alright","Steve Earle",6
+41,"West","Lucinda Williams",5
+42,"Evangeline","Los Lobos",37
+43,"Shoestrings","Cowboy",374
+44,"Through The Morning, Through The Night","Dillard & Clark",440
+45,"Radio King","Golden Smog",458
+46,"Roadworn and Weary","Supersuckers",130
+47,"High, Low and In Between","Townes Van Zandt",379
+48,"Crowbar","Waxahatchee",350
+49,"Tom Ames' Prayer","Steve Earle",969
+50,"Wayside/Back in Time","Gillian Welch",979
+51,"Rough and Rocky","Emmylou Harris",310
+52,"Mr. Bojangles","Jerry Jeff Walker",238
+53,"Panties In Your Purse","Drive-By Truckers",390
+54,"Growing Trade","Levon Helm",492
+55,"A Pirate Looks At Forty","Jimmy Buffett",602
+56,"Wild Billy's Circus Story","Bruce Springsteen",638
+57,"Victim Of Life's Circumstances","Delbert McClinton",214
+58,"Fuck Up","Sarah Shook & the Disarmers",473
+59,"Hands on the Wheel","Willie Nelson",392
+60,"5 Days in May","Blue Rodeo",181
+61,"You Can Close Your Eyes","Linda Ronstadt",419
+62,"Dying of the Pines","The Gourds",399
+63,"Alone Again Or","Calexico",367
+64,"These Days","Gregg Allman",618
+65,"Welcome to Earth (Pollywog)","Sturgill Simpson",576
+66,"Early Blue","F.J. McMahon",308
+67,"Winonah","Michael Nesmith",147
+68,"Lake Marie","John Prine",996
+69,"What's the World Got in Store","Wilco",332
+70,"If You Were a Bluebird","Joe Ely",4
+71,"Silver Raven","Gene Clark",559
+72,"The Bramble and the Rose","Barbara Keith",443
+73,"Play Something We Know","Adam Hood",342
+74,"Last Lonely Eagle","New Riders of the Purple Sage",250
+75,"Tearjoint","Dan Penn",475
+76,"Gravity's Gone","Drive-By Truckers",405
+77,"Heaven's High","Wrinkle Neck Mules",1354
+78,"Tennessee Rose","Emmylou Harris",840
+79,"Heart on a String","Jason Isbell and the 400 Unit",297
+80,"Willin'","Little Feat",396
+81,"Sunshine (Go Away Today)","Jonathan Edwards",536
+82,"Play a Train Song","Todd Snider",479
+83,"The Whiskey Makes You Sweeter","Laure Cantrell",376
+84,"Crazy About You","Whiskeytown",173
+85,"Tecumseh Valley","Townes Van Zandt",588
+86,"817 Oakland Avenue","Charlie Parr",596
+87,"Lodi","Creedence Clearwater Revival",319
+88,"Texas & Tennessee","Lucero",416
+89,"Tear Stained Eye","Son Volt",336
+90,"That Old Time Feeling","Guy Clark",441
+91,"Right in Time","Lucinda Williams",178
+92,"More Than I Can Do","Steve Earle",335
+93,"Look the Other Way","Justin Townes Earle",213
+94,"Pork and Beans","Jake Xerxes Fussell",122
+95,"Summer Brings the Sunshine","Jimmy Carter and Dallas County Green",171
+96,"Cowgirl in the Sand","Neil Young",557
+97,"James River Blues","Old Crow Medicine Show",665
+98,"Some New Town","Slobberbone",383
+99,"The Needle Has Landed","Neko Case",256
+100,"Gone Tomorrow","Lambchop",1048
+101,"Desert Skies","The Marshall Tucker Band",188
+102,"Canola Fields","James McMurtry",347
+103,"You Were the Fool","Ween",338
+104,"L.A. Freeway - Live in New York, 1972","Jerry Jeff Walker",514
+105,"Let the Good Times Roll","Natural Child",70
+106,"Lungs","Townes Van Zandt",782
+107,"The Girl Who Danced Oklahoma","Terry Allen",399
+108,"The Old Black Hen","Songs: Ohia (and Lawrence Peters)",302
+109,"Four Roses Whiskey","The Galoots",189
+110,"Sun Comes Up, It's Tuesday Morning","Cowboy Junkies",252
+111,"500 Miles Away from Home","Bobby Bare",596
+112,"Salome","Old 97's",401
+113,"Gone Wanderin'","Jackie Greene",173
+114,"Long Time Gone","Darrell Scott and Tim O'Brien",575
+115,"My Father's House","Emmylou Harris",549
+116,"All Her Lovers Want to be the Hero","Steve Young",293
+117,"New Madrid","Uncle Tupelo",208
+118,"She Don't Care About Time","Gene Clark",188
+119,"The End Is Not in Sight (The Cowboy Tune)","Amazing Rhythm Aces",196
+120,"Wild Horses","The Flying Burrito Brothers",662
+121,"Marry Me","Drive-By Truckers",547
+122,"Hell","Waxahatchee",191
+123,"Broken Records","The Refreshments",187
+124,"Farther On Down the Road","Taj Mahal",0
+125,"Pouring Rain at Dawn","The Jayhawks",165
+126,"Mountain Girl","Blue Mountain",315
+127,"Until You Came Along","Golden Smog",166
+128,"Everywhere I Go","Willie Nelson",339
+129,"She's Acting Single (I'm Drinking Double)","Wednesday",142
+130,"Johnson's Love","Dwight Yoakam",183
+131,"In Tall Buildings","John Hartford",315
+132,"Crazy Man","Freakwater",150
+133,"For the Sake of the Song","Townes Van Zandt",550
+134,"Song of Love and Peace","Cowboy",53
+135,"When I Fall","Steve Earle",969
+136,"Demonic Possesion","Drive-By Truckers",245
+137,"If I Could Only Fly","Blaze Foley",113
+138,"I Won't Be Hangin' Round","Linda Ronstadt",59
+139,"Caledonia","The Gourds",175
+140,"Gimme Back My Dog","Slobberbone",207
+141,"Codeine","Jason Isbell",310
+142,"The Promise","Sturgill Simpson",615
+143,"Loretta","Luke Bell",389
+144,"To Beat the Devil","Kris Kristofferson",357
+145,"Long Long Time to Get Old","Ian & Sylvia/Great Speckled Bird",233
+146,"Palms of Victory","Emmylou Harris, Dolly Parton, and Linda Ronstadt",73
+147,"One Way Train","Mark Jones",387
+148,"Black Diamond Bay","Bob Dylan",185
+149,"Wichita","Gillian Welch",487
+150,"Indianapolis",""The Bottle Rockets"",0
+151,"Revenge","Whiskeytown",0
+152,"Feelin' Good Again","Robert Earl Keen",0
+153,"Blue RIdge Mountain Skyline","Sammy Walker",0
+154,"Ventura","Lucinda Williams",0
+155,"Far From Me","John Prine",0
+156,"Full Circle Song","Gene Clark",0
+157,"If I Needed You","Townes Van Zandt",847
+158,"Perfect Timing","Drive-By Truckers",255
+159,"Cowpoke","Johnny Western",0
+160,"Our Town","Iris DeMent",1073
+161,"Ready or Not","Jackson Browne",557
+162,"Sugar Cane","Ox",161
+163,"$1000 Wedding","Gram Parsons",451
+164,"Forget the Flowers","Wilco",52
+165,"I've Been the One","Little Feat",79
+166,"Oh, Atlanta","Alison Krauss",96
+167,"Six White Horses","Waylon Jennings",48
+168,"One Promise Too Late","Reba McEntire",148
+169,"All Sewn Up","Lucero",166
+170,"Early Morning Riser","Pure Prairie League",422
+171,"Barrier Reef","Old 97's",282
+172,"Across the Great Divide","Kate Wolf",418
+173,"Someday","Steve Earle",210
+174,"Son of a Rotten Gambler","Emmylou Harris",174
+175,"Deep Red Bells","Neko Case",236
+176,"Desperados Waiting For A Train","Guy Clark",9
+177,"High Water","Uncle Tupelo",275
+178,"One More Dollar","Gillian Welch",330
+179,"Tattler","Ry Cooder",133
+180,"One Time One Night","Los Lobos",251
+181,"All Around You","Sturgill Simpson",78
+182,"Lioness","Songs: Ohia",231
+183,"V","Golden Smog",82
+184,"Cowboy Song","Thin Lizzy",294
+185,"Don't Wanna Know Why","Whiskeytown",213
+186,"Blue Canoe","Blue Mountain",153
+187,"One More Run","(David Childers and) The Modern Don Juans",214
+188,"No Ordinary Blue","John Prine",494
+189,"The Eye","Waxahatchee",296
+190,"Wasn't Born to Follow","The Byrds",333
+191,"I Had My Hopes Up High","Joe Ely",10
+192,"Fox on the Run","Tom T. Hall",314
+193,"Columbine","Townes Van Zandt",525
+194,"I'm Looking Through You","Steve Earle",337
+195,"Formula Cola, Dollar Draft","Marah",331
+196,"Acadian Driftwood","The Band",95
+197,"Down to Zero","Joan Armatrading",834
+198,"First Air of Autumn","Drive-By Truckers",219
+199,"Pill Bug Blues","The Gourds",388
+200,"Fire on the Mountain","The Marshall Tucker Band",195
+201,"Song for Adam/Shadow Dream Song","Gregg Allman",760
+202,"If It Takes a Lifetime","Jason Isbell",289
+203,"Got Me A Woman","Levon Helm",91
+204,"Leaving Louisiana in the Broad Daylight","Emmylou Harris",452
+205,"Don't This Look Like The Dark","Magnolia Electric Co.",711
+206,"Sweet Baby James","James Taylor",129
+207,"A Song for You","Gram Parsons",488
+208,"Pretty Horses","Dwight Yoakam",27
+209,"In My Reply","Linda Ronstadt",118
+210,"Oh Sarah","Sturgill Simpson",573
+211,"Breakfast","Darrin Bradbury",420
+212,"Everybody's Missing The Sun","The Gourds",71
+213,"Fallin' Faster","The Galoots",624
+214,"Over the Red Cedar","Charlie Parr",166
+215,"Windfall","Son Volt",457
+216,"Frightened by the Sound","Justin Townes Earle",154
+217,"Love's Gonna Blow My Way","Steve Earle",306
+218,"Come Tomorrow","Townes Van Zandt",869
+219,"16 Days","Whiskeytown",415
+220,"Colorado","The Flying Burrito Brothers",178
+221,"Fire","Waxahatchee",614
+222,"A Matter of Time","Los Lobos",32
+223,"Lazy Guy","Slobberbone",189
+224,"The Boxer","Emmylou Harris",316
+225,"Ol' Sundown","Frank Adams",142
+226,"The Front Porch Song","Robert Earl Keen",339
+227,"Revelator","Gillian Welch",698
+228,"Decoration Day","Drive-By Truckers",124
+229,"Snowin' On Raton","Townes Van Zandt",685
+230,"Christmas in Prison","John Prine",546
+231,"You Ain't Goin' Nowhere","The Byrds",37
+232,"A Few Simple Words","Cowboy Junkies",454
+233,"Rollerskate Skinny","Old 97's",272
+234,"Cryin' but My Tears Are Far Away","The Knitters",181
+235,"Star Witness","Neko Case",424
+236,"24 Frames","Jason Isbell",342
+237,"The Prettiest Thing","The Modern Don Juans (and David Childers)",303
+238,"LA City","Ox",38
+239,"What of Alicia","Terry Allen",209
+240,"Don't Let Me Come Home A Stranger","Tim and Mollie O'Brien",644
+241,"I Lost It","Lucinda Williams",190
+242,"Easy Come Easy Go","Hayes Carll",99
+243,"Born to Run","Emmylou Harris",330
+244,"Acuff Rose","Uncle Tupelo",191
+245,"Down the Road","Steve Earle",231
+246,"Late for Church","Drive-By Truckers",215
+247,"Tequila and Me","Kate Wolf",29
+248,"Dublin Blues","Guy Clark",925
+249,"Fare Thee Well, Miss Carousel","Townes Van Zandt",320
+250,"Easy's Gettin' Harder Every Day","Iris DeMent",220
+251,"To Live Is To Fly","Cowboy Junkies",92
+252,"O! Grace","Magnolia Electric Co.",114
+253,"Live Forever","Shaver",175
+254,"Please Be With Me","Cowboy",144
+255,"Trucker Speed","Fred Eaglesmith",25
+256,"Sharing a Gibson with Martin Luther King Jr.","Lambchop",126
+257,"Since She Started to Ride","Jonathan Richman",135
+258,"Detroit or Buffalo","Barbara Keith",447
+259,"The Road","Danny O'Keefe",283
+260,"A Good Time","John Prine",375
+261,"Won't Be Coming Home","Golden Smog",276
+262,"Six Blocks Away","Lucinda Williams",239
+263,"Even Cowgirls Get the Blues","Emmylou Harris",173
+264,"Rogers Park","Justin Townes Earle",254
+265,"My Proud Mountains","Townes Van Zandt",94
+266,"Rodeo","Futurebirds",54
+267,"Catcher In the Rye","Sammy Walker",24
+268,"Where Ya Been?","Luke Bell",839
+269,"Jenny Brown","The Gourds",171
+270,"Red Sun","Neil Young",201
+271,"That's How I Got To Memphis","Tom T. Hall",83
+272,"Honey I Been Thinking About You","Jackie Greene",32
+273,"Pick Your Nose","Cowboy",224
+274,"Raising Hell","Lucero",322
+275,"Love Like This","Drive-By Truckers",335
+276,"Lover's Lullaby","Townes Van Zandt",312
+277,"Long Long Time","Linda Ronstadt",304
+278,"Love Will Turn You Around","Kenny Rogers",124
+279,"Love Hurts","Gram Parsons (and Emmylou Harris)",12
+280,"Anyhow, I Love You","Guy Clark",800
+281,"In Spite of Ourselves","John Prine/Iris DeMent",182
+282,"L.A. County","Lyle Lovett",101
+283,"Won't Be Home","Old 97's",264
+284,"Wait Up","Uncle Tupelo",646
+285,"Manhattan Bluebird","Terry Allen",30
+286,"The Weekend","Dave Rawlings Machine",103
+287,"Silver Wings","The Knitters",2
+288,"Friends Like Those","Robert Ellis",234
+289,"Gulf Coast Highway","Emmylou Harris (and Willie Nelson)",188
+290,"Not Down This Low","Jeff Cowell",54
+291,"Yeh Jo Halka Halka Suroor Hai","Nusrat Fateh Ali Khan",2650
+292,"Do I Ever Cross Your Mind","Chet Atkins/Dolly Parton",195
+293,"Country Girl","Brinsley Schwarz",58
+294,"Sounds Better in the Song","Drive-By Truckers",313
+295,"Blue Sky","Allman Brothers Band",54
+296,"London Homesick Blues (Home With The Armadillo)","Gary P. Nunn",4
+297,"Nada","The Refreshments",4
+298,"Dreadful Selfish Crime","Robert Earl Keen",232
+299,"After Mardi Gras","Steve Earle",22
+300,"Long Time Running","The Tragically Hip",320
+301,"Like a Summer Thursday","Townes Van Zandt",11
+302,"New Delhi Freight Train","Terry Allen",179
+303,"Love Has No Pride","Linda Ronstadt",243
+304,"Houses","Elyse Weinberg",79
+305,"Lilacs","Waxahatchee",406
+306,"On Her Own","Gene Clark",244
+307,"Song of Wyoming","John Denver",16
+308,"That's How Strong My Love Is","Steve Young",77
+309,"Pecan Pie","Golden Smog",91
+310,"How Lucky","Kurt Vile/John Prine",361
+311,"It's Gonna be Easy","Doug Sahm",47
+312,"The Galway Girl","Steve Earle",48
+313,"The Mountain","Levon Helm",21
+314,"One Paper Kid","Emmylou Harris",2313
+315,"Further On Up The Road","Johnny Cash",346
+316,"(We'll Go) Out of Town","The Silos",28
+317,"Alabama Pines","Jason Isbell and the 400 Unit",40
+318,"Long White Line","Strugill Simpson",53
+319,"Give Back the Key to My Heart","Uncle Tupelo",75
+320,"Pretend I Never Happened","Willie Nelson",21
+321,"Car Wheels on a Gravel Road","Lucinda Williams",100
+322,"Born on a Train","Old 97's",129
+323,"The Dark Don't Hide IT","Magnolia Electric Co.",12
+324,"Pinball Song","Slobberbone",94
+325,"Angels Are Falling","Patty Griffin",88
+326,"TV Dinners","MJ Lenderman",301
+327,"Houston","Robert Ellis",109
+328,"Outfit","Drive-By Truckers",566
+329,"Chase the Wind","Jimmie Dale Gilmore",118
+330,"Nothin'","Townes Van Zandt",12
+331,"Excuse Me While I Break My Own Heart Tonight","Whiskeytown",92
+332,"Another Lonesome Morning","Emmylou Harris",23
+333,"Hello In There","John Prine",45
+334,"Pan Bowl","Sturgill SImpson",19
+335,"With Tomorrow","Gene Clark",149
+336,"I'll be Here in the Morning","Townes Van Zandt",199
+337,"Gentle On My Mind","John Hartford",11
+338,"She","Gram Parsons",95
+339,"Just Be Simple","Songs: Ohia",765
+340,"I Never Cared For You","Willie Nelson",121
+341,"Poison Lovers","Steve Earle",52
+342,"Me and Willie","Emmylou Harris",405
+343,"Can't You See","The Marshall Tucker Band",14
+344,"Cantina Carlotta","Terry Allen",46
+345,"One Rung","Slobberbone",302
+346,"To Live Is To Fly","Townes Van Zandt",500
+347,"Sharp Cutting Wings (Song to a Poet)","Lucinda Williams",697
+348,"Timebomb","Old 97's",17
+349,"Lonely Feeling","Robert Earl Keen",173
+350,"Catch and Release","Billy Strings",574
+351,"Goddamn Lonely Love","Drive-By Truckers",168
+352,"When Will I Be Loved","Linda Ronstadt",130
+353,"A Song For You","Willie Nelson",10
+354,"Poncho & Lefty","Townes Van Zandt",389
+355,"Look at Miss Ohio","Gillian Welch",805
+356,"Mohammed's Radio","Linda Ronstadt",1911
+357,"Wrecking Ball","Gillian Welch",1237
+358,"Amie","Pure Prairie League",479
+359,"Women Without Whiskey","Drive-By Truckers",658
+360,"Please Let Me Go Round Again","John Prine",165
+361,"The Wolfman of Del Rio","Terry Allen",418
+362,"Whiskey Bottle","Uncle Tupelo",576
+363,"Boulder to Birmingham","Emmylou Harris",580
+364,"Your Still Standin' There","Steve Earle",0

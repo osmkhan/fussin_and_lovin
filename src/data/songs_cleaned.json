@@ -30,7 +30,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 0,
+    "wordCount": 192,
     "is_tragic": 0
   },
   {
@@ -3612,7 +3612,7 @@
   },
   {
     "number": 124,
-    "song": "<https://open.spotify.com/track/4C4tMiaVRICiMdswdA5kJf?si=3D463c3b582dea4d2=\nd>**Farther\nOn Down the Road",
+    "song": "Farther On Down the Road",
     "artist": "Taj Mahal",
     "album": "Giant Steps/De Old Folks at Home",
     "spotifyLink": "https://open.spotify.com/track/4C4tMiaVRICiMdswdA5kJf",
@@ -3625,7 +3625,7 @@
       ]
     },
     "genres": [],
-    "wordCount": 238,
+    "wordCount": 0,
     "is_tragic": 0
   },
   {
@@ -4291,7 +4291,7 @@
     "genres": [
       "Rock"
     ],
-    "wordCount": 34,
+    "wordCount": 0,
     "is_tragic": 0
   },
   {
@@ -4309,7 +4309,7 @@
     "genres": [
       "Alternative Country"
     ],
-    "wordCount": 70,
+    "wordCount": 0,
     "is_tragic": 0
   },
   {
@@ -4325,7 +4325,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 308,
+    "wordCount": 0,
     "is_tragic": 0
   },
   {
@@ -4341,7 +4341,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 232,
+    "wordCount": 0,
     "is_tragic": 0
   },
   {
@@ -4369,7 +4369,7 @@
       "Roots rock",
       "Americana"
     ],
-    "wordCount": 123,
+    "wordCount": 0,
     "is_tragic": 0
   },
   {
@@ -4385,7 +4385,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 263,
+    "wordCount": 0,
     "is_tragic": 0
   },
   {
@@ -4401,7 +4401,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 8,
+    "wordCount": 0,
     "is_tragic": 1
   },
   {
@@ -4465,7 +4465,7 @@
       "other": []
     },
     "genres": [],
-    "wordCount": 208,
+    "wordCount": 0,
     "is_tragic": 0
   },
   {
@@ -10462,6 +10462,33 @@
     },
     "genres": [],
     "wordCount": 580,
+    "is_tragic": 0
+  },
+  {
+    "number": 364,
+    "song": "Your Still Standin' There",
+    "artist": "Steve Earle",
+    "album": "I Feel Alright",
+    "spotifyLink": "https://open.spotify.com/track/4sD5C8vtuPtblOYanu3jSc?si=49962da6290e4b16",
+    "artistWiki": "https://en.wikipedia.org/?curid=194910",
+    "albumWiki": "https://en.wikipedia.org/?curid=11928390",
+    "relatedArtists": {
+      "album": [
+        "Steve Earle",
+        "Ken Moore",
+        "Richard Bennett",
+        "Lucinda Williams",
+        "Kris Wilkerson",
+        "Lee Larrison",
+        "Robert Mason",
+        "Tony Fitzpatrick"
+      ],
+      "other": [
+        "Steve Earle"
+      ]
+    },
+    "genres": [],
+    "wordCount": 357,
     "is_tragic": 0
   }
 ]
