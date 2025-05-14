@@ -13,6 +13,27 @@ import ForceGraph2D from "react-force-graph-2d";
 import songsData from './data/songs_cleaned.json';
 import entriesData from './data/entries.json';
 
+// Helper to manage listened songs in localStorage
+const STORAGE_KEY = 'fussin_and_lovin_listened_songs';
+
+function getListenedSongs() {
+  const stored = localStorage.getItem(STORAGE_KEY);
+  return stored ? JSON.parse(stored) : {};
+}
+
+function saveListenedSongs(listenedSongs) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(listenedSongs));
+}
+
+function toggleSongListened(songNumber, listenedSongs, setListenedSongs) {
+  const newListenedSongs = {
+    ...listenedSongs,
+    [songNumber]: !listenedSongs[songNumber]
+  };
+  setListenedSongs(newListenedSongs);
+  saveListenedSongs(newListenedSongs);
+}
+
 /* ---------- helpers ---------- */
 // Helper to normalize album names for consistent map keys
 function normalizeAlbumTitle(album) {
@@ -73,7 +94,7 @@ const buildGraph = (rows, albumEarliestMap) => {
   nodes.forEach((n1, i) => {
     nodes.forEach((n2, j) => {
       if (i !== j && n1.artist === n2.artist) {
-        links.push({ source: i, target: j, value: 2 });
+        links.push({ source: i, target: j, value: 4 });
       }
     });
   });
@@ -83,15 +104,15 @@ const buildGraph = (rows, albumEarliestMap) => {
     const relOther = r.relatedArtists.other || [];
     nodes.forEach((n, j) => {
       if (i !== j) {
-        if (relAlbum.includes(n.artist)) links.push({ source: i, target: j, value: 2 });
-        else if (relOther.includes(n.artist)) links.push({ source: i, target: j, value: 1 });
+        if (relAlbum.includes(n.artist)) links.push({ source: i, target: j, value: 3 });
+        else if (relOther.includes(n.artist)) links.push({ source: i, target: j, value: 2 });
         else {
           // Weak genre-based link
           const genresA = nodes[i].genres || [];
           const genresB = nodes[j].genres || [];
           const shared = genresA.filter(g => genresB.includes(g));
           if (shared.length > 0) {
-            links.push({ source: i, target: j, value: 0.25 * shared.length });
+            links.push({ source: i, target: j, value: 0.5 * shared.length });
           }
         }
       }
@@ -145,6 +166,170 @@ const useCoverImages = (nodes) => {
   return cache.current;
 };
 
+/* ---------- Weekly‑average chart (extracted) ---------- */
+function WeeklyChart({ rows }) {
+  // compute weekly medians (May 10 2024 start)
+  const weeklyMedians = useMemo(() => {
+    const totalWeeks = 52;
+    return Array.from({ length: totalWeeks }, (_, weekIdx) => {
+      const start = weekIdx * 7 + 1;
+      const end = (weekIdx + 1) * 7;
+      const weekSongs = rows.filter((r) => r.number >= start && r.number <= end);
+      if (!weekSongs.length) return null;
+      
+      // Calculate median
+      const wordCounts = weekSongs.map(s => s.wordCount || 0).sort((a, b) => a - b);
+      const mid = Math.floor(wordCounts.length / 2);
+      return wordCounts.length % 2 === 0
+        ? (wordCounts[mid - 1] + wordCounts[mid]) / 2
+        : wordCounts[mid];
+    });
+  }, [rows]);
+
+  const [hoverIdx, setHoverIdx] = useState(null);
+
+  const yMax = useMemo(() => {
+    const nums = weeklyMedians.filter((v) => v !== null);
+    return Math.ceil(Math.max(...nums, 0) / 250) * 250 || 250;
+  }, [weeklyMedians]);
+
+  const yTicks = useMemo(() => {
+    const out = [];
+    for (let v = 0; v <= yMax; v += 250) out.push(v);
+    return out;
+  }, [yMax]);
+
+  /* ---- SVG helpers ---- */
+  const paddingX = 12;
+  const paddingY = 10;
+  const viewW = 100;
+  const viewH = 100;
+  const usableW = viewW - 2 * paddingX;
+  const usableH = viewH - 2 * paddingY;
+
+  const points = weeklyMedians.map((cnt, i) => {
+    if (cnt === null) return null;
+    const x = paddingX + (i / (weeklyMedians.length - 1)) * usableW;
+    const y = viewH - paddingY - (cnt / yMax) * usableH;
+    return `${x},${y}`;
+  });
+  const filtered = points.filter(Boolean);
+  const pathD = filtered.length ? ["M", filtered[0], ...filtered.slice(1).flatMap((p) => ["L", p])].join(" ") : "";
+
+  /* ---- event handlers ---- */
+  const onMove = (e) => {
+    const { left, width } = e.currentTarget.getBoundingClientRect();
+    const pct = (e.clientX - left) / width;
+    const idx = Math.round(pct * (weeklyMedians.length - 1));
+    setHoverIdx(idx);
+  };
+
+  return (
+    <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[28rem] max-w-3xl mx-auto">
+      <svg
+        viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid meet"
+        className="w-full h-full"
+      >
+        {/* grid */}
+        {yTicks.map((val) => {
+          const y = viewH - paddingY - (val / yMax) * usableH;
+          return (
+            <g key={val}>
+              <line
+                x1={paddingX}
+                y1={y}
+                x2={viewW - paddingX}
+                y2={y}
+                stroke="#c5a77d"
+                strokeWidth="0.4"
+                strokeOpacity="0.25"
+              />
+              <text
+                x={paddingX - 2}
+                y={y}
+                fontSize="3.5"
+                textAnchor="end"
+                dominantBaseline="middle"
+                fill="#e7e3d7"
+                style={{ fontFamily: "Inter, Helvetica, Arial, sans-serif" }}
+              >
+                {val.toLocaleString()}
+              </text>
+            </g>
+          );
+        })}
+
+        {/* trend line */}
+        <path
+          d={pathD}
+          fill="none"
+          stroke="#d9a441"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+
+        {/* hover dot */}
+        {hoverIdx !== null && weeklyMedians[hoverIdx] !== null && (
+          <>
+            {(() => {
+              const cnt = weeklyMedians[hoverIdx];
+              const x = paddingX + (hoverIdx / (weeklyMedians.length - 1)) * usableW;
+              const y = viewH - paddingY - (cnt / yMax) * usableH;
+              return (
+                <>
+                  <circle cx={x} cy={y} r="1.5" fill="#d9a441" stroke="#e7e3d7" strokeWidth="0.4" />
+                  <text
+                    x={x}
+                    y={y - 3}
+                    fontSize="3.5"
+                    textAnchor="middle"
+                    fill="#e7e3d7"
+                    style={{ fontFamily: "Inter, Helvetica, Arial, sans-serif", fontWeight: 500 }}
+                  >
+                    {Math.round(cnt).toLocaleString()}
+                  </text>
+                </>
+              );
+            })()}
+          </>
+        )}
+
+        {/* x‑axis title */}
+        {/* <text
+          x="50"
+          y={viewH - 0.5}
+          textAnchor="middle"
+          fontSize="3.5"
+          fill="#e7e3d7"
+          style={{ fontFamily: "Inter, Helvetica, Arial, sans-serif", fontWeight: 500 }}
+        >
+          Week
+        </text> */}
+      </svg>
+
+      {/* months underlay */}
+      <div
+        className="absolute bottom-0 left-0 right-0 flex justify-between text-[9px] text-[#e7e3d7] pointer-events-none select-none px-1 pb-1"
+        style={{ fontFamily: "Inter, Helvetica, Arial, sans-serif" }}
+      >
+        <span className="w-12 text-center">May</span>
+        <span className="w-12 text-center">Sep</span>
+        <span className="w-12 text-center">Jan</span>
+        <span className="w-12 text-center">May</span>
+      </div>
+
+      {/* interaction overlay */}
+      <div
+        className="absolute inset-0 cursor-crosshair"
+        onMouseMove={onMove}
+        onMouseLeave={() => setHoverIdx(null)}
+      />
+    </div>
+  );
+}
+
 export default function MusicWebApp() {
   const [rows, setRows] = useState([]);
   const [entries, setEntries] = useState([]);
@@ -157,8 +342,11 @@ export default function MusicWebApp() {
   const [cardShouldShow, setCardShouldShow] = useState(false);
   const [cardShouldHide, setCardShouldHide] = useState(false);
   const [error, setError] = useState(null);
+  const [hoverIdx, setHoverIdx] = useState(null);
   const graphRef = useRef();
   const listRef = useRef();
+  const [showInfoBox, setShowInfoBox] = useState(true);
+  const [listenedSongs, setListenedSongs] = useState(getListenedSongs());
 
   const sorted = useMemo(() => {
     if (!rows || !Array.isArray(rows)) return [];
@@ -181,6 +369,17 @@ export default function MusicWebApp() {
       return sortAsc ? comparison : -comparison;
     });
   }, [rows, sortField, sortAsc]);
+
+  // Calculate progress
+  const progress = useMemo(() => {
+    const total = rows.length;
+    const listened = Object.values(listenedSongs).filter(Boolean).length;
+    return {
+      listened,
+      total,
+      percentage: total ? Math.round((listened / total) * 100) : 0
+    };
+  }, [rows.length, listenedSongs]);
 
   // Add countWords function
   function countWords(text) {
@@ -348,6 +547,15 @@ export default function MusicWebApp() {
     };
   }, [showHero]);
 
+  // Chart mouse handlers
+  const handleChartMouseMove = e => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const xPct = ((e.clientX - rect.left) / rect.width);
+    const idx = Math.round(xPct * 52);
+    setHoverIdx(idx);
+  };
+  const handleChartMouseLeave = () => setHoverIdx(null);
+
   /* ---------- UI ---------- */
   return (
     <div className="relative bg-[#ede5d0] text-[#222] min-h-screen font-serif selection:bg-[#bfa77a]/60" style={{minHeight: '100vh', minWidth: '100vw', overflowX: 'hidden'}}>
@@ -368,26 +576,34 @@ export default function MusicWebApp() {
               style={{ background: 'linear-gradient(to bottom, #5a8fdc 0%, #a88b5a 100%)' }}
             >
               <div className="text-center px-6" role="banner">
-                <h1 className="text-4xl md:text-5xl font-serif tracking-wide text-white mb-6 drop-shadow-sm select-none">
+                <h1 className="text-5xl md:text-6xl font-serif tracking-wide text-white mb-8 drop-shadow-sm select-none" style={{ fontFamily: 'Georgia, serif', letterSpacing: '-0.02em', fontWeight: 300 }}>
                   Fussin' &amp; Lovin': A Year of Songs
                 </h1>
-                <p className="max-w-xl mx-auto text-lg leading-relaxed text-white">
-                  A year-long journey through American country from
-                  <span className="whitespace-nowrap"> Matt Radosevich.</span>
-                  <br className="h-4" />
-                  Collected by Osman Khan and Kevin Donohue.
-                  <br className="h-4" /> 
-                  Press any key to continue.
+                <p className="max-w-xl mx-auto text-xl leading-relaxed text-white space-y-4" style={{ fontFamily: 'Inter, system-ui, -apple-system, sans-serif', letterSpacing: '0.01em' }}>
+                  <span className="block mb-6">A year-long journey through American country from
+                  <span className="whitespace-nowrap"> Matt Radosevich.</span></span>
+                  <span className="block mb-6">Collected by Osman Khan and Kevin Donohue.</span>
+                  <span className="block">Press any key to continue.</span>
                 </p>
-                <div className="mt-10 animate-bounce text-white">↓</div>
+                <div className="mt-12 animate-bounce text-white text-2xl">↓</div>
               </div>
             </section>
           )}
 
           <header className="w-full pt-12 pb-4 flex justify-center items-center">
-            <h1 className="text-4xl md:text-5xl font-serif font-extrabold tracking-tight text-[#191414] drop-shadow-sm" style={{ letterSpacing: '-0.01em' }}>
-              The Fussin' and Lovin' Web Archive
-            </h1>
+            <div className="text-center">
+              <h1 className="text-4xl md:text-5xl font-serif font-extrabold tracking-tight text-[#191414] drop-shadow-sm mb-4" style={{ letterSpacing: '-0.01em' }}>
+                The Fussin' and Lovin' Web Archive
+              </h1>
+              <div className="text-[#c5a77d] text-lg">
+                {progress.listened === 365 ? "All done!" :
+                 progress.listened < 100 ? "Get Crackin'" :
+                 progress.listened > 300 ? "You've Almost Fussed Your Love!" :
+                 progress.listened > 200 ? "I'm proud of you buckaroo" :
+                 progress.listened > 100 ? "You Might But Could Do It" :
+                 "Get Crackin'"} ({progress.listened} / {progress.total})
+              </div>
+            </div>
           </header>
 
           <main className="relative z-10 pt-16 px-6 md:px-10 pb-16">
@@ -417,11 +633,8 @@ export default function MusicWebApp() {
                       if (idx !== -1 && listRef.current) {
                         const rowEl = listRef.current.querySelectorAll('tr')[idx];
                         if (rowEl) {
-                          // Custom smooth scroll with longer duration
                           const top = rowEl.getBoundingClientRect().top + window.scrollY - window.innerHeight / 2 + rowEl.offsetHeight / 2;
                           window.scrollTo({ top, behavior: 'smooth' });
-                          // Fallback for browsers that don't support smooth scroll
-                          // setTimeout(() => window.scrollTo(0, top), 1200);
                         }
                       }
                     }}
@@ -434,6 +647,7 @@ export default function MusicWebApp() {
                   <table className="w-full text-left">
                     <thead>
                       <tr className="border-b border-[#c5a77d]/40">
+                        <th className="py-2 pr-4 w-12"></th>
                         <th 
                           className="py-2 pr-4 w-24 font-extrabold text-[#191414] tracking-wide cursor-pointer" 
                           style={{fontFamily: 'Inter, Helvetica, Arial, sans-serif'}}
@@ -449,7 +663,7 @@ export default function MusicWebApp() {
                           Song {getSortIndicator('song')}
                         </th>
                         <th 
-                          className="py-2 pr-4 w-64 font-extrabold text-[#191414] tracking-wide cursor-pointer" 
+                          className="py-2 pr-4 w-32 font-extrabold text-[#191414] tracking-wide cursor-pointer" 
                           style={{fontFamily: 'Inter, Helvetica, Arial, sans-serif'}}
                           onClick={() => handleSort('date')}
                         >
@@ -463,7 +677,7 @@ export default function MusicWebApp() {
                           Artist {getSortIndicator('artist')}
                         </th>
                         <th 
-                          className="py-2 cursor-pointer font-bold text-[#191414] tracking-wide" 
+                          className="py-2 pr-4 cursor-pointer font-bold text-[#191414] tracking-wide" 
                           style={{fontFamily: 'Inter, Helvetica, Arial, sans-serif'}}
                           onClick={() => handleSort('album')}
                         >
@@ -491,11 +705,24 @@ export default function MusicWebApp() {
                             className="hover:bg-[#d9a441]/15 transition-colors cursor-pointer"
                             onClick={() => setSelected(row)}
                           >
+                            <td className="py-2 pr-4">
+                              <input
+                                type="checkbox"
+                                checked={!!listenedSongs[row.number]}
+                                onClick={(e) => e.stopPropagation()}
+                                onChange={(e) => {
+                                  e.stopPropagation();
+                                  toggleSongListened(row.number, listenedSongs, setListenedSongs);
+                                }}
+                                className="w-6 h-6 rounded border-[#c5a77d] text-[#d9a441] focus:ring-[#d9a441] focus:ring-offset-[#ede5d0]"
+                                style={{ accentColor: '#d9a441' }}
+                              />
+                            </td>
                             <td className="py-2 pr-4 font-medium text-[#191414]">{row.number}</td>
                             <td className="py-2 pr-4 font-medium text-[#191414]">{row.song}</td>
-                            <td className="py-2 pr-4 text-[#191414] w-64">{dateStr}</td>
+                            <td className="py-2 pr-4 text-[#191414] w-32">{dateStr}</td>
                             <td className="py-2 pr-4">{row.artist}</td>
-                            <td className="py-2 italic">{row.album}</td>
+                            <td className="py-2 pr-4 italic">{row.album}</td>
                             <td className="py-2 pr-4 font-medium text-[#191414]">{row.wordCount || 0}</td>
                           </tr>
                         );
@@ -525,7 +752,6 @@ export default function MusicWebApp() {
                           ctx.shadowColor = '#8b6b3a';
                           ctx.shadowBlur = 4;
                           ctx.fill();
-                          // Try own cover, then earliest, then placeholder
                           const img = coverImages[node.img];
                           const imgFallback = coverImages[node.imgFallback];
                           if (img && img.complete && img.naturalWidth > 0) {
@@ -533,7 +759,6 @@ export default function MusicWebApp() {
                           } else if (imgFallback && imgFallback.complete && imgFallback.naturalWidth > 0) {
                             ctx.drawImage(imgFallback, node.x - size / 2, node.y - size / 2, size, size);
                           } else {
-                            // fallback: colored circle
                             ctx.beginPath();
                             ctx.arc(node.x, node.y, size / 2 - 2, 0, 2 * Math.PI);
                             ctx.fillStyle = '#8b6b3a';
@@ -541,35 +766,43 @@ export default function MusicWebApp() {
                           }
                           ctx.restore();
                         }}
-                        linkWidth={(link) => Math.max(1.5, link.value)}
+                        linkWidth={(link) => Math.max(0.5, link.value)}
                         cooldownTicks={200}
-                        onNodeClick={(node) => setSelected(rows[node.id])}
+                        onNodeClick={(node) => {
+                          setSelected(rows[node.id]);
+                          setShowInfoBox(false);
+                        }}
                         d3Force="charge"
                         d3ForceStrength={-60}
                       />
                     </div>
                   </div>
-                  <div className="w-[500px] flex-shrink-0">
-                    <Card className="bg-[#1f2b38] border-[#c5a77d] h-full">
-                      <CardContent className="p-8 text-[#e7e3d7]">
-                        <h3 className="text-2xl font-bold text-[#d9a441] mb-6">About The Cork Board</h3>
-                        <div className="space-y-6 text-base leading-relaxed">
-                          <p>
-                            Each album cover represents a song in the collection. The connections between them show relationships:
-                          </p>
-                          <ul className="list-disc pl-6 space-y-3">
-                            <li>Strong red lines connect songs whose artists were mentioned in other songs' entries</li>
-                            <li>Medium lines show artists who worked on each other's albums</li>
-                            <li>Thinner lines indicate mentioned on the artist page</li>
-                          </ul>
-                          <p className="text-[#bfa77a] italic text-sm">
-                            Note: Some albums and connections are missing, particularly for obscure releases. I got other shit to do.
-                          </p>
-
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </div>
+                  {showInfoBox && (
+                    <div 
+                      className="w-[300px] flex-shrink-0 transition-all duration-300 ease-in-out"
+                      onClick={() => setShowInfoBox(false)}
+                    >
+                      <Card className="bg-[#1f2b38]/90 backdrop-blur-sm border-[#c5a77d] h-full">
+                        <CardContent className="p-4 text-[#e7e3d7]">
+                          <h3 className="text-lg font-bold text-[#d9a441] mb-3">About The Cork Board</h3>
+                          <div className="space-y-3 text-sm leading-relaxed">
+                            <p>
+                              Each album cover represents a song in the collection. The connections between them show relationships:
+                            </p>
+                            <ul className="list-disc pl-4 space-y-1.5">
+                              <li>Thickest red lines connect songs by the same artist</li>
+                              <li>Thick lines connect songs whose artists collaborated on albums</li>
+                              <li>Medium lines show artists mentioned in other songs' entries</li>
+                              <li>Thin lines show shared genres between songs</li>
+                            </ul>
+                            <p className="text-[#bfa77a] italic text-xs">
+                              Note: Some albums and connections are missing, particularly for obscure releases. I got other shit to do.
+                            </p>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  )}
                 </div>
               </TabsContent>
 
@@ -593,24 +826,23 @@ export default function MusicWebApp() {
                   </div>
 
                   <h2 className="text-2xl font-bold text-[#191414] mt-8">Thought Count Analysis</h2>
-                  <div className="grid grid-cols-1 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <Card className="bg-[#1f2b38] border-[#c5a77d]">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-[#d9a441] mb-4">Extremes</h3>
                         <div className="space-y-4 text-[#e7e3d7]">
                           <div>
-                            <div className="font-bold mb-1">Longest Entry:</div>
-                            <div>2,576 thoughts</div>
+                            <div className="font-bold mb-1 text-lg">Longest Entry:</div>
+                            <div className="text-xl">2,709 words</div>
                             <div className="text-sm italic">Yeh Jo Halka Halka Suroor Hai by Nusrat Fateh Ali Khan</div>
                           </div>
                           <div>
-                            <div className="font-bold mb-1">Shortest Entry:</div>
-                            <div>2 thoughts</div>
-                            <div className="text-sm italic">Silver Wings by The Knitters</div>
+                            <div className="font-bold mb-1 text-lg">Shortest Entry:</div>
+                            <div className="text-xl">19 words</div>
+                            <div className="text-sm italic">Nada by The Refreshments</div>
                           </div>
                           <div>
-                            <div className="font-bold mb-1">Average Entry:</div>
-                            <div>320 thoughts</div>
+                            <div className="font-bold mb-1 text-lg">Average Entry:</div>
+                            <div className="text-xl">394.87 thoughts</div>
                             <div className="text-sm italic">per song</div>
                           </div>
                         </div>
@@ -618,101 +850,8 @@ export default function MusicWebApp() {
                     </Card>
                     <Card className="bg-[#1f2b38] border-[#c5a77d]">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-[#d9a441] mb-4">Average Thought Count Per Week</h3>
-                        <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[28rem]">
-                          {(() => {
-                            // Use May 9, 2024 as the start date, each entry is a day
-                            const totalWeeks = 52;
-                            const weeklyAverages = Array(totalWeeks).fill(null).map((_, weekIndex) => {
-                              const startNum = weekIndex * 7 + 1;
-                              const endNum = (weekIndex + 1) * 7;
-                              const weekSongs = rows.filter(r => r.number >= startNum && r.number <= endNum);
-                              if (weekSongs.length === 0) return null;
-                              return weekSongs.reduce((sum, song) => sum + (song.wordCount || 0), 0) / weekSongs.length;
-                            });
-
-                            // Chart settings
-                            const yMin = 0;
-                            const yMax = 750;
-                            const paddingX = 2; // percent
-                            const paddingY = 4; // percent
-
-                            const valid = weeklyAverages.filter(v => v !== null);
-                            const maxCount = yMax;
-                            const minCount = yMin;
-                            const range = yMax - yMin;
-
-                            // Generate SVG path (skip nulls for gaps)
-                            const points = weeklyAverages.map((count, i) => {
-                              if (count === null) return null;
-                              // Add horizontal and vertical padding
-                              const x = paddingX + (i / (weeklyAverages.length - 1)) * (100 - 2 * paddingX);
-                              // y=0 is bottom, y=100 is top, so invert
-                              const y = 100 - paddingY - ((count - yMin) / range) * (100 - 2 * paddingY);
-                              return `${x},${y}`;
-                            });
-                            const [first, ...rest] = points.filter(Boolean);
-                            const path = ['M', first, ...rest.flatMap(p => ['L', p])].join(' ');
-
-                            return (
-                              <>
-                                <svg
-                                  className="w-full h-full"
-                                  viewBox="0 0 100 100"
-                                  preserveAspectRatio="none"
-                                >
-                                  {/* Grid lines */}
-                                  {[0, 1, 2, 3].map(i => {
-                                    const y = paddingY + i * ((100 - 2 * paddingY) / 3);
-                                    return (
-                                      <line
-                                        key={i}
-                                        x1={paddingX}
-                                        y1={y + '%'}
-                                        x2={100 - paddingX}
-                                        y2={y + '%'}
-                                        stroke="#bfa77a"
-                                        strokeWidth="0.5"
-                                        strokeOpacity="0.2"
-                                      />
-                                    );
-                                  })}
-                                  {/* Trend line */}
-                                  <path
-                                    d={path}
-                                    fill="none"
-                                    stroke="#d9a441"
-                                    strokeWidth="1"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                  {/* X-axis title */}
-                                  <text
-                                    x="50"
-                                    y={100 - 0.5 * paddingY}
-                                    textAnchor="middle"
-                                    fontSize="5"
-                                    fill="#e7e3d7"
-                                  >
-                                    Week
-                                  </text>
-                                </svg>
-                                {/* Y-axis labels */}
-                                <div className="absolute left-0 top-0 bottom-0 flex flex-col justify-between text-[#e7e3d7] text-xs" style={{paddingTop: '8px', paddingBottom: '8px'}}>
-                                  <span>750</span>
-                                  <span>0</span>
-                                </div>
-                                {/* X-axis labels */}
-                                <div className="absolute bottom-0 left-0 right-0 flex justify-between text-[#e7e3d7] text-xs">
-                                  <span>May '24</span>
-                                  <span>Sep '24</span>
-                                  <span>Jan '25</span>
-                                  <span>May '25</span>
-                                </div>
-                              </>
-                            );
-                          })()}
-                        </div>
+                        <h3 className="text-xl font-bold text-[#e7e3d7] mb-6 text-center">Median Thought Count Per Week</h3>
+                        <WeeklyChart rows={rows} />
                       </CardContent>
                     </Card>
                   </div>
@@ -848,7 +987,7 @@ export default function MusicWebApp() {
           )}
 
           <footer className="w-full py-6 mt-12 text-center text-[#bfa77a] bg-[#ede5d0] text-sm font-semibold border-t border-[#d6c7a1]">
-            © Osman R. Khan 2025. All rights reserved.
+            © Osman R. Khan 2025. All rights reserved. <a href="https://osmandi.us" target="_blank" rel="noopener noreferrer" className="hover:text-[#d9a441] transition-colors">osmandi.us</a>
           </footer>
         </>
       )}
