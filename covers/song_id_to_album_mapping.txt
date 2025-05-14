@@ -1,0 +1,262 @@
+38	1001
+1,163,279	Grievous Angel
+2,169,274	Lucero
+3,85,265,301	Our Mother the Mountain
+4	Luxury Liner
+5,359	Southern Rock Opera
+6,341	El Corazon
+7,241,347	Happy Woman Blues
+8	Sweetheart of the Rodeo
+9,255	6Volts
+10,138,209	Linda Ronstadt
+11,152	Walking Distance
+12,147	Snowblind Traveler
+13,33,162,238	Dust Bowl Revival
+14,362	No Depression
+15,67	Pretty Much Your Standard Ranch Stash
+16,297	Fizzy Fuzzy Big & Buzzy
+17	Flyin' Shoes
+18	Pale Sun Crescent Moon
+19	"After Awhile"
+20,285	Bloodlines
+21,323	What Comes After The Blues
+22,219,331	Strangers Almanac
+23,98,140,223,324	Everything You Thought Was Right Was Wrong Today
+24,132	Feels Like the Third Time
+25	Boat Songs
+26	The Outlaws
+27	[Single]
+28,90,176	Old No. 1
+29,143,268	Luke Bell
+30	Evangeline
+31	It's Great To Be Alive!
+32	Danny O'Keefe
+34	Guitars, Cadillacs, Etc., Etc.
+35,112,171	Too Far To Care
+36	Honky Tonk Heroes
+37,107,302,361	Lubbock (on everything)
+39	Manassas
+40,92	I Feel Alright
+41	West
+42,222	How Will the Wolf Survive?
+43,254	5'll Getcha Ten
+44	Through The Morning, Through The Night
+45,183,261,309	Down By The Old Mainstream
+46	Must've Been High
+47	High, Low And In Between
+48	Tigers Blood
+49,194	Train A Comin'
+50,355,357	Soul Journey
+51	Blue Kentucky Girl
+52	Mr. Bojangles
+53,136,246	Gangstabilly
+54	Electric Dirt
+55	A-1-A
+56	The Wild, the Innocent & The E Street Shuffle
+57	Honky Tonk 'N Blues
+58	Sidelong
+59	Red Headed Stranger
+60	Five Days in July
+61	Heart Like A Wheel
+62,139,269	Dem's Good Beeble
+63	Convict Pool
+64	Laid Back
+65,181,210	A Sailor's Guide to Earth
+66	Spirit of the Golden Juice
+68	Lost Dogs + Mixed Blessings
+69,164	Being There
+70	Joe Ely
+71	No Other
+72,258	Barbara Keith
+73	6th Street
+74	New Riders of the Purple Sage
+75	Nobody's Fool
+76	A Blessing and a Curse
+77	I Never Thought It Would Go This Far
+78,174,243,332	Cimarron
+79,141,317	Here We Rest
+80	Sailin' Shoes
+81	Jonathan Edwards
+82	East Nashville Skyline
+83	Not The Tremblin' Kind
+84,185	Pneumonia
+86	Last of the Better Days Ahead
+87	Green River
+88	Texas & Tennessee
+89	Trace
+91,321,321.5	Car Wheels On A Gravel Road
+93	Nothing's Gonna Change The Way You Feel About Me Now
+94	Jakes Xerxes Fussell
+95	Summer Brings the Sunshine
+96	Everybody Knows This Is Nowhere
+97	Big Iron World
+99	Fox Confessor Brings the Flood
+100	Mr. M
+101	Carolina Dreams
+102	The Horses and the Hounds
+103	12 Golden Country Greats
+104	Jerry Jeff Walker
+105	Hard In Heaven
+106,133,193,249,336	Townes Van Zandt
+108	Magnolia Electric Co.
+109,213	Ham Days
+110	The Caution Horses
+111	500 Miles Away From Home
+113	Gone Wanderin'
+114	Real Time
+115	Thirteen
+116	Renegade Picker
+117,177,244,319	Anodyne
+118,156	Roadmaster
+119	Too Stuffed to Jump
+120	Burrito Deluxe
+121,228,294,328	Decoration Day
+122,189,221,305	Saint Cloud
+123	The Bottle & Fresh Horses
+124	Giant Steps/De Old Folks at Home
+125	Mockingbird Time
+126,186	Dog Days
+127	Weird Tales
+128,340	Teatro
+129	Mowing the Leaves Instead of Piling 'em Up
+130	Hillbilly Deluxe
+131	Nobody Knows What You Do
+134,273	Reach For The Sky
+135,312	Transcendental Blues
+137	[single]
+142,318,334	Metamodern Sounds in Country Music
+144	Kristofferson
+145	Great Speckled Bird
+146,149	[outtake]
+148	Desire
+150	24 Hours a Day
+151	Faithless Street
+153	Blue Ridge Mountain Skyline
+154	World Without Tears
+155,333	John Prine
+157,354	The Late Great Townes Van Zandt
+158	Brighter Than Creation's Dark
+159	Presenting Johnny Western
+160	Infamous Angel
+161	For Everyman
+165	Little Feat
+166	Now That I've Found You: A Collection
+167	The Taker/Tulsa
+168	What Am I Gonna Do About You
+170,358	Bustin' Out
+172	Close to You
+173,245	Guitar Town
+175	Blacklisted
+178	Revival
+179	Paradise and Lunch
+180	By The Light Of The Moon
+182	The Lioness
+184	Jailbreak (Deluxe Edition)
+187,237	Room #23
+188	The Tree of Forgiveness
+190	The Notorious Byrd Brothers
+191	Joe Ely (2022 Remaster)
+192,271	Tom T. Hall - Storyteller, Poet, Philosopher
+195	Lets Cut The Crap and Hook Up Later Tonight
+196	Northern Lights-Southern Cross (Expanded Edition)
+197	Joan Armatrading
+198	English Oceans
+199	Heavy Ornamentals
+200	Searchin' for a Rainbow
+201	Laid Back (Deluxe Edition)
+202,236	Something More Than Free
+203,313	Dirt Farmer
+204,314	Quarter Moon in a Ten Cent Town (Expanded & Remastered)
+205	Trials & Errors
+206	Sweet Baby James (2019 Remaster)
+207,338	GP
+208	Pretty Horses
+211	Talking Dogs & Atom Bombs
+212	Shinebox
+214	Stumpjumper
+215	Trace (Remastered)
+216	The Saint Of Lost Causes
+217,299	The Low Highway (Deluxe Edition)
+218,330	Delta Momma Blues
+220	The Flying Burrito Brothers
+224	Roses in the Snow (Deluxe Edition)
+225	Ol’ Sundown
+226	The Live Album
+227	Time (The Revelator)
+229	At My Window
+230,260	Sweet Revenge
+231	Sweetheart Of The Rodeo
+232	Rarities, B-Sides and Slow, Sad Waltzes
+233	Satellite Rides
+234,287	Poor Little Critter on the Road
+235	Fox Confessor Brings The Flood (Bonus Track Version)
+239,344	Juarez
+240	Away Out On The Mountain
+242	Flowers and Liquor
+247	Back Roads
+248	Dublin Blues
+250	My Life
+251	Best Of Cowboy Junkies
+252	Josephine
+253	Tramp On Your Street
+256	OH (ohio)
+257	Jonathan Goes Country
+259	O'Keefe
+262	Sweet Old World
+263	Blue Kentucky Girl (Expanded & Remastered)
+264	Harlem River Blues
+266	Hotel Parties
+267	Sammy Walker
+270	Silver & Gold
+272	Sweet Somewhere Bound
+275	Pizza Deliverance
+276	No Deeper Blue
+277	Silk Purse
+278	Love Will Turn You Around
+280	Texas Cookin
+281	In Spite Of Ourselves
+282	Pontiac
+283	Drag It Up
+284	March 16-20, 1992
+286	Nashville Obsolete
+288	Photographs
+289	Duets
+290	Lucky Strikes and Liquid Gold
+291	Best of Ustad Nusrat Fateh Ali Khan
+292	Chet Atkins - The Master And His Music
+293	Surrender To The Rhythm
+295	Eat A Peach
+296	Home With the Armadillo
+298	The Party Never Ends
+300	Road Apples
+303	Don't Cry Now
+304	Greasepaint Smile
+306	Gene Clark Sings For You
+307	Windsong
+308	Rock Salt And Nails
+310	How Lucky
+311	Doug Sahm And His Band
+315	American V: A Hundred Highways
+316	The Silos (Bonus Track Version)
+320	Phases And Stages
+322	Old 97's & Waylon Jennings
+325	Angels Are Falling
+326	Knockin'
+327	The Lights from the Chemical Plant
+329	After Awhile
+335	White Light
+337	Earthwords & Music
+339	Magnolia Electric Co. (Deluxe Edition)
+342	Luxury Liner (Expanded & Remastered)
+343	The Marshall Tucker Band
+345	Barrel Chested
+346	High, Low and In Between
+348	Too Far to Care
+349	Gringo Honeymoon
+350	Highway Prayers
+351	The Dirty South
+352	Heart Like a Wheel
+353	Shotgun Willie
+356	Living in the USA
+360	Sorry You Couldn't Make It
+363	Pieces of the Sky (Expanded)
