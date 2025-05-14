@@ -7,7 +7,7 @@
 /coverage
 
 # production
-/build
+# /build  # Temporarily commented out for gh-pages cleanup
 
 # misc
 .DS_Store
