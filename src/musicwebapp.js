@@ -579,7 +579,7 @@ export default function MusicWebApp() {
                 <h1 className="text-5xl md:text-6xl font-serif tracking-wide text-white mb-8 drop-shadow-sm select-none" style={{ fontFamily: 'Georgia, serif', letterSpacing: '-0.02em', fontWeight: 300 }}>
                   Fussin' &amp; Lovin': A Year of Songs
                 </h1>
-                <p className="max-w-xl mx-auto text-xl leading-relaxed text-white space-y-4" style={{ fontFamily: 'Inter, system-ui, -apple-system, sans-serif', letterSpacing: '0.01em' }}>
+                <p className="max-w-2xl mx-auto text-xl leading-relaxed text-white space-y-4" style={{ fontFamily: 'Inter, system-ui, -apple-system, sans-serif', letterSpacing: '0.01em' }}>
                   <span className="block mb-6">A year-long journey through American country from Matt Radosevich.</span>
                   <span className="block mb-6">Collected by Osman Khan and Kevin Donohue.</span>
                   <span className="block">Press any key to continue.</span>
