@@ -10490,5 +10490,25 @@
     "genres": [],
     "wordCount": 357,
     "is_tragic": 0
+  },
+  {
+    "number": 365,
+    "song": "Only Him or Me",
+    "artist": "Townes Van Zandt",
+    "album": "Delta Momma Blues",
+    "spotifyLink": "https://open.spotify.com/track/5g0QhEDLGS2yPxZ8z0XCHf",
+    "artistWiki": "https://en.wikipedia.org/?curid=292709",
+    "albumWiki": "https://en.wikipedia.org/wiki/Delta_Momma_Blues",
+    "relatedArtists": {
+      "album": [
+        "Townes Van Zandt"
+      ],
+      "other": [
+        "Townes Van Zandt"
+      ]
+    },
+    "genres": [],
+    "wordCount": 163,
+    "is_tragic": 1
   }
 ]
