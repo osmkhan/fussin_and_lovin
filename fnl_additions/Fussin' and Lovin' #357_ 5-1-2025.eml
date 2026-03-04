@@ -1,0 +1,214 @@
+Delivered-To: osmanrkhan@gmail.com
+Received: by 2002:a05:6504:c27:b0:28e:d210:bd01 with SMTP id r39csp1207278ltt;
+        Fri, 2 May 2025 21:22:44 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCVgw1tiMyNmBslBbcYBGXAGOZcl+gxQV8mTDfdpXhsdtAdyKgYpat+jp2vIbI+X+0xaJ5ycSOvnNBzc@gmail.com
+X-Received: by 2002:a17:906:c14e:b0:acb:5f17:623d with SMTP id a640c23a62f3a-ad17ada647emr480537566b.24.1746246164265;
+        Fri, 02 May 2025 21:22:44 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1746246164; cv=none;
+        d=google.com; s=arc-20240605;
+        b=HSt2DminGxDo/S8Ei0Zlg9/95PeXv6LtXSITNg4XJsaRvUG4fXbOrsqTzVjpCvHqmQ
+         CSvjFeAyqGS4U2qRhM5m1hXWA3hyaLwWVVym93C2TNjFj1bC028PVJiWYqrKGMpZXxST
+         2b/NipU23CoVlVKIIB5ARh9jgVujfV8RV9IU2ucaoz5Sh1FBsXPCbWIYlbM0knz46aEq
+         H2eRQ/JXeDSF01FdCI7MtCvoSH4Ns0X4THgo9CEGhYR+HvbSr7fQbcfiSiZ+IzVqYbtX
+         rk9xUQzWgyEZVJrYShRyq/O5lWDyFpFSiy5L2k1qfUsgcnb+c7bRA4B3fzdTLJF8Hdk9
+         BW/w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=OjAaTlOPRygvJdd1nWzk5iOjx3ZIIYk5dXCoOFWP++c=;
+        fh=cUTNblJSQ860FyUBK415V0aVy4pH5KucuUvASQdcm/k=;
+        b=eY81ftjvYZczEWp+FxRJ0CV0ilyWM8IHb+7nuOkJ2yxVIq99re0YGXy/CacwGH4XSw
+         Poz7Rwjcx0wvHO+eswDbKErcmG/OeDamvWvGBiL3tSo85SVEpcUjAwU0xxJfZrO6DOBW
+         8YXFwT7+zN4W9RzFhWuffR8DyOkA0QwGl+Mv6bt3f7VH6IvaitC/sN+54GsRfKlbM8R7
+         z//qoHdhxFW6sQFXxfL4ZXNyK650LFd4pWzIsAC4glahOCrU1sZrfREc0EqtIRrgk+nf
+         Y0+qKsdg4lgRIfVw1I2piG1YGYYHmGNSIAAqCp8eWDYmPfZzcciKh+0UJRhE7CQ9FuZc
+         1how==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b="EwU/golw";
+       spf=pass (google.com: domain of kevinohue@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kevinohue@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <kevinohue@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a640c23a62f3a-ad0bede3e9fsor208292466b.0.2025.05.02.21.22.43
+        (Google Transport Security);
+        Fri, 02 May 2025 21:22:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kevinohue@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b="EwU/golw";
+       spf=pass (google.com: domain of kevinohue@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kevinohue@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1746246163; x=1746850963; dara=google.com;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:from:to:cc:subject:date:message-id:reply-to;
+        bh=OjAaTlOPRygvJdd1nWzk5iOjx3ZIIYk5dXCoOFWP++c=;
+        b=EwU/golw0D6l99eLrtWKmWqtCHqI8Z5MwIUfeix7PLx2ZlHxaD4EkzWUbHiYA+Vcl3
+         n2TUJ2G6yfo0Z/mxV27VMgST5v72hleoVeSJ48aQ7QckGYE2GHR9ZywYVIDyMV6CVVQP
+         UtjWI1oo4iat0bfmOcrxwPeaa5b7q52vEd1j3jxygb9HdM7Oc27YHcwEKKboqsH87BVb
+         v5j9nTkM8y8Eassnx6cA2xFxEF59cAdRXV6RRB3IeQc4gPZak/n3pJUZ6xFFYIkvkvdv
+         EA7+IUbc/aVD3OHmK/KDPG95n6u8B75i5xouVwxf7AL1rWh6ri9BE5Nv4tB0e9lkwZGv
+         HZhQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1746246163; x=1746850963;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=OjAaTlOPRygvJdd1nWzk5iOjx3ZIIYk5dXCoOFWP++c=;
+        b=oKF6gJlRf81Xen6uLtNuUqHEGY3SG8nQmP8c2jldaWWui96//PB47BrnAhfwv/T4Rj
+         Zxg7QS8hMjlahAKQj88KmIAdqYpKCMYKqWF/fsGXyJo5lHSd9XDxlpmoQQjjg7iVC8Nu
+         M1AJrllcPVZX31XdPigY9FYd3J06qUHdkBzwjGoJiNidup/0EZlQUcMN8eVxcqfG7Tef
+         +cBkE+NRFtUn+mU2zh2I5jU6nrr7+F5MPArrjXP3vxeU56rItMRr6xBFkMxKbPvaAvPM
+         XcO4paefqd8vkQeOC5+GH1EAswm9kXUKWqx1tf+JTeRRrOI7ghGxAstCkcCpwOhfST2U
+         tc0A==
+X-Forwarded-Encrypted: i=1; AJvYcCU4RWN3FD/adzYNjR5jqPbfWlAznENwQkvxNccVHI+j8tL/4nPahPTaxZfG6HsC8fzAyB//7vcWXJ1NDkIvMCJq@gmail.com, AJvYcCU4kIvoDXfeKt/cWcx4SCHH14kZLPS76jKKhtvYSN7empaiMteJZ/l0FswfUTHVp5/f3qyDwBTacy1XsYPxMNk5@gmail.com, AJvYcCUbJXsyOTbWLUUq+2Ppyyfmzwxvva7Z6zlYugSoiKu3OHHGofQwxu/p/GQNjpjNwfi1vUdG2Dv15mRRgw==@gmail.com, AJvYcCUhCUCr683UxMH9IFLj91/+zSumor8yrMjEdEc1QnJfHd1a6vS96AFVIBJMu19H8ECc4wXtSw2arBt+7Nk=@gmail.com, AJvYcCUin2KGBdDsyWqYrKODRdWruOiaBDz95TvREBmas6/Cps9lvt63wfh+cmkeVMAl+GtrKUSvZqMnUCc=@gmail.com, AJvYcCUm11NUMuIoTZRy8sHSdyCP/FF2oOLKN36ANEZdg6BxBuwZoOq6c4w1B+yerHiMmmP5pxslszfVB+h6ip8Z@gmail.com, AJvYcCV7J0qRKlZr0LcLh4ZYeQK8zi+xT8z6tJCbF2sW0skibVpJNAA08P2CP/cssKRESEdY9cWP5Yrwtk+L@gmail.com, AJvYcCVAi+MvH2SbcQVaqITD9j/mUmztD7XeoG0dXkcRqPfWQRKtCoEKntZaqASThA81Gupw9aUZRzRdrNU75A==@gmail.com, AJvYcCVDL9rkX/yWtymNBXImPYwqJ9ZWER6ChLKJBHnJvsSthJRewCast3guXIzxtZRjew9z0Hg3zIssCaMWPg==@gmail.com, AJvYcCVVPwhJIjkdjTivfq5fqcwedGnAGadX5u8/6uviteOJoELvbye63Q3Vx9zWfThgv9/wOCP2CtON7g==@gmail.com, AJvYcCVp5B/7hpFsu0bnI8OoyxCo7yPgrDOpZrTMIzyCpE09IRjCYbhSrOoSq3LxowNtCtPi9ooCdzwZrA==@gmail.com, AJvYcCVtIeoYzCpJL57vPt9Px6nYjARz2h1dWwwORDpJjdGVXNOgQS+y0wgk/OE7mxcSj9CBWv5ltD+hr216Lg==@gmail.com, AJvYcCW+WlMNYep9vlZ5EFbhMxLKcJUgssGcmIOqasDqe4sA1eyqnIxwBOZAlYTV/fCvYUe79ZqTwo5WvQ==@gmail.com, AJvYcCW4ZIDVjmZ3/hDFatHMg9qJluGECspfcE1FPp1Guc+acvUXhsn3nha3FaD0+UwhS543mxxs3GAZlzOjdZNq4cC06OSWHSAJjD4INw==@gmail.com, AJvYcCWI8HyGaaFPq6kjhbG+lRBAyhzE40rVkrK9nm6oI5S3BrVJeWfGcweyrjQtbx4hEB6dMnOQK0CuLpU=@gmail.com, AJvYcCWPBkv6pjdJsmfBVXooqKiVOwLM8uVWYojUptFzF5qIYtpW3TxJOosP/5WnT6AvUuVQIUR9fUGbnvXKnXJAag==@gmail.com, AJvYcCWVUeeQ4eEgcAoMgT3tniaGQJ+4REkNtZepQ6hTRaR6c8yO+qPpLR2i2KLtfscSvUHgkO5DSA4BTjV+33A=@gmail.com, AJvYcCWZZdQYVPwlFNETA2qN+9ZWqPelTBEXQwJmHEMTWYFmPE6R7mAaYnrOhuFNatQbZN0si56ccE/tpCULYA==@gmail.com, AJvYcCWg3alTHfI09nw1e6xExJbiaQRgbTAIW+UTcvKyhAlRo6fyzVhvwVARtH5lPEvclfPCD7GEIsAXZfUp@gmail.com, AJvYcCWhjIXNi4pFQqh+IdK2wBaU/qdH4keBQPAhw2IYFXaZHQjXA2kzIbv6ZdxnO6M7YBKsrzAFDzxO5xjbAw==@gmail.com, AJvYcCWkPhl02lnvCZWVu/+Ju8DawR/XdKteSWoBJhwkF9GUvoP/nlzaU8DvQYGEjhfj89GzIJ3DsUQi9/UirNnSpiFHMUhU@gmail.com, AJvYcCXfniVL07V3L8/FHfUtKvm0fMu0g6xHUfc/STWbGDicw6vi6PmHBWuK6JwoxPBnt8ks/hP9qW2bX57eY3b1CCU=@gmail.com, AJvYcCXtIvLAqvUDcs3AtrLs4B8It1aq+U1N/S5hfoG0I3M6TbYFDwn+rDhJ1Xmsu7j2dJYtkYESPcETxQafhapkDOH4@gmail.com
+X-Gm-Message-State: AOJu0YzlutaBoXDO4RALFiKQppJvlnvCj1tRe143tJurzXocPEdfdpfD
+	10deAefjLyXZQzIeVGeo+vgTrkKfzM9q4Hh+HDuKC2eHJZNbJD2LXt6REQgzzj9Q2Maz3SwepIB
+	dHxrrT9l5bMmVQY36v+1ZAg/90tlf6eOm
+X-Gm-Gg: ASbGncvUC/KAXXBEzZEvtM2Oniy8ZZ6VOncN6zHD2NUp4Bm1x+mg5/uLVlk9y6F9uOy
+	3XU7MdU9NyyF6dLviTMw/qfkHJ5R/I724Oy60ntNj1oxgRQ5oh/XGa10yZdaPpFwCniuLuMaXVM
+	ca2oNMPlUC/kLTMVN99I7+
+X-Google-Smtp-Source: AGHT+IHDVshP/8OsnN989vs0tUhUzfez53NQtciL+KThFv5j3PwFKaMFf+EqxnpYfjrMuzWrap5Eql+pn6t6FNg4TiM=
+X-Received: by 2002:a17:907:3c92:b0:ace:c225:c723 with SMTP id
+ a640c23a62f3a-ad17ad1a245mr566339966b.12.1746246163115; Fri, 02 May 2025
+ 21:22:43 -0700 (PDT)
+MIME-Version: 1.0
+References: <CALgwm-w6nwLFXRB7yBoDUsLxQOf8aLfqjmmps8-92peVK9LjYQ@mail.gmail.com>
+In-Reply-To: <CALgwm-w6nwLFXRB7yBoDUsLxQOf8aLfqjmmps8-92peVK9LjYQ@mail.gmail.com>
+From: Kevin Donohue <kevinohue@gmail.com>
+Date: Sat, 3 May 2025 00:22:31 -0400
+X-Gm-Features: ATxdqUH43v_cnM4x88cNKqGvfw7rxdTeZ5Lp9rBd0-qLHjO0tHtXpQGFEgtwXW8
+Message-ID: <CAN9vX1-y8eNdzDyBQ4FSQ8USshGNke10RQ7GSUPMD2iz093Jsg@mail.gmail.com>
+Subject: Re: Fussin' and Lovin' #357: 5-1-2025
+To: Matthew Radosevich <matt.j.radosevich@gmail.com>
+Cc: Nathaniel Alden <nat.a.alden@gmail.com>, Zachary Berkow <zberkow@gmail.com>, 
+	Ethan Call <call.ethanr@gmail.com>, Will Hileman <will.st.hileman@gmail.com>, 
+	Ethan Cook <ethancook133@gmail.com>, Lucas Thorsness <lucasjthorsness@gmail.com>, 
+	Rhylan Huss <rhylanhuss@gmail.com>, Eli Bryant <helib5.EB@gmail.com>, 
+	William Kozlowski <whatthewtk@gmail.com>, Elizabeth Rieger <erieger98@gmail.com>, 
+	Timothy Messen <tmesyan@gmail.com>, Willthethe@gmail.com, 
+	Ruthie Nordhoff <ruth.nordhoff@gmail.com>, Sean Madden <maddensean1234@gmail.com>, 
+	abigailjohnson2317@gmail.com, Osman Khan <osmanrkhan@gmail.com>, ericvrh@gmail.com, 
+	Christopher Cartwright <christopher.cartwright123@gmail.com>, andrew.julian.sasser@dartmouth.edu, 
+	Rachel Kent <rskent21@gmail.com>, kldoyle0317@gmail.com, sfspada1@gmail.com, 
+	sean.h2503@gmail.com, Oceangw2016@gmail.com, khudgensfuqua15@gmail.com, 
+	Duncan <noahduncanreid@gmail.com>, francesshushok@gmail.com, 
+	Austin Sheffer <austinlshe@gmail.com>, Katharine Ogden <katharine132@gmail.com>, 
+	Jack Greene <zollicoffer2016@gmail.com>, ctymm97@gmail.com, wrt6af@virginia.edu, 
+	ethanlsmith20@gmail.com, michaelschedin@gmail.com, 
+	Gavin Worden <gwmansel@gmail.com>, marleighdunning@gmail.com, wolffabi@msu.edu, 
+	Hunter Dominick <hunterdom1997@gmail.com>, Nicholas Samel <nicholas.s.samel@gmail.com>, ggeier4@gmail.com, 
+	anniecp14@gmail.com, twork424@yahoo.com, Samuel Fay <smafay6@gmail.com>, 
+	jed4est@gmail.com, Olivia Del Guercio <delgur@gmail.com>, saknutson89@gmail.com, 
+	derrickhsalvatore@gmail.com
+Content-Type: multipart/alternative; boundary="0000000000003e329c0634339edb"
+
+--0000000000003e329c0634339edb
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Read and weep (after you've read and wept to the actual write-up)
+
+On Fri, May 2, 2025 at 12:59=E2=80=AFAM Matthew Radosevich <
+matt.j.radosevich@gmail.com> wrote:
+
+>
+> *Don't remember if I ever followed up, but recall the Spotify Wrapped
+> sweepstakes from F&L #209 (scoring points in descending value for every F=
+&L
+> song on your 2024 top 100). Kevin blew the competition away with a whoppi=
+ng
+> 3885/5050, compared to *my *paltry 3392. I still owe him a piece of art.
+>
+>
+>
+
+--0000000000003e329c0634339edb
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Read and weep (after you&#39;ve read and wept to the =
+actual write-up)</div><br><div class=3D"gmail_quote gmail_quote_container">=
+<div dir=3D"ltr" class=3D"gmail_attr">On Fri, May 2, 2025 at 12:59=E2=80=AF=
+AM Matthew Radosevich &lt;<a href=3D"mailto:matt.j.radosevich@gmail.com">ma=
+tt.j.radosevich@gmail.com</a>&gt; wrote:</div><blockquote class=3D"gmail_qu=
+ote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,20=
+4);padding-left:1ex"><div dir=3D"ltr"><div dir=3D"auto"><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><p style=3D"line-height:1.38;margin-top:0pt;=
+margin-bottom:0pt"><font size=3D"2"><span style=3D"font-family:Arial,sans-s=
+erif;color:rgb(0,0,0);background-color:transparent;font-weight:400;font-sty=
+le:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;=
+white-space:pre-wrap" id=3D"m_6703722636959539866m_897108060619062504m_7787=
+514426592903829m_-1011361292862308505m_5119695313897927889m_496569329928892=
+1107m_-8980795100411866781m_-2508850755588961235m_2405179080213742824m_-665=
+0876136763173832m_1751122626767291560m_-1051740425979971604m_-1930888595748=
+044887m_-7891057450297913281m_9058722857756458316m_-4427423083974547995m_-3=
+245874359643052090m_4428801795585265242m_-8090672172217709922m_509542601703=
+9228035m_-8168810678895269813m_-4565704757810957384m_7899340545089286899m_-=
+9165192245291412438m_6552717947617542323m_6734037798577244595m_-22767606102=
+57574939m_-2061449532682719379m_9044468720654732618m_4689906371050844841m_9=
+34431758652893704m_-4376085844236887435m_-5753728872789458542m_580427849577=
+639557m_7785442833011414552m_8095260641427507974m_8395427169094432154m_4908=
+03070326689928m_5158884620733164823m_-552808110889364729m_-2427910839546012=
+493m_837676444276455847m_-2676625306071310933m_-6194578584620585093m_-37071=
+26772474036616m_4740225970667768927m_-1863995171877503175m_4939424228119572=
+146m_6418534495657351022m_-7084137227362510418m_-2461808410290452425m_44907=
+0419817032424m_2630428318356666422m_7112144120960917193m_132427770317328620=
+2m_-5665847441304095333m_7300634627430626321m_-2459174677090915547m_-898266=
+831619344592m_-8619280073918409098m_4022946960571545242m_469482707366266912=
+0m_-3912828310976965177m_658096234604509260m_-4774392755179430350m_51376280=
+09905946185m_8598748095921578204m_-8136073305129228635m_-106609160853182232=
+4m_-4373760490008962386m_-7434375069243639094m_-9174860069918937752m_915804=
+1425870678759m_-8160032229830676834m_8702733489111942181m_65147739436513871=
+85m_6538534765153351990m_-972315653576243071m_1054847695392641654m_96885097=
+1568824980gmail-docs-internal-guid-8bb3b159-7fff-26d2-10fc-f416582f21c6"><b=
+r></span></font></p><p style=3D"line-height:1.38;margin-top:0pt;margin-bott=
+om:0pt">
+</p><p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font si=
+ze=3D"2"><span style=3D"font-family:Arial,sans-serif;color:rgb(0,0,0);backg=
+round-color:transparent;font-weight:400;font-style:normal;font-variant:norm=
+al;text-decoration:none;vertical-align:baseline;white-space:pre-wrap" id=3D=
+"m_6703722636959539866m_897108060619062504m_7787514426592903829m_-101136129=
+2862308505m_5119695313897927889m_4965693299288921107m_-8980795100411866781m=
+_-2508850755588961235m_2405179080213742824m_-6650876136763173832m_175112262=
+6767291560m_-1051740425979971604m_-1930888595748044887m_-789105745029791328=
+1m_9058722857756458316m_-4427423083974547995m_-3245874359643052090m_4428801=
+795585265242m_-8090672172217709922m_5095426017039228035m_-81688106788952698=
+13m_-4565704757810957384m_7899340545089286899m_-9165192245291412438m_655271=
+7947617542323m_6734037798577244595m_-2276760610257574939m_-2061449532682719=
+379m_9044468720654732618m_4689906371050844841m_934431758652893704m_-4376085=
+844236887435m_-5753728872789458542m_580427849577639557m_7785442833011414552=
+m_8095260641427507974m_8395427169094432154m_490803070326689928m_51588846207=
+33164823m_-552808110889364729m_-2427910839546012493m_837676444276455847m_-2=
+676625306071310933m_-6194578584620585093m_-3707126772474036616m_47402259706=
+67768927m_-1863995171877503175m_4939424228119572146m_6418534495657351022m_-=
+7084137227362510418m_-2461808410290452425m_449070419817032424m_263042831835=
+6666422m_7112144120960917193m_1324277703173286202m_-5665847441304095333m_73=
+00634627430626321m_-2459174677090915547m_-898266831619344592m_-861928007391=
+8409098m_4022946960571545242m_4694827073662669120m_-3912828310976965177m_65=
+8096234604509260m_-4774392755179430350m_5137628009905946185m_85987480959215=
+78204m_-8136073305129228635m_-1066091608531822324m_-4373760490008962386m_-7=
+434375069243639094m_-9174860069918937752m_9158041425870678759m_-81600322298=
+30676834m_8702733489111942181m_6514773943651387185m_6538534765153351990m_-9=
+72315653576243071m_1054847695392641654m_968850971568824980gmail-docs-intern=
+al-guid-8bb3b159-7fff-26d2-10fc-f416582f21c6">*Don&#39;t remember if I ever=
+ followed up, but recall the Spotify Wrapped sweepstakes from F&amp;L #209 =
+(scoring points in descending value for every F&amp;L song on your 2024 top=
+ 100). Kevin blew the competition away with a whopping 3885/5050, compared =
+to <i>my </i>paltry 3392. I still owe him a piece of art.</span></font></p>=
+<p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"></p></div></=
+div>
+
+<br></div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</blockquote></div></div>
+
+--0000000000003e329c0634339edb--

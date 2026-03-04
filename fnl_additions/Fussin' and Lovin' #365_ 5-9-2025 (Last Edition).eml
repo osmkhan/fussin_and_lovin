@@ -1,0 +1,471 @@
+Delivered-To: osmanrkhan@gmail.com
+Received: by 2002:a05:6504:1d2:b0:2b0:7e6a:88af with SMTP id e18csp2951531ltn;
+        Fri, 16 May 2025 18:21:11 -0700 (PDT)
+X-Received: by 2002:a05:690c:3686:b0:70a:192d:103 with SMTP id 00721157ae682-70ca7a5752fmr82009467b3.28.1747444871102;
+        Fri, 16 May 2025 18:21:11 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1747444871; cv=none;
+        d=google.com; s=arc-20240605;
+        b=WEmslG1f2PbDx6UZPOkqV28cZ8UWmYwdgU2cI6/tK4Nbv3+M/UZUd0Ph6G1DNqH0u8
+         g/wYJtp6h88MAyPBmhQbOz0JTMisH7C75+l8fsl/e8JerfQGsjDA1i+7ovq1Y7uI1uZZ
+         izUZVq4O/ps9pv9vx8P/j1TbRykGTfrjNOgpN0s5xy1XnSrWVvKq7QMcd4r1+cUihe23
+         psDOgM/Up2BvPCuVtg9LUjDGTzPYt9RwkfRJtIclVHMqTOj1wntejCCMIlBp2CBwH/F4
+         dG2r1nPgaoGbQSxUAYCkWBOyWWXDOuUmA2ONURG+QCg3leaqQzUWeyDBSiuGNwE7iDc3
+         Z5qA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=KGF7hV3TEkpA22mvFsiMIew6zPAGXrw8jsnevC7flUc=;
+        fh=rXmFTQIdbO0nD10QuvzG2nrign2K7SJhhyo7lN2r6Z0=;
+        b=BbnJow8FNoKUVJpk2of9Kivm0YQPezSs28zRgGnWlkIdjzY34eZrV5s42UmqtCF/0i
+         Q6vy0bh11y/dM0kfTVW7sxTm+9hoXYJ4pOZGqEELq3PFejCTB1wVDF6dsljzcTGjZJ8q
+         BjqmM7m2KCMmjbEbw5/84Yqgl5KKwnfMj/61tOYEaaoPlrfd1pD6j/WYO2rt28TI3orM
+         J7P9d8LzxQKLBM3HtACRgFzfUgqmUNya2B+RqQ8QkFyn6e8rmSnFL75R3KV5RWgP0rhJ
+         y/q2oAP9U3bQvkezseEPd3RJBSvvGPwB9UGS1EgNxRiYjhdCtWfs/+V6m/vwKdFRWH/v
+         CnmQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=ihrbAGiq;
+       spf=pass (google.com: domain of matt.j.radosevich@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=matt.j.radosevich@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <matt.j.radosevich@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 00721157ae682-70ca810e072sor21913297b3.0.2025.05.16.18.21.10
+        (Google Transport Security);
+        Fri, 16 May 2025 18:21:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of matt.j.radosevich@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=ihrbAGiq;
+       spf=pass (google.com: domain of matt.j.radosevich@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=matt.j.radosevich@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1747444870; x=1748049670; dara=google.com;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:from:to:cc:subject:date:message-id:reply-to;
+        bh=KGF7hV3TEkpA22mvFsiMIew6zPAGXrw8jsnevC7flUc=;
+        b=ihrbAGiqUS7UahlnKJiJip1GZryJhyq/wG36uSCAVaovrzWBPrHpO6VXS5X9EQ3D47
+         kMKZl19t9869dMEjVgfAb11xlOyUKlFBjl35KY1vn7OfkO9p2JRnNLyYm4TlsLVL0ljb
+         fSwdcAh//laScUwI9WgAVWuJZgNCBagDw7vtV66VZcB1rUtdFti1fqYojMaiE4EGDRi1
+         j2g4Bsup6sOSVvzMoGqdQCQd0BlsmELiRY3XE01UPmf73Wl8cshnQfE5CV2hhKIkccST
+         HywHbxkmDD0P7oJPFqX4CdEVky46f0i1ZaGg0c7Jvm3w4DIX++GDXpUs/RtPACWVJKJb
+         YOVQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1747444870; x=1748049670;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=KGF7hV3TEkpA22mvFsiMIew6zPAGXrw8jsnevC7flUc=;
+        b=dRS/WlqHS24FcxmZUA22qLbxir3DLtUqG62uQ4ht148Scr1sk972xByhOBrGQw0n8g
+         KjSA2U1DM/Y5y6GOlcC4LBsgmgDnSBlv6bN5+7TT6m+6WPu4rfIQI3aNMjNWSXs5dkw5
+         pW4POAYkXWu3WXq2RfVX5LVNQEY+EpZ91kWnId1hid3SJAMa+Ffu8++BfhudPM0xTAKk
+         gstaRzy56KKQvszeb/ibEFcZQyeKUeSeYUpLhdk0VxWXWIYej2j+Z+Qt/4E7RE2k28N1
+         +yBOih14VjgXU3wa/X4kkkunCxx7q/EdThe2U5TZQVKg9e1iFklTMw4+HAdW9/4BxoMY
+         iGqw==
+X-Forwarded-Encrypted: i=1; AJvYcCU/OMrfaJTt9ejbMX2VQB1gjx0OqgvcqtzGLOM5nBFRMgVZ/NHk0NUdqBCrf4JQQsxjcLgiJe4/WyxF@gmail.com, AJvYcCUDP8nI/ks/DgnRLbq+0Iil82jp/SSA/hHECueqtYKup0wMEoIHMUJBPF5qxvVI0mEZ8fBUxs+VP2+SeA==@gmail.com, AJvYcCUUxohWjzoK04gw89jj+DM7BMnscFzLuB6uNWSLFAwJJMWhltDiKAApwpeHWlVPQaBJo1bn2RBZlr0+4Q==@gmail.com, AJvYcCUj26BwX9fmyOditM7vSUp8vvzHL96+BfQmdMTydwU00FPDtjSJ4uCzamwSKSL84EYD4RXN39v7BA==@gmail.com, AJvYcCUmad+eaiwdSU/W+RJ93BbttpdzRcp4HjRAvy6t4iXjNq+QT1GxDMj42mFtqFlaCYOuaPjQLFwGHKKF@gmail.com, AJvYcCVE3qeVyrM/J3dA88hURbsBRZeQcOlZ7Ci3zjIPbe+UlSiyMVoCggALCQbFlg/VVuokYI9LWTEPJA==@gmail.com, AJvYcCVEHcx5hHaAArFwlbYaCFdDkr+zKwIKxt6h4uskh4llzzbW3cYoXlWFO0twPxnjz+2Wkw5KDEF6WUY=@gmail.com, AJvYcCVJdZj7sNCXNF8mYAfIfN9nw57unjs4PC7k+TuqwUlNnWUQ5ytM7teOyR6BBJd/5A0/tobPrYrtGgFIXA==@gmail.com, AJvYcCVN/Xt1IKVxEPQ8wSj9bnK4F/fxr0xs7b2dNW/8nDP4fve4vCsozp+0v8BDXcSrx6w7pkiwBnPwfFE=@gmail.com, AJvYcCVspaOira7YWph7ouo4WUFLloL3towU+LkKFngHc3Hm1moMcbWeMoWKFbKhAqOOarzGAdMjiJ92kMN56fnMww==@gmail.com, AJvYcCW18Oj/exE3KFxZAGapGM1FYuJavzxmVN8ATNOY5hXUAwH0yrEUlU+5uNOimJUCj8EFyYy5pr7Xg3brrORN@gmail.com, AJvYcCWCV5xz0t/UZkg9eWJJmAYZg1SL2PD5yA4SolGgA0h0WZGEanD9JpXY0oZbu9o2xIil1EQQwBI6xUkYLVL/PnQ=@gmail.com, AJvYcCWDl2E6PO0DDoJUpBINB/mXufpaXQpnooTFt0fU+zd10H6sE0EhqxCGILom6AaZCxWbE+2oslQU0KFKsi+jSHvZHWtI@gmail.com, AJvYcCWLoA3UERkL6Ym5Bgj1YJRIc8bhdRM0uOwUfMgoxCUxxWT2ZPzq4zSf7t2TwhgBOjMNP8QycxrAHfJxxkrV0C+N@gmail.com, AJvYcCWS7u2KJl/moa4VlRa8V1inOPF9hFOqhd3Al23oKTU4zlrepl4phHKwOuqMgBi2adqcnDpJJDXasp+j@gmail.com, AJvYcCWaIi1WpH5HZEoocD58mqBn1Pex0/V0V6D5t8XEWrdN0Di5rAQuriT5CE60CExJYiqTiV59P1jmlFhfj1GKk4Z7@gmail.com, AJvYcCWhp/MVXq3IKlS6tHxwTfcgVTCFpHjpkzR44T1PMfSS04WSCeGcgTDvusL6X0OPk6pBSmGCofo4t6/tKq8=@gmail.com, AJvYcCWw64wJAXKZxzlWwEMQETLjeuHEbeHdEKvvn8gGuQHLmoBMkpL4yVXqE+KQxlBRgcXNWbVMBlZg8FMlAA==@gmail.com, AJvYcCXFoPsghcH72tHo/Q3qSK6nJQqSXUrNjtvePnwxGRGkpMtwPdeZp4bPcPly4pp5t5v3k9Qe82ADx4zQXg==@gmail.com, AJvYcCXJV06VoK1Asv9NyD9NmwYrCeJHgP/oxmx4lZhf6fBQDDrXuO+p/oq7Ymapx2PggtvX1iBkrlrung==@gmail.com, AJvYcCXe1LDgWISiUMrxoBe6qMg4LpeV0YuYdjQd68QK5F7gkiu4I7C3qMS19ymKX+jm8mZO5GDDHkWYZAmEry4Do/BC8QSsyJWfPAvaow==@gmail.com, AJvYcCXljdMDL1DIKZ1y+CgJE1pibhuPI/+G+thpkt2tPWBxHo8hIjRcuxJhLYSiqtNZTCwQ2rTO17K9Ar7FoDs=@gmail.com, AJvYcCXoG+6ckb2N4wzGSzCrLeWPLbdWFzWI30/PjUkgYWVT8DSvOUuxN7+nU9PdThZdrGe0nsEPO3KC/cCNqUQ1NzuK@gmail.com
+X-Gm-Message-State: AOJu0YzkRw32Xci3deMc6Z5Tls5QFHcJwULPCpa0uOIO9gIyvJRPFFf9
+	SBge5PGnx6NqqEBWBHgbi7Ivlx+iTJkpoq3ASbnbfsVXmQlhCZJWtoWSDT8kjR9l+Kmxx+bq9Au
+	JTv5jWA10i9eb/kr3+5BbFwTx/PPZk8i44feKs1c=
+X-Gm-Gg: ASbGncucGUdE9/5C4lzocr0LbPOKRvWM53IOWu5sjeAJ1Fyi1ouqwvL7AxN3MHs7Lnd
+	gdQBv4R+u27LMP5sFbYZIZoP7nSqWs/U0G0jE/gSxtaeB3Du0v9is++vQWib8z8RrDS4hoJDkH4
+	Q7JI5HtXklnGkCAuKPOnMI2LNTLhsEcM3eEtrrdnEUy5rK0w7/MYBLZCwivWyaox9T+g==
+X-Google-Smtp-Source: AGHT+IFUONGINYIfOlW2Cctg2Sux2fmLISW6CoAUHzJxJ3tvZALg4gvlGT90Byf5CCeM7p/1aKk7DsDYvd0qL6aEmMw=
+X-Received: by 2002:a05:690c:2789:b0:709:1cd0:eada with SMTP id
+ 00721157ae682-70ca7957040mr86277347b3.4.1747444870019; Fri, 16 May 2025
+ 18:21:10 -0700 (PDT)
+MIME-Version: 1.0
+References: <CALgwm-zzrnhpKpfuGLt1KpZnuVJTFthuh=Tf8acmnk1UHcTXbw@mail.gmail.com>
+ <CAKuN+C6takoZ7Jwpq6m04QacpNravES9vK3-FXP9NZNVcp+udg@mail.gmail.com> <CAKuN+C6wVxDDm-uUUkXrgVw9jBE8-REKEtAQPD0i4Jtb7vKCbw@mail.gmail.com>
+In-Reply-To: <CAKuN+C6wVxDDm-uUUkXrgVw9jBE8-REKEtAQPD0i4Jtb7vKCbw@mail.gmail.com>
+From: Matthew Radosevich <matt.j.radosevich@gmail.com>
+Date: Fri, 16 May 2025 20:20:58 -0500
+X-Gm-Features: AX0GCFv8d5g9jtFIsOpwIODvNouMAnuh7VkDqmHLCy6oqjY7OyT6GOkXnVNAsuc
+Message-ID: <CALgwm-zhs5DCf3r4BpJBYUK7mzA+q2R2Xo7WGDsNmdLbPe-69Q@mail.gmail.com>
+Subject: Re: Fussin' and Lovin' #365: 5-9-2025 (Last Edition)
+To: Osman Khan <osmanrkhan@gmail.com>
+Cc: Nathaniel Alden <nat.a.alden@gmail.com>, Zachary Berkow <zberkow@gmail.com>, 
+	Ethan Call <call.ethanr@gmail.com>, Will Hileman <will.st.hileman@gmail.com>, 
+	Ethan Cook <ethancook133@gmail.com>, Lucas Thorsness <lucasjthorsness@gmail.com>, 
+	Rhylan Huss <rhylanhuss@gmail.com>, Eli Bryant <helib5.EB@gmail.com>, 
+	William Kozlowski <whatthewtk@gmail.com>, Elizabeth Rieger <erieger98@gmail.com>, 
+	Timothy Messen <tmesyan@gmail.com>, Willthethe@gmail.com, 
+	Ruthie Nordhoff <ruth.nordhoff@gmail.com>, Sean Madden <maddensean1234@gmail.com>, 
+	abigailjohnson2317@gmail.com, ericvrh@gmail.com, 
+	Christopher Cartwright <christopher.cartwright123@gmail.com>, andrew.julian.sasser@dartmouth.edu, 
+	Rachel Kent <rskent21@gmail.com>, Kevin Donohue <kevinohue@gmail.com>, kldoyle0317@gmail.com, 
+	sfspada1@gmail.com, sean.h2503@gmail.com, Oceangw2016@gmail.com, 
+	khudgensfuqua15@gmail.com, Duncan <noahduncanreid@gmail.com>, 
+	francesshushok@gmail.com, Austin Sheffer <austinlshe@gmail.com>, 
+	Katharine Ogden <katharine132@gmail.com>, Jack Greene <zollicoffer2016@gmail.com>, ctymm97@gmail.com, 
+	wrt6af@virginia.edu, ethanlsmith20@gmail.com, michaelschedin@gmail.com, 
+	Gavin Worden <gwmansel@gmail.com>, marleighdunning@gmail.com, wolffabi@msu.edu, 
+	Hunter Dominick <hunterdom1997@gmail.com>, Nicholas Samel <nicholas.s.samel@gmail.com>, ggeier4@gmail.com, 
+	anniecp14@gmail.com, twork424@yahoo.com, Samuel Fay <smafay6@gmail.com>, 
+	jed4est@gmail.com, Olivia Del Guercio <delgur@gmail.com>, saknutson89@gmail.com, 
+	derrickhsalvatore@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000bdfd4106354ab680"
+
+--000000000000bdfd4106354ab680
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Well well well. Back again.
+
+Closing a loose end: for a while, I'd planned to include two other
+playlists in the last day's email. One would be an "extended" version that
+had all the songs that got linked over the course of the year (not just the
+actual picks). The other would be a "scraps" playlist, i.e. songs that
+almost made the cut (but not quite).
+
+I was busy and didn't make those before, but I made them now. Links below.
+
+Extended:
+https://open.spotify.com/playlist/6vQtRd5dFjUaDx1UjmECY9?si=3D6b48a5ddd7384=
+c27
+Scraps:
+https://open.spotify.com/playlist/6oOwu3QyrY1uHIr7Mi532R?si=3D7ee809da54654=
+213
+
+=E2=80=93Matt
+
+
+On Fri, May 9, 2025 at 4:25=E2=80=AFPM Osman Khan <osmanrkhan@gmail.com> wr=
+ote:
+
+> open on desktop
+>
+> On Fri, May 9, 2025 at 5:08=E2=80=AFPM Osman Khan <osmanrkhan@gmail.com> =
+wrote:
+>
+>> https://osmkhan.github.io/fussin_and_lovin/
+>>
+>> For all those who have been truant. use this to notch your progress.
+>>
+>> On Fri, May 9, 2025 at 8:02=E2=80=AFAM Matthew Radosevich <
+>> matt.j.radosevich@gmail.com> wrote:
+>>
+>>> "Welp" is in my throat. Hands are striking thighs.
+>>>
+>>> Time to wrap it up.
+>>> _____________________________
+>>>
+>>> Song #365: "Only Him or Me"
+>>> <https://open.spotify.com/track/5g0QhEDLGS2yPxZ8z0XCHf?si=3D173ded8d36f=
+34be6>
+>>>
+>>> Who Made it: Townes Van Zandt
+>>>
+>>> Year: 1971
+>>>
+>>> _______________________________
+>>>
+>>> Thoughts:
+>>>
+>>>
+>>> Q: How do you pick the last one?
+>>>
+>>> A: Punt to someone else.
+>>>
+>>>
+>>> "Someone else" is Van Zandt at the Old Quarter, July '73. As he said
+>>> <https://open.spotify.com/track/16SSVhrnjeGHN6rr4CJ8Q8?si=3D86b6d2e073a=
+44a7e>
+>>> then:
+>>>
+>>>
+>>> *"It's a good song, kinda, to play last. It's about . . . kinda about
+>>> leavin'."*
+>>>
+>>> I'm not *leavin'*, but we're done =E2=80=94 wind-blown.*
+>>>
+>>> ******************
+>>>
+>>> Raise a toast if you find the time:
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> *So here's to feelin' goodAnd here's to feelin' badHere's to bein'
+>>> thankfulAnd sorry for the pleasures that we hadAnd autumn days and wind=
+ow
+>>> panesGod forgive us if you feel deceived *
+>>>
+>>> From today to tomorrow, here's to all that.
+>>>
+>>> Let it sit when it's over.
+>>>
+>>> =E2=80=93Matt
+>>>
+>>>
+>>> *Mostly done. By whim, there might be some follow-ups/supplements down
+>>> the line =E2=80=94 a risk you ran when you came onboard.
+>>>
+>>>
+>>> Archive
+>>> <https://docs.google.com/document/d/1Quzmx_nsq_L-p2ywZg-f4W6wZ4yaK-Bu6M=
+hV7ZT7t4U/edit?tab=3Dt.0>
+>>>
+>>> Playlist
+>>> <https://open.spotify.com/track/42yf3P1ueaRzqn63p5tmGV?si=3D649a4401735=
+4433c>
+>>>
+>>>
+
+--000000000000bdfd4106354ab680
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Well well well. Back again.</div><div><br></div><div>=
+Closing a loose end: for a while, I&#39;d planned to include two other play=
+lists in the last day&#39;s email. One would be an &quot;extended&quot; ver=
+sion that had all the songs that got linked over the course of the year (no=
+t just the actual picks). The other would be a &quot;scraps&quot; playlist,=
+ i.e. songs that almost made the cut (but not quite). <br></div><div><br></=
+div><div>I was busy and didn&#39;t make those before, but I made them now. =
+Links below.</div><div><br></div><div>Extended: <a href=3D"https://open.spo=
+tify.com/playlist/6vQtRd5dFjUaDx1UjmECY9?si=3D6b48a5ddd7384c27">https://ope=
+n.spotify.com/playlist/6vQtRd5dFjUaDx1UjmECY9?si=3D6b48a5ddd7384c27</a></di=
+v><div>Scraps: <a href=3D"https://open.spotify.com/playlist/6oOwu3QyrY1uHIr=
+7Mi532R?si=3D7ee809da54654213">https://open.spotify.com/playlist/6oOwu3QyrY=
+1uHIr7Mi532R?si=3D7ee809da54654213</a></div><div><br></div><div>
+<span class=3D"gmail-BxUVEf gmail-ILfuVd" lang=3D"en"><span class=3D"gmail-=
+hgKElc">=E2=80=93</span></span>Matt</div><div><br></div></div><br><div clas=
+s=3D"gmail_quote gmail_quote_container"><div dir=3D"ltr" class=3D"gmail_att=
+r">On Fri, May 9, 2025 at 4:25=E2=80=AFPM Osman Khan &lt;<a href=3D"mailto:=
+osmanrkhan@gmail.com">osmanrkhan@gmail.com</a>&gt; wrote:<br></div><blockqu=
+ote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px=
+ solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr">open on desktop<=
+/div><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">O=
+n Fri, May 9, 2025 at 5:08=E2=80=AFPM Osman Khan &lt;<a href=3D"mailto:osma=
+nrkhan@gmail.com" target=3D"_blank">osmanrkhan@gmail.com</a>&gt; wrote:<br>=
+</div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;b=
+order-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr"><a=
+ href=3D"https://osmkhan.github.io/fussin_and_lovin/" target=3D"_blank">htt=
+ps://osmkhan.github.io/fussin_and_lovin/</a><br><div><br></div><div>For all=
+ those who have been truant. use this to notch your progress.</div></div><b=
+r><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Fri, =
+May 9, 2025 at 8:02=E2=80=AFAM Matthew Radosevich &lt;<a href=3D"mailto:mat=
+t.j.radosevich@gmail.com" target=3D"_blank">matt.j.radosevich@gmail.com</a>=
+&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px =
+0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex"><div=
+ dir=3D"ltr"><div dir=3D"auto"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div><font size=3D"2">&quot;Welp&quot; is in my throat. Hands are =
+striking thighs.</font></div><div dir=3D"ltr"><font size=3D"2"><br></font><=
+/div><div dir=3D"ltr"><font size=3D"2">Time to wrap it up.</font><div dir=
+=3D"ltr"><font size=3D"2"><span style=3D"color:rgb(0,0,0);font-family:Arial=
+,sans-serif;font-weight:700">____________________________</span><span style=
+=3D"color:rgb(0,0,0);font-family:Arial,sans-serif;font-weight:700">_</span>=
+<br></font></div><div dir=3D"ltr"><font size=3D"2"><br></font><p dir=3D"ltr=
+" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font size=3D=
+"2"><span style=3D"font-family:Arial,sans-serif;color:rgb(0,0,0);background=
+-color:transparent;font-weight:700;font-style:normal;font-variant-ligatures=
+:normal;font-variant-caps:normal;font-variant-alternates:normal;font-varian=
+t-numeric:normal;font-variant-east-asian:normal;text-decoration:none;vertic=
+al-align:baseline;white-space:pre-wrap">Song #365: <a href=3D"https://open.=
+spotify.com/track/5g0QhEDLGS2yPxZ8z0XCHf?si=3D173ded8d36f34be6" rel=3D"nore=
+ferrer" target=3D"_blank">&quot;Only Him or Me&quot;</a></span></font></p><=
+p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><=
+font size=3D"2"><span style=3D"font-family:Arial,sans-serif;color:rgb(0,0,0=
+);background-color:transparent;font-weight:700;font-style:normal;font-varia=
+nt-ligatures:normal;font-variant-caps:normal;font-variant-alternates:normal=
+;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration=
+:none;vertical-align:baseline;white-space:pre-wrap">Who Made it: Townes Van=
+ Zandt</span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top=
+:0pt;margin-bottom:0pt"><font size=3D"2"><span style=3D"font-family:Arial,s=
+ans-serif;color:rgb(0,0,0);background-color:transparent;font-weight:700;fon=
+t-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-=
+variant-alternates:normal;font-variant-numeric:normal;font-variant-east-asi=
+an:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap=
+">Year: 1971</span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;marg=
+in-top:0pt;margin-bottom:0pt"><font size=3D"2"><span style=3D"font-family:A=
+rial,sans-serif;color:rgb(0,0,0);background-color:transparent;font-weight:7=
+00;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal=
+;font-variant-alternates:normal;font-variant-numeric:normal;font-variant-ea=
+st-asian:normal;text-decoration:none;vertical-align:baseline;white-space:pr=
+e-wrap">_______________________________</span></font></p><font size=3D"2"><=
+br></font><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bo=
+ttom:0pt"><font size=3D"2"><span style=3D"font-family:Arial,sans-serif;colo=
+r:rgb(0,0,0);background-color:transparent;font-weight:700;font-style:normal=
+;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-altern=
+ates:normal;font-variant-numeric:normal;font-variant-east-asian:normal;vert=
+ical-align:baseline;white-space:pre-wrap">Thoughts:</span></font></p><p dir=
+=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font =
+size=3D"2"><br></font></p><p style=3D"line-height:1.38;margin-top:0pt;margi=
+n-bottom:0pt"><font size=3D"2">Q: How do you pick the last one?</font></p><=
+p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font size=3D=
+"2">A: Punt to someone else.</font></p><p style=3D"line-height:1.38;margin-=
+top:0pt;margin-bottom:0pt"><font size=3D"2"><br></font></p><p style=3D"line=
+-height:1.38;margin-top:0pt;margin-bottom:0pt"><font size=3D"2">&quot;Someo=
+ne else&quot; is Van Zandt at the Old Quarter, July &#39;73. As he <a href=
+=3D"https://open.spotify.com/track/16SSVhrnjeGHN6rr4CJ8Q8?si=3D86b6d2e073a4=
+4a7e" target=3D"_blank">said</a> then:</font></p><p style=3D"line-height:1.=
+38;margin-top:0pt;margin-bottom:0pt"><font size=3D"2"><br></font></p><p sty=
+le=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt;margin-left:40px"><=
+font size=3D"2"><i><span style=3D"font-family:Arial,sans-serif;color:rgb(0,=
+0,0);background-color:transparent;font-variant-ligatures:normal;font-varian=
+t-caps:normal;font-variant-alternates:normal;font-variant-numeric:normal;fo=
+nt-variant-east-asian:normal;text-decoration:none;vertical-align:baseline;w=
+hite-space:pre-wrap">&quot;It&#39;s a good song, kinda, to play last. It&#3=
+9;s about . . . kinda about leavin&#39;.&quot;</span></i></font></p></div><=
+div><font size=3D"2"><br></font></div><div><font size=3D"2">I&#39;m not <i>=
+leavin&#39;</i>, but we&#39;re done
+=E2=80=94 wind-blown.*</font></div><div><font size=3D"2"><br></font></div><=
+div><font size=3D"2">******************</font></div><div><font size=3D"2"><=
+br></font></div><div><font size=3D"2">Raise a toast if you find the time: <=
+br></font></div><div><font size=3D"2"><br></font></div><div style=3D"margin=
+-left:40px">
+<font size=3D"2"><i><span>So here&#39;s to feelin&#39; good</span><br aria-=
+hidden=3D"true"><span>And here&#39;s to feelin&#39; bad</span><br aria-hidd=
+en=3D"true"><span>Here&#39;s to bein&#39; thankful</span><br aria-hidden=3D=
+"true"><span>And sorry for the pleasures that we had</span><br aria-hidden=
+=3D"true"><span>And autumn days and window panes</span><br aria-hidden=3D"t=
+rue"><span>God forgive us if you feel deceived</span>
+
+</i><br></font></div><div><font size=3D"2"><br></font></div><div><font size=
+=3D"2">From today to tomorrow, here&#39;s to all that.</font></div><div><fo=
+nt size=3D"2"><br></font></div><div><font size=3D"2">Let it sit when it&#39=
+;s over.</font><div dir=3D"auto"><font size=3D"2"><br></font></div><div>
+<div>
+<div dir=3D"ltr"><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;ma=
+rgin-bottom:0pt">
+<font size=3D"2"><span style=3D"font-family:Arial,sans-serif;color:rgb(0,0,=
+0);background-color:transparent;font-weight:400;font-style:normal;font-vari=
+ant-ligatures:normal;font-variant-caps:normal;font-variant-alternates:norma=
+l;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoratio=
+n:none;vertical-align:baseline;white-space:pre-wrap" id=3D"m_23625522909504=
+34885m_-2594223372167242891m_9107191779236062671m_-8218006030152887830m_911=
+0831501736747726m_-8239852360886312521m_8126926162248995941m_74295195540073=
+291m_2405179080213742824m_-6650876136763173832m_1751122626767291560m_-10517=
+40425979971604m_-1930888595748044887m_-7891057450297913281m_905872285775645=
+8316m_-4427423083974547995m_-3245874359643052090m_4428801795585265242m_-809=
+0672172217709922m_5095426017039228035m_-8168810678895269813m_-4565704757810=
+957384m_7899340545089286899m_-9165192245291412438m_6552717947617542323m_673=
+4037798577244595m_-2276760610257574939m_-2061449532682719379m_9044468720654=
+732618m_4689906371050844841m_934431758652893704m_-4376085844236887435m_-575=
+3728872789458542m_580427849577639557m_7785442833011414552m_8095260641427507=
+974m_8395427169094432154m_490803070326689928m_5158884620733164823m_-5528081=
+10889364729m_-2427910839546012493m_837676444276455847m_-2676625306071310933=
+m_-6194578584620585093m_-3707126772474036616m_4740225970667768927m_-1863995=
+171877503175m_4939424228119572146m_6418534495657351022m_-708413722736251041=
+8m_-2461808410290452425m_449070419817032424m_2630428318356666422m_711214412=
+0960917193m_1324277703173286202m_-5665847441304095333m_7300634627430626321m=
+_-2459174677090915547m_-898266831619344592m_-8619280073918409098m_402294696=
+0571545242m_4694827073662669120m_-3912828310976965177m_658096234604509260m_=
+-4774392755179430350m_5137628009905946185m_8598748095921578204m_-8136073305=
+129228635m_-1066091608531822324m_-4373760490008962386m_-7434375069243639094=
+m_-9174860069918937752m_9158041425870678759m_-8160032229830676834m_87027334=
+89111942181m_6514773943651387185m_6538534765153351990m_-972315653576243071m=
+_1054847695392641654m_968850971568824980gmail-docs-internal-guid-8bb3b159-7=
+fff-26d2-10fc-f416582f21c6">=E2=80=93Matt</span></font></p><p dir=3D"ltr" s=
+tyle=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font size=3D"2"=
+><span style=3D"font-family:Arial,sans-serif;color:rgb(0,0,0);background-co=
+lor:transparent;font-weight:400;font-style:normal;font-variant-ligatures:no=
+rmal;font-variant-caps:normal;font-variant-alternates:normal;font-variant-n=
+umeric:normal;font-variant-east-asian:normal;text-decoration:none;vertical-=
+align:baseline;white-space:pre-wrap" id=3D"m_2362552290950434885m_-25942233=
+72167242891m_9107191779236062671m_-8218006030152887830m_9110831501736747726=
+m_-8239852360886312521m_8126926162248995941m_74295195540073291m_24051790802=
+13742824m_-6650876136763173832m_1751122626767291560m_-1051740425979971604m_=
+-1930888595748044887m_-7891057450297913281m_9058722857756458316m_-442742308=
+3974547995m_-3245874359643052090m_4428801795585265242m_-8090672172217709922=
+m_5095426017039228035m_-8168810678895269813m_-4565704757810957384m_78993405=
+45089286899m_-9165192245291412438m_6552717947617542323m_6734037798577244595=
+m_-2276760610257574939m_-2061449532682719379m_9044468720654732618m_46899063=
+71050844841m_934431758652893704m_-4376085844236887435m_-5753728872789458542=
+m_580427849577639557m_7785442833011414552m_8095260641427507974m_83954271690=
+94432154m_490803070326689928m_5158884620733164823m_-552808110889364729m_-24=
+27910839546012493m_837676444276455847m_-2676625306071310933m_-6194578584620=
+585093m_-3707126772474036616m_4740225970667768927m_-1863995171877503175m_49=
+39424228119572146m_6418534495657351022m_-7084137227362510418m_-246180841029=
+0452425m_449070419817032424m_2630428318356666422m_7112144120960917193m_1324=
+277703173286202m_-5665847441304095333m_7300634627430626321m_-24591746770909=
+15547m_-898266831619344592m_-8619280073918409098m_4022946960571545242m_4694=
+827073662669120m_-3912828310976965177m_658096234604509260m_-477439275517943=
+0350m_5137628009905946185m_8598748095921578204m_-8136073305129228635m_-1066=
+091608531822324m_-4373760490008962386m_-7434375069243639094m_-9174860069918=
+937752m_9158041425870678759m_-8160032229830676834m_8702733489111942181m_651=
+4773943651387185m_6538534765153351990m_-972315653576243071m_105484769539264=
+1654m_968850971568824980gmail-docs-internal-guid-8bb3b159-7fff-26d2-10fc-f4=
+16582f21c6"><br></span></font></p><p style=3D"line-height:1.38;margin-top:0=
+pt;margin-bottom:0pt"><font size=3D"2"><span style=3D"font-family:Arial,san=
+s-serif;color:rgb(0,0,0);background-color:transparent;font-weight:400;font-=
+style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-va=
+riant-alternates:normal;font-variant-numeric:normal;font-variant-east-asian=
+:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap" =
+id=3D"m_2362552290950434885m_-2594223372167242891m_9107191779236062671m_-82=
+18006030152887830m_9110831501736747726m_-8239852360886312521m_8126926162248=
+995941m_74295195540073291m_2405179080213742824m_-6650876136763173832m_17511=
+22626767291560m_-1051740425979971604m_-1930888595748044887m_-78910574502979=
+13281m_9058722857756458316m_-4427423083974547995m_-3245874359643052090m_442=
+8801795585265242m_-8090672172217709922m_5095426017039228035m_-8168810678895=
+269813m_-4565704757810957384m_7899340545089286899m_-9165192245291412438m_65=
+52717947617542323m_6734037798577244595m_-2276760610257574939m_-206144953268=
+2719379m_9044468720654732618m_4689906371050844841m_934431758652893704m_-437=
+6085844236887435m_-5753728872789458542m_580427849577639557m_778544283301141=
+4552m_8095260641427507974m_8395427169094432154m_490803070326689928m_5158884=
+620733164823m_-552808110889364729m_-2427910839546012493m_837676444276455847=
+m_-2676625306071310933m_-6194578584620585093m_-3707126772474036616m_4740225=
+970667768927m_-1863995171877503175m_4939424228119572146m_641853449565735102=
+2m_-7084137227362510418m_-2461808410290452425m_449070419817032424m_26304283=
+18356666422m_7112144120960917193m_1324277703173286202m_-5665847441304095333=
+m_7300634627430626321m_-2459174677090915547m_-898266831619344592m_-86192800=
+73918409098m_4022946960571545242m_4694827073662669120m_-3912828310976965177=
+m_658096234604509260m_-4774392755179430350m_5137628009905946185m_8598748095=
+921578204m_-8136073305129228635m_-1066091608531822324m_-4373760490008962386=
+m_-7434375069243639094m_-9174860069918937752m_9158041425870678759m_-8160032=
+229830676834m_8702733489111942181m_6514773943651387185m_6538534765153351990=
+m_-972315653576243071m_1054847695392641654m_968850971568824980gmail-docs-in=
+ternal-guid-8bb3b159-7fff-26d2-10fc-f416582f21c6">*Mostly done. </span>By w=
+him, there might be some follow-ups/supplements down the line =E2=80=94 a r=
+isk you ran when you came onboard.</font></p><p dir=3D"ltr" style=3D"line-h=
+eight:1.38;margin-top:0pt;margin-bottom:0pt"><font size=3D"2"><span style=
+=3D"font-family:Arial,sans-serif;color:rgb(0,0,0);background-color:transpar=
+ent;font-weight:400;font-style:normal;font-variant-ligatures:normal;font-va=
+riant-caps:normal;font-variant-alternates:normal;font-variant-numeric:norma=
+l;font-variant-east-asian:normal;text-decoration:none;vertical-align:baseli=
+ne;white-space:pre-wrap" id=3D"m_2362552290950434885m_-2594223372167242891m=
+_9107191779236062671m_-8218006030152887830m_9110831501736747726m_-823985236=
+0886312521m_8126926162248995941m_74295195540073291m_2405179080213742824m_-6=
+650876136763173832m_1751122626767291560m_-1051740425979971604m_-19308885957=
+48044887m_-7891057450297913281m_9058722857756458316m_-4427423083974547995m_=
+-3245874359643052090m_4428801795585265242m_-8090672172217709922m_5095426017=
+039228035m_-8168810678895269813m_-4565704757810957384m_7899340545089286899m=
+_-9165192245291412438m_6552717947617542323m_6734037798577244595m_-227676061=
+0257574939m_-2061449532682719379m_9044468720654732618m_4689906371050844841m=
+_934431758652893704m_-4376085844236887435m_-5753728872789458542m_5804278495=
+77639557m_7785442833011414552m_8095260641427507974m_8395427169094432154m_49=
+0803070326689928m_5158884620733164823m_-552808110889364729m_-24279108395460=
+12493m_837676444276455847m_-2676625306071310933m_-6194578584620585093m_-370=
+7126772474036616m_4740225970667768927m_-1863995171877503175m_49394242281195=
+72146m_6418534495657351022m_-7084137227362510418m_-2461808410290452425m_449=
+070419817032424m_2630428318356666422m_7112144120960917193m_1324277703173286=
+202m_-5665847441304095333m_7300634627430626321m_-2459174677090915547m_-8982=
+66831619344592m_-8619280073918409098m_4022946960571545242m_4694827073662669=
+120m_-3912828310976965177m_658096234604509260m_-4774392755179430350m_513762=
+8009905946185m_8598748095921578204m_-8136073305129228635m_-1066091608531822=
+324m_-4373760490008962386m_-7434375069243639094m_-9174860069918937752m_9158=
+041425870678759m_-8160032229830676834m_8702733489111942181m_651477394365138=
+7185m_6538534765153351990m_-972315653576243071m_1054847695392641654m_968850=
+971568824980gmail-docs-internal-guid-8bb3b159-7fff-26d2-10fc-f416582f21c6">=
+<br></span></font></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0=
+pt;margin-bottom:0pt">
+</p><p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font si=
+ze=3D"2"><a href=3D"https://docs.google.com/document/d/1Quzmx_nsq_L-p2ywZg-=
+f4W6wZ4yaK-Bu6MhV7ZT7t4U/edit?tab=3Dt.0" rel=3D"noreferrer noreferrer" targ=
+et=3D"_blank">Archive</a></font></p><p style=3D"line-height:1.38;margin-top=
+:0pt;margin-bottom:0pt"><font size=3D"2"><a href=3D"https://open.spotify.co=
+m/track/42yf3P1ueaRzqn63p5tmGV?si=3D649a44017354433c" rel=3D"noreferrer nor=
+eferrer" target=3D"_blank">Playlist</a></font></p></div></div></div>
+
+<br></div></div>
+</div>
+</div>
+</div></div>
+</div>
+</blockquote></div>
+</blockquote></div>
+</blockquote></div>
+
+--000000000000bdfd4106354ab680--
